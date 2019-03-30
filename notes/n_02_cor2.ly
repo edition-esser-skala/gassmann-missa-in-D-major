@@ -51,25 +51,25 @@ KyrieCornoII = {
 		R1*12 %52
 		r2 c~
 		c~ c4 r
-		r2 r8 c c c
+		r2 r8 c c c %55
 		c2 r4 r8 c
 		c4 r r2
 		r8 c c c c4 r
 		c c c8 r r4
-		R1*5
-		r2 r4 r8 c16 e
+		R1*5 %64
+		r2 r4 r8 c16 e %65
 		e4 d c r8 e16 f
 		e4 d c r
 		c r c r
 		c, r r g'
-		c, r r2
+		c, r r2 %70
 		r r4 g'
 		c, r r2
 		r r4 g'
 		g1
-		e4 r r g
+		e4 r r g %75
 		e c' c g
 		e8 c'16 c c8 c c e c c
-		c4 c c r\fermata \bar "||"
+		c4 c c r\fermata \bar "||" %78 finis
 	}
 }

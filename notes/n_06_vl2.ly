@@ -28,7 +28,7 @@ KyrieViolinoII = {
 		gis( e) d( h) h( gis) gis( h) \slurSolid h8 a r a
 		\slurDashed d16(-. d-. d-. d-.) d(-. d-. d-. d-.) e(-. e-. e-. e-.) e(-. e-. e-. e-.) \slurSolid
 		d fis fis8 g16 h, a g fis8 d'4 cis8 %20
-		d16 \slurDashed d,(-. d-. d-.) d(-. d-. d-. d-.) d(-. d-. d-. d-.) e(-. e-. e-. e-.) \slurSolid
+		d16 \slurDashed d,(-. d-. d-.) d(-. d-. d-. d-.) e(-.-\critnote e-. e-. e-.) e(-. e-. e-. e-.) \slurSolid
 		d fis fis g g h a g fis8 d'4 cis8
 		d16. g,32 g16. fis32 fis16. e32 e16. d32 d4 r
 		d8 d' a fis d16. cis32 d8 d16. a32 cis16. e32
