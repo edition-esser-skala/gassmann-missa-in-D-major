@@ -18,7 +18,7 @@ KyrieOrgano = {
 		a c h a gis e fis gis
 		a r d, r e e e, e
 		fis' fis fis fis gis gis gis gis %10
-		a r cis,! r r cis d e
+		a r d,-\critnote r r cis d e
 		a,4 a8 a a a' a g!
 		fis fis fis fis fis fis fis fis
 		g g, d' d, g g' g, g
@@ -27,7 +27,7 @@ KyrieOrgano = {
 		a a, e' e, a a a a
 		e' e e e a a, cis a
 		h h h h cis cis cis cis
-		d r fis r r fis g a %20
+		d r g-\critnote r r fis g a %20
 		h h h h cis cis cis cis
 		d r g, r a a a, a
 		d d, d d d4 r
@@ -77,8 +77,8 @@ KyrieOrgano = {
 		a' a a, a d d d4
 		r8 d' d c b b b a
 		gis gis gis gis a a a, a
-		d d' d c b b b a %70
-		gis gis gis gis a a a, a
+		d\pE d' d c b b b a %70
+		gis\fE gis gis gis a a a, a
 		d d d d b b b b
 		h h h h a a a a
 		a a a a a a a a
@@ -96,21 +96,21 @@ KyrieBassFigures = \figuremode {
 	<8 6>4 <7 5> r2
 	r1 %5
 	<_+>
-	<7 [_+]>
+	<7 [_+]>2 <[9 4]>8 <[8 3]> r4
 	<6 4+>2 <6 5!>
 	r <5 4>4 <\l _+>
-	<6>2 <6 5!> %10
+	<[6\\]>2 <6 5!> %10
 	r2 r8 <[6]> <6 5> <_+>
 	r1
 	<6>2 <6 [5!]>
-	r1
-	r %15
+	r4 <[7!]>2.
+	<[7!]>2 <[9 4!]>8 <[8 3]>4. %15
 	<_+>2 <6 5>
-	r1
-	<_+>
-	<6>2 <6>
+	r4 <[7]>2.
+	<[7] _+>2 <[9 4]>8 <[8 3]>4.
+	<[6\\]>2 <6 [5!]>
 	r2 r8 <6>4. %20
-	<6>2 <6 5!>
+	<[6\\]>2 <6 5!>
 	r <[6 4]>4 <[5 4]>8 <\l [3]>
 	r1
 	r
@@ -128,8 +128,8 @@ KyrieBassFigures = \figuremode {
 	r2 <[6\\]>4 <[6 5!]>
 	r <[6]> r <[_+]>
 	r1
-	r2 <6 4>4 <7 5>
-	r <_+> r2 %40
+	r2 <6 4>8 <[5 3]>4.
+	r4 <_+> r2 %40
 	r4. <[7 _+]>8 r4. <6 4>8
 	<5 3>2. <[7 _+]>4
 	r2 <8 6 [_+]>4 <7 5>
@@ -153,14 +153,14 @@ KyrieBassFigures = \figuremode {
 	<8 6 [_+]>4 <7 5> r4. <6 5>8
 	<9>4 <6> <5 4> <5 3>
 	<9> <6> <5 4> <\l 3>
-	<6>2 <7! _+>
+	<[6\\]>2 <7! _+>
 	<4>4 <_!> <6>2 %65
 	<[8 6]>4 <5 3> r2
 	<8 6>4 <7 5> r2
-	r8 <_!>2..
-	<[7!]>2 <4>4 <3>
-	<_!>1 %70
-	<[7!]>2 <4>4 <3>
+	r8 <_!>4. <[5!]>2
+	<[7!]> <4>4 <3>
+	<_!>2 <[5!]> %70
+	<[7!]> <4>4 <3>
 	r2 <7>4 <6>
 	<[6\\]>1
 	<6! 4>2 <5 4>4 <\l _+>
