@@ -15,16 +15,16 @@ KyrieViolinoI = {
 		<d a' fis'>4 q fis'16 e e8^\critnote e16. a32 gis16. a32 %5
 		\tuplet 3/2 8 { gis16[ fis e] } e8 h'16. h32 d,16. d32 cis16. h32 cis16. d32 e16. a32 a16. a32
 		\tuplet 3/2 8 { gis16[ fis e] } e8 h'16. h32 d,16. d32 d8 cis a'16. gis32 fis16. e32
-		dis16(-. dis-. dis-. dis-.) dis(-. dis-. dis-. dis-.) d(-. h'-. h-. h-.) h(-. h-. h-. h-.)
+		dis16(-. dis-. dis-. dis-.) dis(-. dis-. dis-. dis-.) d h'(-. h-. h-.) h(-. h-. h-. h-.)
 		a( e) e( fis) fis( d) cis( h) a8. h16 h4\trill
 		dis16(-. dis-. dis-. dis-.) dis(-. dis-. dis-. dis-.) h'(-. h-. h-. h-.) h(-. h-. h-. h-.) %10
 		\slurDashed a( e) e( fis) fis( d) cis( h) \slurSolid a8. h16 h4\trill
 		a16. fis32 fis16. e32 e16. d32 d16. cis32 cis4 r
 		d16. d32 fis16. fis32 a16. a32 c16. c32 a'16 c,(-. c-. c-.) c(-. c-. c-. c-.)
-		h( d g h) a( c, h c) h c d8 d16 g g h
+		h( d) g( h) a c,( h c) h c d8 d16 g g h
 		a16. a32 fis16. c32 c16. a32 a16. c32 c8( h) r h %15
 		e,16. e32 gis16. gis32 h16. h32 d16. d32 h'16 d,(-. d-. d-.) d(-. d-. d-. d-.)
-		cis( e a cis) h( d, cis d) cis d e8 e16 a a cis
+		cis( e) a( cis) h d,( cis d) cis d e8 e16 a a cis
 		h( gis) gis( d) d( h) h( d) d8 cis r a
 		\slurDashed gis'16(-. gis-. gis-. gis-.) gis(-. gis-. gis-. gis-.) g(-. g-. g-. g-.) g(-. g-. g-. g-.) \slurSolid
 		fis a a d h g fis e d8. e16 e4\trill %20
