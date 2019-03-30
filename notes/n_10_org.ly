@@ -64,7 +64,7 @@ KyrieOrgano = {
 		g g' g g, d' d, d d'
 		g g, g g c g d' d, %55
 		g g' g g g g g d
-		g g g fis g g g g
+		g g g d^\critnote g g g g
 		d' d d, d g g g g
 		d' d d, d g g e e
 		h' h h, h e e e e %60
@@ -146,7 +146,7 @@ KyrieBassFigures = \figuremode {
 	r1
 	<4 2>8 <3 [1]> r2. %55
 	r2.. <7!>8
-	r4. <[5!]>8 r2
+	r4. <[7!]>8 r2
 	<[8 6]>4 <7! 5 3> r2
 	<8 6>4 <7! 5> r <8 5>
 	<8 6 [_+]> <7 5> r2 %60
