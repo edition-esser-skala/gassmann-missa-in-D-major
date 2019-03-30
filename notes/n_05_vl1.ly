@@ -72,20 +72,29 @@ KyrieViolinoI = {
 		fis'16 fis fis fis fis fis fis fis e e e e e e e e
 		d d d d d d d d cis cis cis cis cis cis cis cis
 		dis dis dis dis e e e e d d d d cis cis cis cis
-		h h h h h h h h cis cis cis cis d16. fis32 fis16. a32
+		h h h h h h h h cis cis cis cis d16. fis32 fis16. a32 %65
 		a,8.( g32 fis) g4 fis16. d'32 d16. fis32 fis16. a,32 a16. h32
 		a8.( g32 fis) g8 g fis16 e d8 r d'16 e
 		f(-. f-. f-. f-.) f(-. f-. f-. f-.) f(-. f-. f-. f-.) f(-. f-. f-. f-.)
 		f f f f f f f f e e e e e e e e
-		d\p e f f f f f f f f f f f f f f
+		d\p e f f f f f f f f f f f f f f %70
 		f?\f f f f f f f f e e e e e e e e
 		d8 d a' a a a g g
 		gis gis gis gis a a a g
 		f f f f e e e e
-		d16 d d d a' a a a h h h h e, e e e
+		d16 d d d a' a a a h h h h e, e e e %75
 		d d d d d,8 d' e,-\critnote d' e, cis'
 		d16. d'32 a16. fis32 d16. a'32 fis16. d32 a16. fis'32 d16. a32 fis16. d'32 a16. fis32
-		<d a' fis'>4 q q r\fermata \bar "||"
+		<d a' fis'>4 q q r\fermata \bar "||" %78 finis
+	}
+}
+
+ChristeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoChriste
+			\set Score.currentBarNumber = #79
+		
 	}
 }
 

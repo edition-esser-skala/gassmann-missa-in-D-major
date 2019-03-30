@@ -193,6 +193,7 @@ tempoMarkup =
 
 
 tempoKyrie = \tempoMarkup "Andante maestoso"
+tempoChriste = \tempoMarkup "[Tempo deest]"
 
 
 

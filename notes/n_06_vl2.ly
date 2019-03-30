@@ -88,3 +88,12 @@ KyrieViolinoII = {
 		<d a' fis'>4 q q r\fermata \bar "||" %78 finis
 	}
 }
+
+ChristeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoChriste
+			\set Score.currentBarNumber = #79
+		
+	}
+}
