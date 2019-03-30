@@ -15,10 +15,10 @@ KyrieCornoI = {
 		e8 e e4 r8 d d4 %5
 		r2 d8 d d4
 		r2 r8 d d4
-		d8 r e r d4 d
-		r2 d4 d
+		R1
+		d8 r e r \pa d4 d \pd
 		R1 %10
-		d8 r e r d4 d
+		d8 r e r \pa d4 d \pd
 		d r d8 d16 d d8 d
 		c2 r
 		R1
@@ -26,9 +26,9 @@ KyrieCornoI = {
 		d2 r
 		d4 r d d
 		r2 r8 d16 d d4
-		r2 g,
-		c4 r r8 e d4 %20
-		c r g2
+		r2 \pao g,
+		c4 r r8 \pa e d4 \pd %20
+		c r \pao g2
 		c4 r r8 c g4
 		e4 r e r
 		e r e r
@@ -44,10 +44,10 @@ KyrieCornoI = {
 		R1
 		d'2 r %35
 		d r
-		d4 r e d
+		d4 r e \pao d
 		d r d r
 		d8 d d d16 e e8 d d4
-		e8 d d d d4 r %40
+		\pa e8 d d d \pd d4 r %40
 		R1*12 %52
 		r2 c~
 		c2~ c4 r
