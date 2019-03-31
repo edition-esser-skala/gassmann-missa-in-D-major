@@ -94,6 +94,115 @@ ChristeViolinoII = {
 		\clef treble
 		\key g \minor \time 3/4 \tempoChriste
 			\set Score.currentBarNumber = #79
-		
+		\mvTrh b'4\fE-\markup { \remark "à mezza voce" } \slurDashed d8( b) a( b)
+		c(-. c-. b-. b-. b-. b-.) \slurSolid %80
+		c4 a a
+		g8 g d b a g
+		r g' b g fis g
+		c, c b b b b
+		a4 d8 fis a g %85
+		g4 fis8 d es d
+		r d' f as g f
+		es g, f es d es
+		r c' es g f es
+		d f, es d c d %90
+		f4 es2
+		es4 d2
+		g4 \slurDashed f8( d) c( es) \slurSolid
+		d d es d es d
+		g4 f8 d c es %95
+		d4 d c
+		b8 g'' \slurDashed b( g) fis( g)
+		fis(-. fis-. fis-. fis-. fis-. fis-.) \slurSolid
+		r a, b c b a
+		g b b b b b %100
+		r c b a g fis?
+		g g' b g fis g
+		r es, d c b a
+		g2 r4
+		b'4\pE d8 b a b %105
+		c c b b b b
+		c4^\critnote a a
+		g8 fis? g g, a g
+		b4 \slurDashed d8( b) a( b)
+		c(-. c-. b-. b-. b-. b-.) \slurSolid %110
+		a4 d d8 b'
+		b4 \tuplet 3/2 4 { a8[ d, fis] a d fis }
+		g4 d r
+		r8 c, es g c b!
+		a-! a( g a) \once \slurDashed f'( a,) %115
+		r b, d f b d
+		b4 a8 f' e f
+		a, b a a c c
+		c b b[ d f^\critnote b]
+		b, c b b as as %120
+		as g g[ b es g]
+		es4 d8 c d es
+		d4 c b
+		a f r
+		r c' b %125
+		a8 b b b b b
+		a4( b c)
+		b8 b' a( b) a( b)
+		c,4 b a
+		b8 b, a b a b %130
+		R2.
+		r8 d'\fE \slurDashed f( d) c( d) \slurSolid
+		es es d d d d
+		r c h c es c
+		c c b b b b %135
+		f4 f as8 f
+		b,4 b r
+		g' g b8 g
+		c,4 c a'8 c
+		es es c c c c %140
+		b d c d es d
+		r g, f es d c
+		b2 r4
+		d'4\pE f8( d) \once \slurDashed c( d)
+		es es d d d d %145
+		r c h? c es c
+		b4 d, c
+		b \slurDashed d'8( b) a( b) \slurSolid
+		c(-. c-. b-. b-. b-. b-.)
+		a4 c c8 a %150
+		\once \slurDashed g( fis g) g,( a g)
+		\slurDashed h'( d) h( d) c( es)
+		h(-. a-. h-. h-.) h( c) \slurSolid
+		d d d d d d
+		c h c4 es %155
+		es d c
+		h?2 r4
+		r g g
+		as8 g as4 as
+		as?8 g g4 c8 b %160
+		a4 r-\critnote c8( a)
+		b4 r d8( b)
+		a4 r c
+		c( b a)
+		g r b %165
+		b( a g)
+		g fis r
+		r8 g' b g fis g
+		\once \slurDashed c,(-. c-. b-. b-. b-. b-.)
+		r c es fis a a, %170
+		g a b4 d
+		\once \slurDashed c( b a)
+		b8 g' d b g4
+		r a g
+		fis8 g g g g g
+		fis4 g a
+		g8 b b b b b
+		b b b b b b
+		b b b b b b
+		a2.
+		r8 g'\fE b g fis g
+		fis(-. fis-. fis-. fis-. fis-. fis-.)
+		r a, b c b a
+		g(-. b-. b-. b-. b-. b-.)
+		r c b a g fis
+		g g' b g fis g
+		r es, d c b a
+		g2 r4\fermata \bar "||"
 	}
 }

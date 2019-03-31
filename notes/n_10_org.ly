@@ -181,7 +181,7 @@ ChristeOrgano = {
 		g g, r
 		g' g g
 		g g g
-		fis fis fis %85
+		fis fis g^\critnote %85
 		g d r
 		h h h
 		c2 r4

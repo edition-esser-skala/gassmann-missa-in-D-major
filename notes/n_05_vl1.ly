@@ -100,7 +100,7 @@ ChristeViolinoI = {
 		b g d b a g
 		r g' b g fis g
 		es es d d d d
-		r d fis a c a %85
+		r d fis a c b %85
 		b4 a8 d, es d
 		r d' f as g f
 		es es d c h c
@@ -159,7 +159,7 @@ ChristeViolinoI = {
 		d b' a b g f
 		r es d c b a
 		b4 b, r
-		r8 b''\pE d( b) \once \slurDashed a( b)
+		r8 b''\pE d( b) a( b)
 		g g f f f f %145
 		r es d es c' es,
 		d c b4 r
@@ -176,8 +176,8 @@ ChristeViolinoI = {
 		R2.
 		r4 r f
 		f8 es es4 es8 d %160
-		c4 r es8 c
-		d4 r f8 d
+		c4 r es8( c)
+		d4 r \once \slurDashed f8( d)
 		c4 r es
 		es( d c)
 		b r d %165
@@ -197,9 +197,9 @@ ChristeViolinoI = {
 		g g g g g g
 		g4 fis2 %180
 		r8 g\fE b g fis g
-		fis a a a a a
+		\once \slurDashed fis(-. a-. a-. a-. a-. a-.)
 		r c, d es d c
-		b d d d d d
+		\once \slurDashed b(-. d-. d-. d-. d-. d-.)
 		r es d c b a %185
 		g g' b g fis g
 		r c, b a g fis
