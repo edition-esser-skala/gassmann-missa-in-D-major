@@ -94,7 +94,7 @@ ChristeViolinoI = {
 		\clef treble
 		\key g \minor \time 3/4 \tempoChriste
 			\set Score.currentBarNumber = #79
-		r8 \mvTrh g''\fE-\markup { \remark "à mezza voce" } b( g) fis( g)
+		\mvTrh r8\fE-\markup { \remark "à mezza voce" } g'' b( g) fis( g)
 		\once \slurDashed es(-. es-. d-. d-. d-. d-.) %80
 		r c es fis a c,
 		b g d b a g
