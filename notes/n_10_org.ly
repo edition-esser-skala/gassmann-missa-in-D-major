@@ -407,11 +407,230 @@ KyrieIIOrgano = {
 		\key d \major \time 2/2 \tempoKyrieII
 			\set Score.currentBarNumber = #189
 		\mvTr d1\fE-\tuttiE
+		e %190
+		fis
+		g
+		a2 g
+		fis d
+		e \once \tieDashed a~ %195
+		a gis
+		a a~
+		a gis
+		a g
+		fis h4 a %200
+		gis2. fis8 gis
+		a4 g fis2
+		e1
+		d2 d
+		a1 %205
+		d
+		R
+		r2 d
+		a'1
+		h2 h, %210
+		fis'1
+		g2 g,
+		d' dis
+		e d
+		c1 %215
+		h4 h' h a
+		g fis e g
+		a fis h h,
+		e1
+		fis %220
+		g
+		a
+		h2. a4
+		gis2 e
+		a r %225
+		e1
+		a,2 a'4 g!
+		fis d e fis
+		g2 g
+		c,4 d e fis %230
+		g2 g~
+		g fis
+		g e
+		\once \tieDashed d1~
+		d %235
+		g,
+		R
+		g'
+		a
+		h %240
+		c2. h4
+		a1
+		h4 c h a
+		gis2. fis8 gis
+		a4 h a g %245
+		fis2. e8 fis
+		g2 h,
+		c d
+		<< {
+			g1
+			a %250
+			h
+			cis!
+		} \\ { 
+			g,2 \once \tieDashed g'~
+			g4 fis8 e fis4 d %250
+			g2. fis4
+			e fis8 g a4 g
+		} >>
+		d1
+		e
+		fis %255
+		g
+		a
+		h
+		a2 fis
+		e \once \tieDashed a~ %260
+		a gis
+		a a
+		e1
+		a,2 a
+		h1 %265
+		cis
+		d2 d
+		a' a,
+		d d
+		e2. fis8 g %270
+		a4 g fis e
+		d2. e8 fis
+		g4 fis e d
+		cis2. d8 e
+		fis4 e d cis %275
+		h2. cis8 d
+		e4 d cis h
+		\once \tieDashed a1~
+		\once \tieDashed a~
+		a %280
+		d2 d
+		d c
+		h h
+		a d
+		a'1 %285
+		d,
+		d'4 d d d
+		h h h h
+		a a a a
+		gis gis gis gis %290
+		gis? gis gis gis
+		a a a a
+		a, a a a
+		d d d d
+		d1\fermata \bar "|." %295 FINIS
 	}
 }
 
 KyrieIIBassFigures = \figuremode {
-	
+	r1 %189
+	<7>2 <6> %190
+	<6>2. <5!>4
+	<5>2 <6>
+	r <4 2>
+	<6>1
+	<7 _+> %195
+	<2>2 <[6]>
+	r1
+	<4 2>2 <[6]>
+	r <4 2>
+	<6>1 %200
+	q
+	r4 <[2]> <6>2
+	<7> <6>
+	r1
+	<5 4>2 <\l 3> %205
+	r1
+	r
+	r
+	<5 4>2 <\l 3>
+	<3> <6> %210
+	<5 4> <\l 3>
+	<3> <8>
+	<5 4> <6 5>
+	r <6>
+	<7> <6> %215
+	<[_+]>1
+	<6>
+	<6 5 [_!]>2 <_+>
+	r1
+	<7>2 <[6\\]> %220
+	<6>1
+	<6 5 [_!]>
+	<_+>2. <[4\+]>4
+	<6>2 <7! [_+]>
+	<_!>1 %225
+	<5 4>2 <\l _+>
+	<_!>1
+	<6>2 <7>4 <6>
+	r1
+	r %230
+	<4>2 <3>
+	<4 2> <6>
+	r <6>
+	<7 5> <6 4>
+	<5 4> <\l 3> %235
+	r1
+	r
+	r
+	<7 [_!]>2 <6!>
+	<6 [5!]>1 %240
+	r
+	<6+ 5 [_!]>
+	<_+>
+	<6>
+	<[_+]> %245
+	<[6]>
+	r2 <[6]>
+	<[6 5]>1
+	r
+	r %250
+	r
+	r
+	r
+	<7>2 <6>
+	<6>1 %255
+	<6 5>
+	r
+	<7>2 <6>
+	r <6>
+	<7 _+>1 %260
+	<2>2 <[6]>
+	r1
+	<5 4>2 <\l _+>
+	r1
+	<7>2 <[6\\]> %265
+	<6 5!>1
+	r
+	<4>2 <[3]>
+	r1
+	<7> %270
+	q
+	q
+	<[7]>
+	<7>
+	q %275
+	q
+	q
+	q
+	<6 5>2 <\l 4>
+	<5 4> <\l 3> %280
+	r1
+	r2 <4 2>
+	<6>1
+	<7>
+	<[4]>2 <[3]> %285
+	r1
+	r
+	<5 3>
+	<6 4>
+	<7> %290
+	<[\t]>
+	<5 4>
+	<\l 3>
+	r1
+	r %295 FINIS
 }
 
 % Organo = {
