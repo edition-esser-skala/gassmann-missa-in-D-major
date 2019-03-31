@@ -74,6 +74,15 @@ KyrieCornoI = {
 	}
 }
 
+KyrieIICornoI = {
+	\relative c' {
+		\clef treble
+		 \key c \major \time 2/2 \tempoKyrieII
+			\set Score.currentBarNumber = #189
+		
+	}
+}
+
 % CornoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -73,3 +73,12 @@ KyrieCornoII = {
 		c4 c c r\fermata \bar "||" %78 finis
 	}
 }
+
+KyrieIICornoII = {
+	\relative c' {
+		\clef treble
+		 \key c \major \time 2/2 \tempoKyrieII
+			\set Score.currentBarNumber = #189
+		
+	}
+}

@@ -206,3 +206,12 @@ ChristeViolinoII = {
 		g2 r4\fermata \bar "||"
 	}
 }
+
+KyrieIIViolinoII = {
+	\relative c' {
+		\clef treble
+		 \key d \major \time 2/2 \tempoKyrieII
+			\set Score.currentBarNumber = #189
+		
+	}
+}

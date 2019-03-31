@@ -511,6 +511,32 @@ ChristeTenoreIILyrics = \lyricmode {
 	son. %181 finis
 }
 
+KyrieIITenoreINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 2/2 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #189
+		
+	}
+}
+
+KyrieIITenoreILyrics = \lyricmode {
+	
+}
+
+KyrieIITenoreIINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 2/2 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #189
+		
+	}
+}
+
+KyrieIITenoreIILyrics = \lyricmode {
+	
+}
+
 % TenoreINotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
