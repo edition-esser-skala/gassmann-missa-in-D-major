@@ -718,12 +718,176 @@ KyrieIITenoreIINotes = {
 		\clef "treble_8"
 		\key d \major \time 2/2 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #189
-		
+		R1*8 %196
+		\mvTr a1\fE^\tuttiE
+		h
+		cis
+		d %200
+		e2( d)
+		cis d
+		d( cis)
+		d d
+		d4 cis8[ h] cis2 %205
+		d2. c4
+		h g h cis
+		d a d2~
+		d4 cis8[ h] cis2~
+		cis4 fis, \once \tieDashed h2~ %210
+		h4 a8[ g] a2~
+		a4 d, \once \tieDashed g2~
+		g fis
+		g fis
+		e1 %215
+		dis2 fis
+		h g
+		fis1
+		e
+		R1*5 %224
+		a1 %225
+		h
+		c
+		d2. c?4
+		h2 h
+		\once \tieDashed c1~ %230
+		c4 h8[ a] h4 g
+		\once \tieDashed a1~
+		a2 g
+		fis g~
+		g fis %235
+		g1
+		R1*12 %248
+		r2 \once \tieDashed g~
+		g4 fis8([ e)] fis4 d %250
+		g2. fis4
+		e fis8[ g] a4 g
+		fis1
+		g
+		a %255
+		h
+		\once \tieDashed a~
+		a2 gis
+		a1
+		R1*2 %261
+		a1
+		h
+		cis
+		d %265
+		e
+		d2 fis
+		e1
+		d2 d
+		d1 %270
+		\once \tieDashed cis~
+		cis2 d4 cis
+		\once \tieDashed h1~
+		h2 cis4 h
+		\once \tieDashed a1~ %275
+		a2 h4 a
+		\once \tieDashed g1~
+		g2. a8[ g]
+		fis1
+		e %280
+		d2 d'
+		d1
+		d2 d
+		cis \once \tieDashed d~
+		d cis %285
+		d1
+		d
+		\once \tieDashed d~
+		d
+		d %290
+		d
+		d2 cis4 h
+		cis1
+		d
+		R\fermataMarkup \bar "|." %295 FINIS
 	}
 }
 
 KyrieIITenoreIILyrics = \lyricmode {
+	Ky -- %197
+	ri --
+	e
+	e -- %200
+	lei --
+	son, e --
+	lei --
+	son, e --
+	lei -- _ _ %205
+	_ _
+	_ _ _ _
+	_ _ _
+	_ _
+	_ _ %210
+	_ _
+	_ _
+	_
+	_ _
+	_ %215
+	son, e --
+	lei -- _
+	_
+	son.
 	
+	Ky -- %225
+	ri --
+	e,
+	Ky -- ri --
+	e e --
+	lei -- %230
+	_ _ _
+	_
+	_
+	_ _
+	_ %235
+	son.
+	
+	Ky -- %249
+	ri -- e e -- %250
+	lei -- _
+	_ _ _ _
+	_
+	_
+	_ %255
+	_
+	_
+	_
+	son.
+	
+	Ky -- %262
+	ri --
+	e
+	e -- %265
+	lei --
+	son, e --
+	lei --
+	son, e --
+	lei -- %270
+	_
+	_ _
+	_
+	_ _
+	_ %275
+	_ _
+	_
+	_
+	_
+	_ %280
+	son, e --
+	lei --
+	son, e --
+	lei -- _
+	_ %285
+	son,
+	e --
+	lei --
+	
+	son, %290
+	e --
+	lei -- _ _
+	_
+	son. %294 FINIS
 }
 
 % TenoreINotes = {
