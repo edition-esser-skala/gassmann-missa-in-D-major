@@ -516,12 +516,201 @@ KyrieIITenoreINotes = {
 		\clef "treble_8"
 		\key d \major \time 2/2 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #189
-		
+		r2 \mvTr d~\fE^\tuttiE
+		d cis %190
+		d c
+		h4 dis e d
+		cis2. h8[ cis]
+		d4 a d2~
+		d cis %195
+		h1
+		a2 cis
+		d1
+		cis2 r
+		r d4( cis) %200
+		h1
+		a2 r
+		R1
+		d
+		e %205
+		fis
+		g
+		g2 fis
+		e1
+		d %210
+		cis
+		h
+		a
+		g4 a \once \tieDashed h2~
+		h a %215
+		h dis
+		\once \tieDashed e1~
+		e4 dis8[ cis] dis2
+		e1
+		R %220
+		r2 e
+		e4 fis8[ g] fis4 e
+		dis2. cis8[ dis]
+		e2. d4
+		c h \once \tieDashed a2~ %225
+		a gis
+		a a
+		a1
+		g!2 d'
+		e1 %230
+		d
+		c2. d8[ c]
+		h4 g c2~
+		c h
+		a1 %235
+		g
+		R1*12 %248
+		g1
+		a %250
+		h
+		cis!
+		\once \tieDashed d2~ d~
+		d4 cis8[ h] cis2
+		d2. c4 %255
+		h dis e d
+		cis a cis2
+		h1
+		cis2 \once \tieDashed d~
+		d cis %260
+		h1
+		a2 a
+		a4 gis8[ fis] gis2
+		\once \tieDashed a1~
+		a2 gis %265
+		g2. a8[ g]
+		fis2 \once \tieDashed d'~
+		d4 cis8[ h] cis2
+		d fis
+		\once \tieDashed g1~ %270
+		g2^\critnote a4 g
+		\once \tieDashed fis1~
+		fis2 g4 fis
+		\once \tieDashed e1~
+		e2 fis4 e %275
+		\once \tieDashed d1~
+		d2 e4 d
+		cis d e2~
+		e \once \tieDashed d~
+		d cis %280
+		d fis
+		fis1
+		g2 g
+		g fis
+		e1 %285
+		d
+		fis
+		fis~
+		fis
+		fis %290
+		fis
+		e1~
+		e
+		d
+		R\fermataMarkup \bar "|." %295 FINIS
 	}
 }
 
 KyrieIITenoreILyrics = \lyricmode {
+	Ky -- %189
+	ri -- %190
+	e e --
+	lei -- _ _ _
+	_ _
+	_ _ _
+	_ %195
+	_
+	son, e --
+	lei --
+	son,
+	e -- %200
+	lei --
+	son.
 	
+	Ky --
+	ri -- %205
+	e
+	e --
+	lei -- _
+	_
+	_ %210
+	_
+	_
+	_
+	_ _ _
+	_ %215
+	son, e --
+	lei --
+	_ _
+	son,
+	%220
+	e --
+	lei -- _ _ _
+	_ _
+	_ _
+	_ _ _ %225
+	_
+	son, e --
+	lei --
+	son, e --
+	lei -- %230
+	_
+	_ _
+	_ _ _
+	_
+	_ %235
+	son.
+	
+	Ky -- %249
+	ri -- %250
+	e
+	e --
+	lei --
+	_ _
+	_ _ %255
+	_ _ _ _
+	_ _ _
+	_
+	_ _
+	_ %260
+	_
+	son, e --
+	lei -- _ _
+	_
+	_ %265
+	_ _
+	_ _
+	_ _
+	son, e --
+	lei -- %270
+	_ _
+	_
+	_ _
+	_
+	_ _ %275
+	_
+	_ _
+	_ _ _
+	_
+	_ %280
+	son, e --
+	lei --
+	son, e --
+	lei -- _
+	_ %285
+	son,
+	e --
+	lei --
+	
+	son, %290
+	e --
+	lei --
+	
+	son. %294 FINIS
 }
 
 KyrieIITenoreIINotes = {
