@@ -263,9 +263,9 @@ ChristeTenoreINotes = {
 		es8([ d)] d2
 		d8([ es)] d4 f %120
 		f8([ es)] es4 g
-		f f f
-		f( es d)
-		c2.
+		\once \tieDashed f2.~^\critnote
+		f4 es d
+		c2^\critnote r4
 		f8([ e)] e2 %125
 		es8([ d)] d2
 		c4 d es
@@ -301,7 +301,7 @@ ChristeTenoreINotes = {
 		c8([ es)] es4. d16([ c)] %170
 		b8([ c] d4) d
 		c b a
-		g2.
+		g2^\critnote r4
 		d'8([ cis)] cis2
 		c8([ b)] b2 %175
 		a4 b c
@@ -330,8 +330,8 @@ ChristeTenoreILyrics = \lyricmode {
 	lei -- son,
 	Chri -- ste e -- %120
 	lei -- son, e --
-	lei -- son, e --
 	lei --
+	_ _
 	son.
 	Chri -- ste, %125
 	Chri -- ste
@@ -384,12 +384,131 @@ ChristeTenoreIINotes = {
 		\clef "treble_8"
 		\key g \minor \time 3/4 \autoBeamOff \tempoChriste
 			\set Score.currentBarNumber = #79
-		
+		R2.*30 %108
+		\mvTr g4\pE^\soloE d' d
+		es d2 %110
+		c4 c b
+		b( a) r
+		R2.
+		c8([ g)] g2
+		a8([ g)] a2 %115
+		b8([ f)] f4 b
+		b a r
+		a8([ b)] a4 c
+		c8([ b)] b2
+		b8([ c)] b4 as %120
+		as?8([ g)] g4 es'
+		es d8[ c d es]
+		d4 c b
+		a2 r4
+		r c b %125
+		a8([ b)] b2
+		a4 b c
+		b r r
+		c b a
+		b2 r4 %130
+		c b a
+		b2 r4
+		R2.*15 %147
+		g4 d' d
+		es8([ d)] d2
+		c8([ es)] es4. d16([ c)] %150
+		b8([ a)] g4 r
+		h h c
+		h8([ a)] h4 h8([ c)]
+		d2.
+		c8[ h] c4 es %155
+		es( d c)
+		h2 r4
+		r g g
+		as8([ g)] as4 as
+		as?8([ g)] g4 c8[( b]) %160
+		a[ b a c] c4
+		b8[ c b d] d4
+		a8[ b a c] c4
+		c b a
+		g8[ a g b] b4 %165
+		b a g
+		g fis r
+		r b b
+		c8([ b)] b2
+		a8([ c)] c4. b16([ a)] %170
+		g8([ a] b4) b
+		a g fis
+		g2^\critnote r4
+		r a g
+		fis8([ g)] g2 %175
+		fis4 g a
+		g2 r4
+		g g g
+		\once \tieDashed g2.~
+		g4 fis8[ e?] fis4 %180
+		g2 r4
+		R2.*6 %187
+		R2.\fermataMarkup \bar "||" %188 finis
 	}
 }
 
 ChristeTenoreIILyrics = \lyricmode {
+	Chri -- ste e -- %109
+	lei -- son, %110
+	e -- le -- i --
+	son.
 	
+	Chri -- ste,
+	Chri -- ste, %115
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste e -- %120
+	lei -- son, e --
+	lei -- _
+	_ _ _
+	son.
+	Chri -- ste, %125
+	Chri -- ste
+	e -- le -- i --
+	son,
+	e -- le -- i --
+	son, %130
+	e -- le -- i --
+	son.
+	
+	Chri -- ste e -- %148
+	lei -- son,
+	Chri -- ste e -- %150
+	lei -- son.
+	Chri -- ste e --
+	lei -- son, e --
+	lei --
+	_ son, e -- %155
+	lei --
+	son,
+	Chri -- ste,
+	Chri -- ste, e --
+	lei -- son, e -- %160
+	lei -- _
+	_ _
+	_ _
+	_ _ _
+	_ _ %165
+	_ _ _
+	_ son.
+	Chri -- ste,
+	Chri -- ste,
+	Chri -- ste e -- %170
+	lei -- son,
+	e -- le -- i --
+	son.
+	Chri -- ste,
+	Chri -- ste %175
+	e -- le -- i --
+	son,
+	Chri -- ste e --
+	lei --
+	_ _ %180
+	son. %181 finis
 }
 
 % TenoreINotes = {
