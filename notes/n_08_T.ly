@@ -248,12 +248,135 @@ ChristeTenoreINotes = {
 		\clef "treble_8"
 		\key g \minor \time 3/4 \autoBeamOff \tempoChriste
 			\set Score.currentBarNumber = #79
-		
+		R2.*26 %104
+		\mvTr g4\pE^\soloE d' d %105
+		es d2
+		c8([ es)] es4. d16([ c)]
+		b8([ a)] g4 r
+		R2.*4 %112
+		g'8([ d)] d2
+		es8([ d)] es2
+		f8([ c)] c4 c %115
+		d8([ c)] d4 d
+		d c r
+		c8([ d)] c4 es
+		es8([ d)] d2
+		d8([ es)] d4 f %120
+		f8([ es)] es4 g
+		f f f
+		f( es d)
+		c2.
+		f8([ e)] e2 %125
+		es8([ d)] d2
+		c4 d es
+		d r r
+		es d c
+		d2 r4 %130
+		es d c
+		b2 r4
+		R2.*11 %143
+		b4 f' f
+		g f2 %145
+		es8([ g)] g4. f16([ es)]
+		d8([ c)] b4 r
+		R2.*4 %151
+		d4 d es
+		d8([ c)] d4 d8([ es)]
+		f2.
+		es8[ d] es4 g %155
+		g( f es)
+		d2 r4
+		R2.
+		r4 r f
+		f8([ es)] es4 es8([ d)] %160
+		c[ d c es] es4
+		d8[ es d f] f4
+		c8[ d c es] es4
+		es d c
+		b8[ c b d] d4 %165
+		d c b
+		b a r
+		g d' d
+		es8([ d)] d2
+		c8([ es)] es4. d16([ c)] %170
+		b8([ c] d4) d
+		c b a
+		g2.
+		d'8([ cis)] cis2
+		c8([ b)] b2 %175
+		a4 b c
+		b2 r4
+		b b b
+		b2.
+		a %180
+		g2 r4
+		R2.*6 %187
+		R2.\fermataMarkup \bar "||" %188 finis
 	}
 }
 
 ChristeTenoreILyrics = \lyricmode {
+	Chri -- ste e -- %105
+	lei -- son,
+	Chri -- ste e --
+	lei -- son.
 	
+	Chri -- ste, %113
+	Chri -- ste,
+	Chri -- ste e -- %115
+	lei -- son, e --
+	lei -- son,
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste e -- %120
+	lei -- son, e --
+	lei -- son, e --
+	lei --
+	son.
+	Chri -- ste, %125
+	Chri -- ste
+	e -- le -- i --
+	son,
+	e -- le -- i --
+	son, %130
+	e -- le -- i --
+	son.
+	
+	Chri -- ste e -- %144
+	lei -- son, %145
+	Chri -- ste e --
+	lei -- son.
+	
+	Chri -- ste e -- %152
+	lei -- son, e --
+	lei --
+	_ son, e -- %155
+	lei --
+	son,
+	
+	e --
+	lei -- son, e -- %160
+	lei -- _
+	_ _
+	_ _
+	_ _ _
+	_ _ %165
+	_ _ _
+	_ son.
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste e -- %170
+	lei -- son,
+	e -- le -- i --
+	son.
+	Chri -- ste,
+	Chri -- ste %175
+	e -- le -- i --
+	son,
+	Chri -- ste e --
+	lei --
+	_ %180
+	son. %181 finis
 }
 
 ChristeTenoreIINotes = {
