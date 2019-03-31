@@ -94,7 +94,116 @@ ChristeViolinoI = {
 		\clef treble
 		\key g \minor \time 3/4 \tempoChriste
 			\set Score.currentBarNumber = #79
-		
+		r8 \mvTrh g''\fE-\markup { \remark "à mezza voce" } b( g) fis( g)
+		\once \slurDashed es(-. es-. d-. d-. d-. d-.) %80
+		r c es fis a c,
+		b g d b a g
+		r g' b g fis g
+		es es d d d d
+		r d fis a c a %85
+		b4 a8 d, es d
+		r d' f as g f
+		es es d c h c
+		r c es g f es
+		d d c b a b %90
+		as4 g2
+		a4 b2
+		r8 c d( b) a( c)
+		b f g f g f
+		r c' d b a c %95
+		b4 b, r
+		r8 g'' b( g) fis( g)
+		fis(-. a-. a-. a-. a-. a-.)
+		r c, d es d c
+		b d d d d d %100
+		r es d c b a
+		b g' b g fis g
+		r c, b a g fis
+		g4 g, r
+		r8 g''\pE b g fis g %105
+		es es d d d d
+		r c es fis a c,
+		b a g g, a g
+		r g' b( g) fis( g)
+		es(-. es-. d-. d-. d-. d-.) %110
+		r d fis a b d
+		b4 \tuplet 3/2 4 { a8[ d, fis] a d fis }
+		g g, h d g f!
+		es-! es( d es) \once \slurDashed c'( es,)
+		r f, a c f es %115
+		d-! d( c d) b'( d,)
+		d4 c8 f e f
+		c d c c es es
+		es d d[ f b d]
+		d, es d d f f %120
+		f es es[ g g b]
+		f4 f2
+		f4 es d
+		c a8 f a c
+		f e e e e e %125
+		es d d d d d
+		c4( d es)
+		d8 b' a( b) a( b)
+		es,4 d c
+		d8 b, a b a b %130
+		R2.
+		r8 b''\f d( b) a( b)
+		g g f f f f
+		r es d es c' es,
+		es es d d d d %135
+		r as g as f'as,
+		g es g b es g
+		r b, a! b g'^\critnote b,
+		a f a c f a
+		c c es, es es es %140
+		d b' a b g f
+		r es d c b a
+		b4 b, r
+		r8 b''\pE d( b) \once \slurDashed a( b)
+		g g f f f f %145
+		r es d es c' es,
+		d c b4 r
+		r8 g' b( g) \once \slurDashed fis( g)
+		es(-. es-. d-. d-. d-. d-.)
+		r c es fis a c, %150
+		b( a g) g,( a g)
+		d''( h') d,( h') es,( c')
+		d,(-. c-. d-. d-.) d( es)
+		f f f f f f
+		es d es4 g %155
+		g f es
+		d2 r4
+		R2.
+		r4 r f
+		f8 es es4 es8 d %160
+		c4 r es8 c
+		d4 r f8 d
+		c4 r es
+		es( d c)
+		b r d %165
+		d( c b)
+		b a r
+		r8 g' b g fis g
+		\once \slurDashed es(-. es-. d-. d-. d-. d-.)
+		r c es fis a c, %170
+		b c d g fis g
+		a4( g fis)
+		g8 b g d b g
+		d' cis cis cis cis cis
+		c b b b b b %175
+		a4 b c
+		b8 g' g g g g
+		g g g g g g
+		g g g g g g
+		g4 fis2 %180
+		r8 g\fE b g fis g
+		fis a a a a a
+		r c, d es d c
+		b d d d d d
+		r es d c b a %185
+		g g' b g fis g
+		r c, b a g fis
+		g4 g, r\fermata \bar "||" %188 finis
 	}
 }
 
