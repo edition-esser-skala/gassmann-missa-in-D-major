@@ -119,12 +119,190 @@ KyrieIIBassoNotes = {
 		\clef bass
 		\key d \major \time 2/2 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #189
-			
+		\mvTr d1\fE^\tuttiE
+		e %190
+		fis
+		g
+		a2 g
+		fis d
+		e \once \tieDashed a~ %195
+		a gis
+		a r4 a
+		a2 gis
+		a g
+		fis h4 a %200
+		gis2. fis8[ gis]
+		a4 g fis2
+		e1
+		d2 d
+		a1 %205
+		d
+		R
+		r2 d
+		a'1
+		h2 h, %210
+		fis'1
+		g
+		d2 dis
+		e d
+		c1 %215
+		h
+		R1*2
+		e1
+		fis %220
+		g
+		a
+		h2. a4
+		gis2 e
+		a r %225
+		e2. e4
+		a,2 a'4( g!)
+		fis( d e fis)
+		g2 g
+		c,4 d e fis %230
+		g1~
+		g2 fis
+		g e
+		\once \tieDashed d1~
+		d %235
+		g,
+		R1*16 %252
+		d'1
+		e
+		fis %255
+		g
+		a
+		h
+		a2 fis
+		e \once \tieDashed a~ %260
+		a gis
+		a a
+		e1
+		a,2 a
+		h1 %265
+		cis
+		d2 d
+		a'1
+		d,2 d
+		e2. fis8[ g] %270
+		a4 g fis e
+		d2. e8[ fis]
+		g4 fis e d
+		cis2. d8[ e]
+		fis4 e d cis %275
+		h2. cis8[ d]
+		e4 d cis h
+		\once \tieDashed a1~
+		\once \tieDashed a~
+		a %280
+		d2 d'
+		d( c)
+		h h
+		a d,
+		a'1 %285
+		d,
+		d'
+		h
+		a
+		gis %290
+		gis
+		a1~
+		a
+		d,
+		R\fermataMarkup \bar "|." %295 FINIS
 	}
 }
 
 KyrieIIBassoLyrics = \lyricmode {
+	Ky -- %189
+	ri -- %190
+	e
+	e --
+	lei -- _
+	_ _
+	_ _ %195
+	_
+	son, e --
+	lei -- _
+	_ _
+	_ _ _ %200
+	_ _
+	_ _ _
+	_
+	son, e --
+	lei -- %205
+	son,
 	
+	e --
+	lei --
+	son, e -- %210
+	lei --
+	_
+	son, e --
+	lei -- _
+	_ %215
+	son.
+	
+	Ky -- %219
+	ri -- %220
+	e
+	e --
+	lei -- _
+	_ _
+	son. %225
+	Ky -- ri --
+	e e --
+	lei --
+	son, e --
+	lei -- _ _ _ %230
+	_
+	_
+	_ _
+	_
+	%235
+	son.
+	
+	Ky -- %253
+	ri --
+	e %255
+	e --
+	lei --
+	_
+	son, e --
+	lei -- _ %260
+	_
+	son, e --
+	lei --
+	son, e --
+	lei -- %265
+	_
+	son, e --
+	lei --
+	son, e --
+	lei -- _ %270
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ _ %275
+	_ _
+	_ _ _ _
+	_
+	
+	son, e -- %281
+	lei --
+	son, e --
+	lei -- _
+	_ %285
+	son,
+	e --
+	lei --
+	_
+	son, %290
+	e --
+	lei --
+	
+	son. %294 FINIS
 }
 
 % BassoNotes = {
