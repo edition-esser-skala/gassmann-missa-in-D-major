@@ -638,11 +638,223 @@ GloriaOrgano = {
 		\clef bass
 		\key d \major \time 3/4 \tempoGloria
 		\mvTr d4\fE-\tuttiE d d
+		d d d
+		d d d
+		d d d
+		a a a %5
+		a a a
+		a a d
+		a' a8 g fis e
+		d4 d d
+		d d d %10
+		d d d
+		d d d
+		a a a
+		a a a
+		a a d %15
+		a' a, a
+		a a a
+		a a a
+		a a a
+		d8 fis16 e d8 fis16 e d8 c %20
+		h4 h h
+		h h h
+		h h h
+		e e e
+		e e e %25
+		e e e
+		a a, a'
+		a a a
+		fis fis fis
+		d d d %30
+		e e e
+		a, a a
+		a a a
+		e' e e
+		e e gis %35
+		a a, a'
+		d, cis a
+		d e e,
+		a a' a,
+		d cis a %40
+		d e e,
+		a a' a,
+		a a a
+		a a a
+		a a' a, %45
+		h' gis e
+		a a, a'
+		h gis e
+		a a, a'
+		e2. %50
+		e4 gis a
+		e2 r4
+		\mvTr e\pE-\vlc e e
+		a a a
+		e e e %55
+		\mvTr a\f-\bassi a a
+		\mvTr a\p-\vlcE a a,
+		d d d
+		a' a, a
+		\mvTr d\f-\tuttiE d d %60
+		d8 d d d d d
+		a' a a a a a
+		h h h h h h
+		fis fis fis fis fis fis
+		g g g g g g %65
+		gis gis gis gis gis gis
+		a a a a a a
+		a a a a a a
+		d,4 r r
+		fis8 fis fis fis fis fis %70
+		g g g g g g
+		gis gis gis gis gis gis
+		a a a a a a
+		h h h h h h
+		e, e e e e e %75
+		a a a a a a
+		d, d d d d d
+		d'4 d d
+		cis cis cis
+		h h h %80
+		a a a
+		g g g
+		gis gis gis
+		a a a
+		a a a, %85
+		d d d
+		d d d
+		d d d
+		d d d
+		d d d %90
+		d d d
+		d d d
+		d2.\fermata \bar "||"
+		\time 4/4 \tempoEtInTerra h8 h h h h h h eis
+		fis fis fis fis fis fis fis fis %95
+		h h, h h a a a a
+		g e e e e e e gis
+		a a a a d d d d
+		a a a a a2\fermata
+		d8 d d d d d d d %100
+		d d d d d d d d
+		dis dis dis dis e e e e
+		d d d d cis cis cis cis
+		c c c c h4 h
+		e8 e e e c c c c %105
+		ais ais ais ais h h h h
+		h1\fermata \bar "||" %107 finis
 	}
 }
 
 GloriaBassFigures = \figuremode {
-	
+	r2.
+	r
+	r
+	r
+	<7> %5
+	<6 4>
+	<[5 3]>
+	r
+	r
+	r %10
+	r
+	r
+	<7>
+	<6 4>
+	<[5 3]> %15
+	r
+	r
+	<6 4>
+	<7 5>
+	r %20
+	<[_+]>
+	<6+ 4>
+	<7 [_+]>
+	<_+>
+	<7 [_+]> %25
+	<_+>4 <6 4> <7 [_+]>
+	r2.
+	r
+	r
+	<6 5> %30
+	<_+>
+	r
+	r
+	<[_+]>
+	<[\t]>2 <[6 5]>4 %35
+	r2.
+	r4 <[6]>2
+	r4 <[6 4]> <[5 _+]>
+	r2.
+	r4 <[6]>2 %40
+	r4 <[6 4]> <[5 _+]>
+	r2.
+	r
+	<6 4>
+	<5 3> %45
+	<[6\\]>2 <[_+]>4
+	r2.
+	<[6\\]>2 <[_+]>4
+	r2.
+	<7 [_+]>4 <6 4> <5 _+> %50
+	<7 [_+]>2.
+	r
+	<5 _+>4 <6 4> <7 [_+]>
+	<4 2> <[3 1]> r
+	<5 [_+]>4 <6 [4]> <7 [_+]> %55
+	r2.
+	<5 3>4 <6 4> <7 5>
+	r2.
+	<5 3>4 <6 4> <7>
+	r2. %60
+	r
+	r
+	r
+	<6>
+	<6 5> %65
+	<[\t \t]>
+	<6 4>
+	<[5 4]>4 <\l [3]>2
+	r2.
+	<[6]> %70
+	r
+	<6 5>
+	r
+	r
+	<7> %75
+	r
+	r
+	r
+	<4 2>
+	<5> %80
+	<6 4>
+	<6 5>
+	<6 5>
+	<[5 3]>2 <6 4>4
+	<5 4> <\l 3>2 %85
+	r2.
+	r
+	r
+	r
+	r %90
+	r
+	r
+	r
+	r2.. <7>8
+	<_+>1 %95
+	<_+>2 <6 4+ 2>
+	<6>1
+	<7>
+	r
+	r2 <7!> %100
+	<6 4> <[5 3]>
+	<7> r
+	<4+ 2> <6>
+	<[6+]> <_+>
+	r <8 3> %105
+	<7> <_+>
+	<[\t]>1 %107 finis
 }
 
 % Organo = {
