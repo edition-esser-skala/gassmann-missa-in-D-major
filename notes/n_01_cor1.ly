@@ -85,11 +85,11 @@ KyrieIICornoI = {
 		g %255
 		r2 f
 		d1
-		c
+		\pao c
 		d
 		R1*2 %261
 		r2 d
-		d1
+		\pao d1
 		d
 		R %265
 		r2 f
@@ -100,7 +100,7 @@ KyrieIICornoI = {
 		r2 f
 		e1
 		d %280
-		c2 e
+		\pao c2 e
 		e e
 		f1
 		f2 e

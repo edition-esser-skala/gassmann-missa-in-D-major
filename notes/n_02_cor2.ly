@@ -79,6 +79,41 @@ KyrieIICornoII = {
 		\clef treble
 		 \key c \major \time 2/2 \tempoKyrieII
 			\set Score.currentBarNumber = #189
-		
+		R1*64 %252
+		c'1\fE
+		g
+		c, %255
+		r2 d'
+		g,1
+		c
+		g
+		R1*2 %261
+		r2 g
+		d'1
+		g,
+		R %265
+		r2 d'
+		c c
+		g1
+		c2 r
+		R1*8 %277
+		r2 d
+		d c
+		g1 %280
+		c2 c
+		c c
+		c1
+		d2 c
+		g1 %285
+		e2 c'
+		c1
+		c
+		c
+		c %290
+		c
+		c
+		g
+		e4 c'8 c c4 c
+		c1\fermata \bar "|." %295 FINIS
 	}
 }

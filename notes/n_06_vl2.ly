@@ -315,7 +315,7 @@ KyrieIIViolinoII = {
 		d d d d
 		d d d d %290
 		d d d d
-		d d cis^\critnote h
+		d d d d
 		cis cis cis cis
 		d <fis a, d,> q q
 		q1\fermata \bar "|." %295 FINIS
