@@ -633,6 +633,18 @@ KyrieIIBassFigures = \figuremode {
 	r %295 FINIS
 }
 
+GloriaOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoGloria
+		\mvTr d4\fE-\tuttiE d d
+	}
+}
+
+GloriaBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

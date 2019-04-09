@@ -117,3 +117,11 @@ KyrieIICornoII = {
 		c1\fermata \bar "|." %295 FINIS
 	}
 }
+
+GloriaCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		
+	}
+}

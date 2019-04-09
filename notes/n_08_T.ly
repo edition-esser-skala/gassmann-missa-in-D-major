@@ -890,6 +890,30 @@ KyrieIITenoreIILyrics = \lyricmode {
 	son. %294 FINIS
 }
 
+GloriaTenoreINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 3/4 \autoBeamOff \tempoGloria
+		
+	}
+}
+
+GloriaTenoreILyrics = \lyricmode {
+	
+}
+
+GloriaTenoreIINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 3/4 \autoBeamOff \tempoGloria
+		
+	}
+}
+
+GloriaTenoreIILyrics = \lyricmode {
+	
+}
+
 % TenoreINotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

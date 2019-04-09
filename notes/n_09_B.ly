@@ -305,6 +305,18 @@ KyrieIIBassoLyrics = \lyricmode {
 	son. %294 FINIS
 }
 
+GloriaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoGloria
+		
+	}
+}
+
+GloriaBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

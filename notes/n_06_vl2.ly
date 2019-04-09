@@ -321,3 +321,11 @@ KyrieIIViolinoII = {
 		q1\fermata \bar "|." %295 FINIS
 	}
 }
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoGloria
+		
+	}
+}
