@@ -787,8 +787,8 @@ KyrieIITenoreIINotes = {
 		g2. a8[ g]
 		fis1
 		e %280
-		d2 d'
-		d1
+		d2 a'^\critnote
+		a1
 		d2 d
 		cis \once \tieDashed d~
 		d cis %285

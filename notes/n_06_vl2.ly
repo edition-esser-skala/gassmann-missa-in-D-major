@@ -190,20 +190,20 @@ ChristeViolinoII = {
 		\once \slurDashed c( b a)
 		b8 g' d b g4
 		r a g
-		fis8 g g g g g
+		fis8 g g g g g %175
 		fis4 g a
 		g8 b b b b b
 		b b b b b b
 		b b b b b b
-		a2.
+		a2. %180
 		r8 g'\fE b g fis g
 		fis(-. fis-. fis-. fis-. fis-. fis-.)
 		r a, b c b a
 		g(-. b-. b-. b-. b-. b-.)
-		r c b a g fis
+		r c b a g fis %185
 		g g' b g fis g
 		r es, d c b a
-		g2 r4\fermata \bar "||"
+		g2 r4\fermata \bar "||" %188 finis
 	}
 }
 
@@ -212,6 +212,112 @@ KyrieIIViolinoII = {
 		\clef treble
 		 \key d \major \time 2/2 \tempoKyrieII
 			\set Score.currentBarNumber = #189
-		
+		fis1\fE
+		g %190
+		a
+		h
+		e,2 e
+		a2. fis4
+		gis2 a4 e %195
+		d1
+		cis4 e a2
+		h1
+		cis
+		d %200
+		e2 d
+		cis d~
+		d4 cis8 h cis2
+		d d~
+		d4 cis8 h cis2 %205
+		d2. c4
+		h g h cis
+		d a d2~
+		d4 cis8 h cis2~
+		cis4 fis, h2~ %210
+		h4 a8 g a2~
+		a4 d, \once \tieDashed g2~
+		g fis
+		g fis
+		e1 %215
+		dis2 fis
+		h g
+		fis1
+		e2 g
+		a1 %220
+		h
+		c?
+		fis,2 r4 fis
+		h2 gis
+		e a %225
+		h1
+		c
+		d2. c?4
+		h2 h
+		\once \tieDashed c1~ %230
+		c4 h8 a h4 g
+		\once \tieDashed a1~
+		a2 g
+		fis g~
+		g4 fis8 e fis2 %235
+		g1
+		a
+		h
+		c
+		d~ %240
+		d4 c?8 h c?2
+		c?2. c4
+		fis,2 r4 fis
+		h1
+		e,2 r4 e %245
+		a2 a
+		d, \once \tieDashed g~
+		g fis
+		g \once \tieDashed g~
+		g4 fis8 e fis4 d %250
+		g2. fis4
+		e fis8 g a4 g
+		fis1
+		g
+		a %255
+		h
+		e,2 \once \tieDashed a~
+		a gis
+		a a
+		gis a~ %260
+		a gis
+		a1
+		h
+		cis
+		d %265
+		e
+		d2 fis
+		e1
+		d2 d
+		d1 %270
+		\once \tieDashed cis~
+		cis2 d4 cis
+		\once \tieDashed h1~
+		h2 cis4 h
+		\once \tieDashed a1~ %275
+		a2 h4 a
+		\once \tieDashed g1~
+		g2. a8 g
+		fis1
+		e %280
+		d2 a'
+		a1
+		d2 d
+		cis \once \tieDashed d~
+		d cis %285
+		d4 fis, a d
+		d d d d
+		d d d d
+		d d d d
+		d d d d %290
+		d d d d
+		d d cis^\critnote h
+		cis cis cis cis
+		d <fis a, d,> q q
+		q1\fermata \bar "|." %295 FINIS
 	}
 }
