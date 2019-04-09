@@ -931,7 +931,7 @@ GloriaTenoreINotes = {
 		d2 cis4
 		\appoggiatura cis h2.
 		h4(\pE cis) d
-		d( cis) h
+		d( cis) cis^\critnote
 		h( cis) d %55
 		cis4.\fE cis8 cis4
 		e(\pE fis) g!
@@ -1063,21 +1063,187 @@ GloriaTenoreILyrics = \lyricmode {
 	bo -- nae vo -- lun -- ta -- tis,
 	pax ho -- mi -- ni -- bus
 	bo -- nae vo -- lun -- ta -- tis,
-	pax, pax,
+	pax, pax, %105
 	pax, in ter -- ra
-	pax.
+	pax. %107 finis
 }
 
 GloriaTenoreIINotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 3/4 \autoBeamOff \tempoGloria
-		
+		R2.*8 %8
+		\mvTr a4.\fE^\tuttiE a8 a4
+		R2. %10
+		a4. a8 a4
+		R2.
+		cis2 e4
+		d2 d4
+		cis2 d4 %15
+		cis4. cis8 cis4
+		cis2 cis4
+		d2 d4
+		e2 e4
+		d4. d8 d4 %20
+		dis4. h8 h4
+		gis2 gis4
+		a2 a4
+		gis2 gis4
+		h4. h8 h4 %25
+		gis( a) h
+		a a r
+		a2.
+		a
+		a( %30
+		gis2) gis4
+		a2 r4
+		R2.*10 %42
+		cis2.
+		d
+		cis4. d8 cis4 %45
+		h4.( d8) cis([ h)]
+		a([ cis)] cis4 r
+		h4.( d8) cis([ h)]
+		a([ cis)] cis4 r
+		h( a) gis %50
+		h2 a4
+		\appoggiatura a gis2.
+		gis?4( a) h
+		h( a) a
+		gis( a) h %55
+		a4. a8 a4
+		cis( d) e
+		d2 d4
+		cis( d) e
+		d4. d8 d4 %60
+		d2.
+		cis
+		h
+		a
+		h %65
+		h
+		cis2 \once \tieDashed d4~
+		d cis8[ h] cis4
+		d2.
+		a4. a8 a4 %70
+		h4. h8 h4
+		h2 h4
+		cis2 cis4
+		h4. h8 h4
+		g!2 g4 %75
+		g2 g4
+		fis2^\critnote fis4
+		\tieDashed d'2.~
+		d~
+		d~ %80
+		d
+		h~
+		h
+		cis2 d4~
+		d cis2 \tieSolid %85
+		d2.
+		R2.*6 %92
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \tempoEtInTerra fis,8 fis fis fis fis4 r
+		r8 ais ais ais ais4 r %95
+		fis8 fis fis fis fis4 r
+		r8 g g g g4 r
+		g r fis r
+		e1\fermata
+		fis8 fis fis a a4 a %100
+		g4. g8 fis4 r
+		a8 a a a g4 g
+		gis gis a8. a16 a4
+		ais8 ais ais ais h4 h
+		h r g r %105
+		g r r8 fis fis fis
+		fis2 r\fermata \bar "||" %107 finis
 	}
 }
 
 GloriaTenoreIILyrics = \lyricmode {
+	Glo -- ri -- a, %9
+	%10
+	glo -- ri -- a,
 	
+	in ex --
+	cel -- sis
+	De -- o %15
+	glo -- ri -- a,
+	in ex --
+	cel -- sis
+	De -- o
+	glo -- ri -- a, %20
+	glo -- ri -- a
+	in ex --
+	cel -- sis
+	De -- o,
+	glo -- ri -- a %25
+	in __ ex --
+	cel -- sis
+	De --
+	o,
+	glo -- %30
+	ri --
+	a.
+	
+	Glo -- %43
+	_
+	_ ri -- a %45
+	in __ ex --
+	cel -- sis,
+	in __ ex --
+	cel -- sis
+	De -- o %50
+	glo -- ri --
+	a,
+	in __ ex --
+	cel -- sis
+	De -- o %55
+	glo -- ri -- a,
+	in __ ex --
+	cel -- sis
+	De -- o
+	glo -- ri -- a, %60
+	in
+	ex --
+	cel --
+	sis
+	De -- %65
+	o
+	glo -- _
+	_ ri --
+	a,
+	glo -- ri -- a, %70
+	glo -- ri -- a
+	in ex --
+	cel -- sis,
+	glo -- ri -- a
+	in ex -- %75
+	cel -- sis
+	De -- o,
+	glo --
+	
+	_ %82
+	
+	_ _
+	ri -- %85
+	a.
+	
+	Et in ter -- ra pax, %94
+	in ter -- ra pax, %95
+	et in ter -- ra pax,
+	in ter -- ra pax,
+	pax, pax,
+	pax,
+	et in ter -- ra pax ho -- %100
+	mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax, pax, %105
+	pax, in ter -- ra
+	pax. %107 finis
 }
 
 % TenoreINotes = {
