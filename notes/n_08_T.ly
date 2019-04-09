@@ -573,18 +573,18 @@ KyrieIITenoreINotes = {
 		d4 cis8[ h] cis2
 		d2. c4 %255
 		h dis e d
-		cis a cis2
-		h1
+		cis! a cis2
+		d1
 		cis2 \once \tieDashed d~
 		d cis %260
 		h1
 		a2 a
-		a4 gis8[ fis] gis2
+		a4 gis8 fis gis2
 		\once \tieDashed a1~
 		a2 gis %265
-		g2. a8[ g]
+		g2. a8 g
 		fis2 \once \tieDashed d'~
-		d4 cis8[ h] cis2
+		d4 cis8 h cis2
 		d fis
 		\once \tieDashed g1~ %270
 		g2^\critnote a4 g

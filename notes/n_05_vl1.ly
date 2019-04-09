@@ -212,7 +212,113 @@ KyrieIIViolinoI = {
 		\clef treble
 		 \key d \major \time 2/2 \tempoKyrieII
 			\set Score.currentBarNumber = #189
-		
+		r2 d'~\fE
+		d cis %190
+		d c
+		h4 dis e d
+		cis2. h8 cis
+		d4 a d2~
+		d cis %195
+		h1
+		a2 cis
+		d1
+		cis2 r
+		r d4 cis %200
+		h1
+		a2 a'
+		g1
+		fis2 fis
+		e1 %205
+		fis
+		g
+		g4 fis8 e fis2
+		e1
+		d %210
+		cis
+		h
+		a
+		g4 a \once \tieDashed h2~
+		h a %215
+		h dis
+		e4 h \once \tieDashed e2~
+		e4 dis8 cis dis2
+		e e
+		e dis %220
+		e e
+		e4 fis8 g fis4 e
+		dis2. cis8 dis
+		e2. d4
+		c h \once \tieDashed a2~ %225
+		a gis
+		a a
+		a4 fis g a
+		g!2 d'
+		e1 %230
+		d
+		c2. d8 c
+		h4 g c?2~
+		c h
+		a1 %235
+		g2 \once \tieDashed g'~
+		g4 fis8 e fis2
+		g g
+		g f~
+		f4 d g f %240
+		e2 e~
+		e4 fis!8 g fis4 e
+		dis2. cis8 dis
+		e4 f e d
+		cis!2. h8 cis %245
+		d4 e d c
+		h2 h
+		a1
+		g
+		a %250
+		h
+		cis!
+		\once \tieDashed d2~ d~
+		d4 cis8 h cis2
+		d2. c4 %255
+		h dis e d
+		cis! a cis2
+		d1
+		cis2 d~
+		d cis %260
+		h1
+		a2 a
+		a4 gis8[ fis] gis2
+		\once \tieDashed a1~
+		a2 gis %265
+		g2. a8[ g]
+		fis2 \once \tieDashed d'~
+		d4 cis8[ h] cis2
+		d fis
+		\once \tieDashed g1~ %270
+		g2 a4 g
+		\once \tieDashed fis1~
+		fis2 g4 fis
+		\once \tieDashed e1~
+		e2 fis4 e %275
+		\once \tieDashed d1~
+		d2 e4 d
+		cis d e2~
+		e \once \tieDashed d~
+		d cis %280
+		d fis
+		fis1
+		g2 g
+		g fis
+		e1 %285
+		d4 a-\critnote d fis
+		fis fis fis fis
+		fis fis fis fis
+		fis fis fis fis
+		fis fis fis fis %290
+		fis fis fis fis
+		e e e e
+		e e e e
+		d <fis a, d,> q q
+		q1\fermata \bar "|." %295 FINIS
 	}
 }
 
