@@ -732,7 +732,7 @@ GloriaOrgano = {
 		d2.\fermata \bar "||"
 		\time 4/4 \tempoEtInTerra h8 h h h h h h eis
 		fis fis fis fis fis fis fis fis %95
-		h h, h h a a a a
+		h h, h h a! a a a
 		g e e e e e e gis
 		a a a a d d d d
 		a a a a a2\fermata

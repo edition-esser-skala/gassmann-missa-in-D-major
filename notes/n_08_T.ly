@@ -895,7 +895,7 @@ GloriaTenoreINotes = {
 		\clef "treble_8"
 		\key d \major \time 3/4 \autoBeamOff \tempoGloria
 		R2.*8 %8
-		\mvTr fis4.\fE^\tuttiE fis8 fis4
+		\mvDll fis4.\fE^\tuttiE fis8 fis4
 		R2. %10
 		fis4. fis8 fis4
 		R2.
@@ -1073,7 +1073,7 @@ GloriaTenoreIINotes = {
 		\clef "treble_8"
 		\key d \major \time 3/4 \autoBeamOff \tempoGloria
 		R2.*8 %8
-		\mvTr a4.\fE^\tuttiE a8 a4
+		\mvDll a4.\fE^\tuttiE a8 a4
 		R2. %10
 		a4. a8 a4
 		R2.
@@ -1108,14 +1108,14 @@ GloriaTenoreIINotes = {
 		h( a) gis %50
 		h2 a4
 		\appoggiatura a gis2.
-		gis?4( a) h
+		gis?4(\pE a) h
 		h( a) a
 		gis( a) h %55
-		a4. a8 a4
-		cis( d) e
+		a4.\fE a8 a4
+		cis(\pE d) e
 		d2 d4
 		cis( d) e
-		d4. d8 d4 %60
+		d4.\fE d8 d4 %60
 		d2.
 		cis
 		h
@@ -1155,7 +1155,7 @@ GloriaTenoreIINotes = {
 		a8 a a a g4 g
 		gis gis a8. a16 a4
 		ais8 ais ais ais h4 h
-		h r g r %105
+		h r g! r %105
 		g r r8 fis fis fis
 		fis2 r\fermata \bar "||" %107 finis
 	}
@@ -1174,7 +1174,7 @@ GloriaTenoreIILyrics = \lyricmode {
 	cel -- sis
 	De -- o
 	glo -- ri -- a, %20
-	glo -- ri -- a
+	[glo -- ri -- a
 	in ex --
 	cel -- sis
 	De -- o,
@@ -1182,7 +1182,7 @@ GloriaTenoreIILyrics = \lyricmode {
 	in __ ex --
 	cel -- sis
 	De --
-	o,
+	o,]
 	glo -- %30
 	ri --
 	a.

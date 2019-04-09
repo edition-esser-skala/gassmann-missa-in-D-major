@@ -309,12 +309,160 @@ GloriaBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 3/4 \autoBeamOff \tempoGloria
-		
+		R2.*8 %8
+		\mvDll d'4.\fE^\tuttiE d,8 d4
+		R2. %10
+		d'4. d,8 d4
+		R2.
+		a'2 a4
+		d2 d,4
+		a'2 d,4 %15
+		a'4. a8 a4
+		a2 a4
+		a2 a4
+		a2 a4
+		d4. d,8 d4 %20
+		h'4.^\critnote h,8 h4
+		h2 h4
+		h'2 h4
+		e2 e,4
+		e4. e8 e4 %25
+		e2 e4
+		a a, r
+		a'2.
+		fis
+		d( %30
+		e2) e4
+		a,2 r4
+		R2.*20 %52
+		e'2\pE e4
+		a2 a,4
+		e'2 e4 %55
+		a4.\fE a8 a4
+		a2\pE a4
+		d2 d,4
+		a'2 a4
+		\mvDll d4.\fE d,8 d4 %60
+		d2.
+		a'
+		h
+		fis
+		g %65
+		gis
+		\once \tieDashed a~
+		a2 a4
+		d,2.
+		fis4. fis8 fis4 %70
+		g4. g8 g4
+		gis2 gis4
+		a2 a4
+		h4. h8 h4
+		e,2 e4 %75
+		a2 a4
+		d,2 d4
+		d'2.
+		cis
+		h %80
+		a
+		g
+		gis
+		\once \tieDashed a~
+		a2 a4 %85
+		d,2.
+		R2.*6 %92
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \tempoEtInTerra h'8 h, h h h4 r
+		r8 fis' fis fis fis4 r %95
+		h8 h, h h a!4 r
+		r8 e' e e e4 r
+		a, r d r
+		a1\fermata
+		d8 d d d d4 d
+		d4. d8 d4 r
+		dis8 dis dis dis e4 e
+		d d cis8. cis16 cis4
+		c8 c c c h4 h
+		e r c r
+		ais r r8 h h h
+		h1\fermata \bar "||"
 	}
 }
 
 GloriaBassoLyrics = \lyricmode {
+	Glo -- ri -- a, %9
+	%10
+	glo -- ri -- a,
 	
+	in ex --
+	cel -- sis
+	De -- o %15
+	glo -- ri -- a,
+	in ex --
+	cel -- sis
+	De -- o
+	glo -- ri -- a, %20
+	[glo -- ri -- a
+	in ex --
+	cel -- sis
+	De -- o,
+	glo -- ri -- a %25
+	in __ ex --
+	cel -- sis
+	De --
+	o,]
+	glo -- %30
+	ri --
+	a.
+	
+	In ex -- %53
+	cel -- sis
+	De -- o %55
+	glo -- ri -- a,
+	in ex --
+	cel -- sis
+	De -- o
+	glo -- ri -- a, %60
+	in
+	ex --
+	cel --
+	sis
+	De -- %65
+	o
+	glo --
+	ri --
+	a,
+	glo -- ri -- a, %70
+	glo -- ri -- a
+	in ex --
+	cel -- sis,
+	glo -- ri -- a
+	in ex -- %75
+	cel -- sis
+	De -- o,
+	glo --
+	_
+	_
+	_
+	_
+	_
+	_
+	ri -- %85
+	a.
+	
+	Et in ter -- ra pax, %94
+	in ter -- ra pax, %95
+	et in ter -- ra pax,
+	in ter -- ra pax,
+	pax, pax,
+	pax,
+	et in ter -- ra pax ho -- %100
+	mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax, pax, %105
+	pax, in ter -- ra
+	pax. %107 finis
 }
 
 % BassoNotes = {
