@@ -894,12 +894,178 @@ GloriaTenoreINotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 3/4 \autoBeamOff \tempoGloria
-		
+		R2.*8 %8
+		\mvTr fis4.\fE^\tuttiE fis8 fis4
+		R2. %10
+		fis4. fis8 fis4
+		R2.
+		e2 g4
+		fis2 fis4
+		e2 fis4 %15
+		e4. e8 e4
+		e2 e4
+		fis2 fis4
+		g2 g4
+		fis4. fis8 fis4 %20
+		dis4. dis8 dis4
+		e2 e4
+		fis2 fis4
+		e2 e4
+		d!4. d8 d4 %25
+		h( cis) d
+		cis cis r
+		cis2.
+		cis
+		\once \tieDashed h~ %30
+		h2 h4
+		a2 r4
+		R2.*10 %42
+		e'2.
+		fis
+		e4. fis8 e4 %45
+		d4.( fis8) e([ d)]
+		cis([ e)] e4 r
+		d4.( fis8) e([ d)]
+		cis([ e)] e4 r
+		d( cis) h %50
+		d2 cis4
+		\appoggiatura cis h2.
+		h4(\pE cis) d
+		d( cis) h
+		h( cis) d %55
+		cis4.\fE cis8 cis4
+		e(\pE fis) g!
+		fis2 fis4
+		e( fis) g
+		fis4.\fE fis8 fis4 %60
+		fis2.
+		e
+		d
+		d
+		d2( e4) %65
+		e2.
+		e2 fis4
+		e2 e4
+		d2.
+		d4. d8 d4 %70
+		d4. d8 d4
+		e2 e4
+		e2 e4
+		d4. d8 d4
+		d2 d4 %75
+		cis2 cis4
+		d2 d4
+		\tieDashed fis2.~
+		fis~
+		fis~ %80
+		fis
+		e~
+		e~
+		e2 fis4 \tieSolid
+		e2 e4 %85
+		d2.
+		R2.*6 %92
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \tempoEtInTerra d8 d d d d4 r
+		r8 cis cis cis cis4 r %95
+		dis8 dis dis dis dis4 r
+		r8 e e e e4 r
+		e r d! r
+		cis1\fermataMarkup
+		d8 d d d d4 c %100
+		h4. h8 a4 r
+		c8 c c c h4 h
+		h h e8. e16 e4
+		e8 e e e dis4 dis
+		h r e r %105
+		e r r8 dis dis dis
+		dis?2 r\fermata \bar "||" %107 finis
 	}
 }
 
 GloriaTenoreILyrics = \lyricmode {
+	Glo -- ri -- a, %9
+	%10
+	glo -- ri -- a,
 	
+	in ex --
+	cel -- sis
+	De -- o %15
+	glo -- ri -- a,
+	in ex --
+	cel -- sis
+	De -- o
+	glo -- ri -- a, %20
+	glo -- ri -- a
+	in ex --
+	cel -- sis
+	De -- o,
+	glo -- ri -- a %25
+	in __ ex --
+	cel -- sis
+	De --
+	o,
+	glo -- %30
+	ri --
+	a.
+	
+	Glo -- %43
+	_
+	_ ri -- a %45
+	in __ ex --
+	cel -- sis,
+	in __ ex --
+	cel -- sis
+	De -- o %50
+	glo -- ri --
+	a,
+	in __ ex --
+	cel -- sis
+	De -- o %55
+	glo -- ri -- a,
+	in __ ex --
+	cel -- sis
+	De -- o
+	glo -- ri -- a, %60
+	in
+	ex --
+	cel --
+	sis
+	De -- %65
+	o
+	glo -- _
+	_ ri --
+	a,
+	glo -- ri -- a, %70
+	glo -- ri -- a
+	in ex --
+	cel -- sis,
+	glo -- ri -- a
+	in ex -- %75
+	cel -- sis
+	De -- o,
+	glo --
+	
+	_ %82
+	
+	_
+	_ ri -- %85
+	a.
+	
+	Et in ter -- ra pax, %94
+	in ter -- ra pax, %95
+	et in ter -- ra pax,
+	in ter -- ra pax,
+	pax, pax,
+	pax,
+	et in ter -- ra pax ho -- %100
+	mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax, pax,
+	pax, in ter -- ra
+	pax.
 }
 
 GloriaTenoreIINotes = {
