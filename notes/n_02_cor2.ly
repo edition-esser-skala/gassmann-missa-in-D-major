@@ -122,6 +122,85 @@ GloriaCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoGloria
-		
+		c'4\fE r r
+		e,8 e16 g c8 c c c
+		c4 r r
+		c r8 e e c
+		g4 r8 d' d d %5
+		c4 r8 c c c
+		g4 g c
+		g r r
+		c r r
+		c r8 c c c %10
+		c4 r r
+		c r8 e e c
+		g4 r8 g16 c d8 d
+		c4 r8 c c c
+		g4 g c %15
+		g g8 g g4
+		g r8 g g g
+		c4 r8 c c c
+		d4 r8 d d d
+		c4 r r %20
+		R2.*6 %26
+		r4 g8 g g g
+		g2.
+		g
+		g2 e'4 %30
+		d2.
+		g,4 r r
+		g g8 g g g
+		d'4 r r
+		d r r %35
+		r d8 d d d
+		c4 g2
+		c4 d d
+		g, g8 g g g
+		c4 g2 %40
+		c4 d d
+		g,2 r4
+		R2.*10 %52
+		d'2\pE r4
+		r g, g
+		d'2 r4 %55
+		g,4.\fE g8 g4
+		g4\pE c d
+		c c c
+		g c d
+		c2\fE r4 %60
+		c2.
+		g
+		c
+		c
+		c %65
+		c
+		g2 c4
+		g2.-\critnote
+		c,4 r r
+		c'2. %70
+		c4 r r
+		d2 d4
+		g,2 r4
+		R2.*2 %75
+		r4 r d'
+		c4. c8 c4
+		c2.
+		c
+		c
+		c
+		c
+		c
+		g2 c4
+		g2.
+		e4 r r
+		e c'8 c c c
+		c4 c c
+		c r8 e e e
+		c4 c c
+		c2.
+		c4 c c \noBreak
+		c2.\fermata \bar "||"
+		\time 4/4 \tempoEtInTerra R1*13 %106
+		R1\fermataMarkup \bar "||" %107 finis
 	}
 }

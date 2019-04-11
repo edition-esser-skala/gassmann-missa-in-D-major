@@ -147,7 +147,7 @@ GloriaCornoI = {
 		d2.
 		e
 		e %30
-		d
+		\pao d
 		d4 r r
 		d d8 d d d
 		d4 r r
@@ -170,7 +170,7 @@ GloriaCornoI = {
 		e2\fE r4 %60
 		e2.
 		d
-		c
+		\pao c
 		e
 		d %65
 		d
