@@ -357,7 +357,7 @@ GloriaViolinoI = {
 		fis,, a'16 h cis8 cis cis cis
 		\kneeBeam d,, h''16 ais h8 h h h %30
 		h h16 a h8 h h h
-		a cis,,16 h a8 cis16 h a8 cis16 h
+		\kneeBeam a cis,,16 h a8 cis16 h a8 cis16 h
 		a8 cis'16 d e8 e e e
 		e, gis16 fis e8 gis16 fis e8 gis16 fis
 		e8 h'16 cis d8 d d d %35
