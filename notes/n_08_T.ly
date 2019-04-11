@@ -964,9 +964,9 @@ GloriaTenoreINotes = {
 		e2 fis4 \tieSolid
 		e2 e4 %85
 		d2.
-		R2.*6 %92
+		R2.*6 \noBreak %92
 		R2.\fermataMarkup \bar "||"
-		\time 4/4 \tempoEtInTerra d8 d d d d4 r
+		\time 4/4 \tempoEtInTerra d8 d d d d4 r \noBreak
 		r8 cis cis cis cis4 r %95
 		dis8 dis dis dis dis4 r
 		r8 e e e e4 r
@@ -1142,9 +1142,9 @@ GloriaTenoreIINotes = {
 		cis2 d4~
 		d cis2 \tieSolid %85
 		d2.
-		R2.*6 %92
+		R2.*6 \noBreak %92
 		R2.\fermataMarkup \bar "||"
-		\time 4/4 \tempoEtInTerra fis,8 fis fis fis fis4 r
+		\time 4/4 \tempoEtInTerra fis,8 fis fis fis fis4 r \noBreak
 		r8 ais ais ais ais4 r %95
 		fis8 fis fis fis fis4 r
 		r8 g g g g4 r

@@ -417,9 +417,9 @@ GloriaViolinoI = {
 		fis8 fis'16 g a8 a a a
 		d a a fis fis d %90
 		d a a fis fis d
-		d4 <d a' fis'> q
+		d4 <d a' fis'> q \noBreak
 		q2.\fermata \bar "||"
-		\time 4/4 \tempoEtInTerra fis4 r r16 r32 h, d16. fis32 h16. d32 h'16. d,32
+		\time 4/4 \tempoEtInTerra fis4 r r16 r32 h, d16. fis32 h16. d32 h'16. d,32 \noBreak
 		cis4 r4 r16 r32 fis, ais16. cis32 e16. g32 fis16. e32 %95
 		dis4 r r16 r32 h dis16. h32 fis'16. fis32 a!16. fis32
 		g4 r r16 r32 e, g16. h32 e16. g32 e16. d32

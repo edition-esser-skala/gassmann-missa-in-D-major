@@ -369,9 +369,9 @@ GloriaBassoNotes = {
 		\once \tieDashed a~
 		a2 a4 %85
 		d,2.
-		R2.*6 %92
+		R2.*6 \noBreak %92
 		R2.\fermataMarkup \bar "||"
-		\time 4/4 \tempoEtInTerra h'8 h, h h h4 r
+		\time 4/4 \tempoEtInTerra h'8 h, h h h4 r \noBreak
 		r8 fis' fis fis fis4 r %95
 		h8 h, h h a!4 r
 		r8 e' e e e4 r

@@ -728,9 +728,9 @@ GloriaOrgano = {
 		d d d
 		d d d %90
 		d d d
-		d d d
+		d d d \noBreak
 		d2.\fermata \bar "||"
-		\time 4/4 \tempoEtInTerra h8 h h h h h h eis
+		\time 4/4 \tempoEtInTerra h8 h h h h h h eis \noBreak
 		fis fis fis fis fis fis fis fis %95
 		h h, h h a! a a a
 		g e e e e e e gis
