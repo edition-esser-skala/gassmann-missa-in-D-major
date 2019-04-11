@@ -326,7 +326,113 @@ GloriaViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoGloria
-		
+		d8\fE fis16 e d8 fis16 e d8 fis16 e
+		d8 d'16 e fis8 fis fis fis
+		fis,8 a16 g fis8 a16 g fis8 a16 g
+		fis8^\critnote fis'16 g a8 a a a
+		\kneeBeam a,, e''16 fis g8 g g g %5
+		a,, d'16 e fis8 fis fis fis
+		a,, cis'16 d e8 g fis a
+		e a a, g fis e
+		d fis16 e d8 fis16 e d8 fis16 e
+		d8 d'16 e fis8 fis fis fis %10
+		fis,8 a16 g fis8 a16 g fis8 a16 g
+		fis8 fis'16 g a8 a a a
+		\kneeBeam a,, e''16 fis g8 g g g
+		a,, d'16 e fis8 fis fis fis
+		e cis16 d e8 g fis a %15
+		e a e cis a4
+		a8 cis16 d e8 e e e
+		a, d16 e fis8 fis fis fis
+		a, e'16^\critnote fis g8 g g g
+		fis fis,16 e d8 fis16 e d8 c %20
+		h dis'16 e fis8 fis fis fis
+		h,, e'16 fis gis8 gis gis gis
+		\kneeBeam h,, fis''16 gis? a8 a a a
+		gis gis,16 fis e8 gis16 fis e4
+		e8 h'16 cis d!8 d d d %25
+		h gis' cis, a' d, h'
+		cis, a'16 h cis8 cis cis cis
+		a, a'16 h  cis8 cis cis cis
+		fis,, a'16 h cis8 cis cis cis
+		\kneeBeam d,, h''16 ais h8 h h h %30
+		h h16 a h8 h h h
+		a cis,,16 h a8 cis16 h a8 cis16 h
+		a8 cis'16 d e8 e e e
+		e, gis16 fis e8 gis16 fis e8 gis16 fis
+		e8 h'16 cis d8 d d d %35
+		cis16 h cis d e8 e e e
+		fis16 e fis gis a8 a a a
+		fis e16 d cis4 h
+		cis16 h cis d e8 e e e
+		fis16 e fis gis a8 a a a %40
+		fis e16 d cis4 h
+		a a, r
+		r8 a'\p cis e a e
+		r a, d fis a fis
+		r a e fis e cis %45
+		d16( cis) d( cis) d8 fis e d
+		cis4 e16 d e fis e8 e
+		d16 cis d cis d8 fis e d
+		cis4 e16 d e fis e8 e
+		d4 cis h %50
+		d2 cis4
+		h8\f e h gis e gis
+		h\p gis' cis, a' d, h'
+		d, cis16 h cis8 a' e cis
+		h4 cis d %55
+		cis8\f cis,16 h a8 cis16 h a4
+		e''8\p e fis fis g g
+		fis d' a fis d fis
+		e e fis fis g g
+		fis\f fis,16 e d8 fis16 e d8 fis16 e %60
+		d8 d'16 cis d8 d d d
+		\kneeBeam a, e''16 d e8 e e e
+		h, d'16 cis d8 d d d
+		fis, d'16 cis d8 d d d
+		g, <d' e> q q q q %65
+		gis, <d' e> q q q q
+		e e e e fis fis
+		e e e e e e
+		d fis,16 e d8 fis16 e d4
+		r8 d'16 cis d8 d d d %70
+		r g, h d g h
+		r e,16 dis e8 e e e
+		r a, cis e a cis
+		d d, d d d d
+		d d d d d d %75
+		cis cis cis cis cis cis
+		d fis,16 e d8 fis16 e d8 fis16 e
+		d8 fis'16 e fis8 fis fis fis
+		r fis16 e fis8 fis fis fis
+		r fis16 e fis8 fis fis fis %80
+		r fis16 e fis8 fis fis fis
+		r e16 dis e8 e e e
+		r e16 dis e8 e e e
+		e e e e fis fis
+		e e e e e e %85
+		d fis,16 e d8 fis16 e d8 fis16 e
+		d8 d'16 e fis8 fis fis fis
+		fis a,16 g fis8 a16 g fis8 a16 g
+		fis8 fis'16 g a8 a a a
+		d a a fis fis d %90
+		d a a fis fis d
+		d4 <d a' fis'> q
+		q2.\fermata \bar "||"
+		\time 4/4 \tempoEtInTerra fis4 r r16 r32 h, d16. fis32 h16. d32 h'16. d,32
+		cis4 r4 r16 r32 fis, ais16. cis32 e16. g32 fis16. e32 %95
+		dis4 r r16 r32 h dis16. h32 fis'16. fis32 a!16. fis32
+		g4 r r16 r32 e, g16. h32 e16. g32 e16. d32
+		cis16. a32 cis16. e32 a16. cis32 e,16. g32 fis16. d,32 fis16. a32 d16. a32 d16. fis32
+		e16. a32 e16. cis32 a16. e32 cis16. e32 a,2\fermata
+		<d a' fis'>4 r r16 r32 d fis16. a32 c16. c32 a'16. c,32 %100
+		h16. d,32 g16. h32 d16. h32 g'16. h,32 a16. d,32 fis16. a32 d16. fis32 a16. c,32
+		c16. c32 a'16. c,32 c16. c32 a'16. c,32 h16. e,32 g16. h32 e16. h32 g16. e32
+		gis16. e32 gis16. h32 e16. h32 gis16. e32 a16. e32 a16.  cis32 e16. cis32 a16. e32
+		e'16. e32 e16. e32 e16. e32 e16. e32 dis16. h32 dis16. fis32 h16. fis32 dis16. h32
+		g'16. e,32 g16. h32 e16. h32 g16. e32 e'16. e,32 g16. c32 e16. c32 g16. e32 %105
+		cis'16. e32 cis16. ais32 g16. e32 cis16. ais32 \kneeBeam h16. h''32 fis16. dis32 h16. fis32 dis16. fis32
+		h,8 fis' fis fis fis2\fermata \bar "||" %107 finis
 	}
 }
 

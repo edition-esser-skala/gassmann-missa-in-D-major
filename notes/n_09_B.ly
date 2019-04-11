@@ -441,7 +441,7 @@ GloriaBassoLyrics = \lyricmode {
 	De -- o,
 	glo --
 	_
-	_
+	_ %80
 	_
 	_
 	_

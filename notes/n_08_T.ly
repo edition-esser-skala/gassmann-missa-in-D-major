@@ -920,7 +920,7 @@ GloriaTenoreINotes = {
 		h2 h4
 		a2 r4
 		R2.*10 %42
-		e'2.
+		\mvTr e'2.\pE^\soloE
 		fis
 		e4. fis8 e4 %45
 		d4.( fis8) e([ d)]
@@ -930,7 +930,7 @@ GloriaTenoreINotes = {
 		d( cis) h %50
 		d2 cis4
 		\appoggiatura cis h2.
-		h4(\pE cis) d
+		h4(^\tuttiE cis) d
 		d( cis) cis^\critnote
 		h( cis) d %55
 		cis4.\fE cis8 cis4
@@ -1098,7 +1098,7 @@ GloriaTenoreIINotes = {
 		gis2) gis4
 		a2 r4
 		R2.*10 %42
-		cis2.
+		\mvTr cis2.\pE^\soloE
 		d
 		cis4. d8 cis4 %45
 		h4.( d8) cis([ h)]
@@ -1108,7 +1108,7 @@ GloriaTenoreIINotes = {
 		h( a) gis %50
 		h2 a4
 		\appoggiatura a gis2.
-		gis?4(\pE a) h
+		gis?4(^\tuttiE a) h
 		h( a) a
 		gis( a) h %55
 		a4.\fE a8 a4
