@@ -198,6 +198,7 @@ tempoKyrieII = \tempoMarkup "[Tempo deest]"
 
 tempoGloria = \tempoMarkup "[Tempo deest]"
 tempoEtInTerra = \tempoMarkup "Adagio"
+tempoLaudamus = \tempoMarkup "Andante"
 
 
 

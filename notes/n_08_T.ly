@@ -1246,6 +1246,42 @@ GloriaTenoreIILyrics = \lyricmode {
 	pax. %107 finis
 }
 
+LaudamusTenoreINotes = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 2/4 \autoBeamOff \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		
+	}
+}
+
+LaudamusTenoreILyrics = \lyricmode {
+	
+}
+
+LaudamusTenoreIINotes = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 2/4 \autoBeamOff \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		
+	}
+}
+
+LaudamusTenoreIILyrics = \lyricmode {
+	
+}
+
 % TenoreINotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

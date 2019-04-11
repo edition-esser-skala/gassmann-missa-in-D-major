@@ -436,6 +436,20 @@ GloriaViolinoI = {
 	}
 }
 
+LaudamusViolinoI = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/4 \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

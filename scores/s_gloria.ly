@@ -18,6 +18,63 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\partTitle "2" "G L O R I A"
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.1 GLORIA"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex D]" } }
+% 						\partcombine \GloriaCornoI \GloriaCornoII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GloriaViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\GloriaViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore I"
+% 						\new Voice = "TenoreI" { \dynamicUp \GloriaTenoreINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreI \GloriaTenoreILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore II"
+% 						\new Voice = "TenoreII" { \dynamicUp \GloriaTenoreIINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreII \GloriaTenoreIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\GloriaOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\GloriaBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
 			movement = "2.1 GLORIA"
@@ -25,54 +82,42 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex D]" } }
-						\partcombine \GloriaCornoI \GloriaCornoII
-					>>
-				>>
-				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GloriaViolinoI
+							\LaudamusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GloriaViolinoII
+							\LaudamusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \GloriaTenoreINotes }
+						\set Staff.instrumentName = "[Tenore I]"
+						\new Voice = "TenoreI" { \dynamicUp \LaudamusTenoreINotes }
 					}
-					\new Lyrics \lyricsto TenoreI \GloriaTenoreILyrics
+					\new Lyrics \lyricsto TenoreI \LaudamusTenoreILyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \GloriaTenoreIINotes }
+						\new Voice = "TenoreII" { \dynamicUp \LaudamusTenoreIINotes }
 					}
-					\new Lyrics \lyricsto TenoreII \GloriaTenoreIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+					\new Lyrics \lyricsto TenoreII \LaudamusTenoreIILyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\GloriaOrgano
+						\LaudamusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GloriaBassFigures
+					\LaudamusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

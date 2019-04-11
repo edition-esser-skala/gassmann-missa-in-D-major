@@ -435,3 +435,17 @@ GloriaViolinoII = {
 		h,8 dis dis dis dis2\fermata \bar "||" %107 finis
 	}
 }
+
+LaudamusViolinoII = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/4 \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		
+	}
+}
