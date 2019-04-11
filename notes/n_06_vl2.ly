@@ -388,7 +388,7 @@ GloriaViolinoII = {
 		fis\f fis,16 e d8 fis16 e d8 fis16 e %60
 		d8 d'16 cis d8 d d d
 		a, cis'16 h cis8 cis cis cis
-		h, h'16 ais? h8 h h h
+		h, h'16 a h8 h h h
 		fis a a a a a
 		h h h h h h %65
 		h h h h h h
