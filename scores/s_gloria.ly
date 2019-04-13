@@ -95,7 +95,7 @@
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "[Tenore I]"
+						\set Staff.instrumentName = "Tenore I"
 						\new Voice = "TenoreI" { \dynamicUp \LaudamusTenoreINotes }
 					}
 					\new Lyrics \lyricsto TenoreI \LaudamusTenoreILyrics

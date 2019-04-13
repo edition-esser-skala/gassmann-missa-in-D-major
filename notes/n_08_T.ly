@@ -1256,12 +1256,73 @@ LaudamusTenoreINotes = {
 		\clef "treble_8"
 		\key g \major \time 2/4 \autoBeamOff \tempoLaudamus
 			\set Score.currentBarNumber = #108
-		
+		\partial 8 r8^\critnote R2*28 %135
+		r4 r8 \mvTr g\pE^\soloE
+		d'4( c32[ h16.]) a32([ g16.)]
+		g4 g8 gis
+		a4 c8 h16([ a)]
+		h4 d8 dis %140
+		e4 g
+		\appoggiatura g8 fis4 r8 e16([ cis)]
+		d4. c16([ a)]^\critnote
+		\appoggiatura c8 h4. g8
+		\tuplet 3/2 8 { fis16[ e d] } h'8 \tuplet 3/2 8 { a16[ g fis] } c'8 %145
+		c([ h)] r e16([ cis)]
+		d4. c16([ a)]
+		h4. g8
+		\tuplet 3/2 8 { fis16[ e d] } h'8 \tuplet 3/2 8 { a16[ g fis] } c'8
+		h([ a)] r d16 d %150
+		\tuplet 3/2 8 { cis[( h a]) } a8 r16 d d d
+		\tuplet 3/2 8 { cis[( h a]) } a8 r \tuplet 3/2 8 { h16([ a g)] }
+		fis([ g)] fis([ e)] d8 e
+		d4 a'8 a
+		h4 d8 d %155
+		\appoggiatura d cis4 a8 a
+		h4 d
+		\appoggiatura d8 cis4 r16 a a a
+		h8.([ a32 g] fis8) e
+		d e'16([ cis)] d4~ %160
+		d8 e16([ cis)] d4~
+		d8 e16([ cis)] d4
+		r16 h a g fis8 e
+		d4 r
+		R2*39 %203
+		R2\fermataMarkup %204
+		R2*15 %219
+		R2\fermataMarkup \bar "||" %220 finis
 	}
 }
 
 LaudamusTenoreILyrics = \lyricmode {
-	
+	Lau -- %136
+	da -- mus
+	te, be -- ne --
+	di -- ci -- mus
+	te, ad -- o -- %140
+	ra -- mus
+	te, glo --
+	ri -- fi --
+	ca -- _
+	_ _ _ mus %145
+	te, glo --
+	ri -- fi --
+	ca -- _
+	_ _ _ mus
+	te, ad -- o -- %150
+	ra -- mus, glo -- ri -- fi --
+	ca -- mus, glo --
+	ri -- fi -- ca -- mus
+	te, be -- ne --
+	di -- ci -- mus %155
+	te, ad -- o --
+	ra -- mus
+	te, glo -- ri -- fi --
+	ca -- mus
+	te, glo -- ri -- %160
+	fi -- ca --
+	mus te,
+	glo -- ri -- fi -- ca -- mus
+	te. %164 finis
 }
 
 LaudamusTenoreIINotes = {
@@ -1274,12 +1335,85 @@ LaudamusTenoreIINotes = {
 		\clef "treble_8"
 		\key g \major \time 2/4 \autoBeamOff \tempoLaudamus
 			\set Score.currentBarNumber = #108
-		
+		\partial 8 r8 R2*62 %169
+		r4 r8 \mvTr d,\pE^\soloE %170
+		a'4( g32[ fis16.)] e32([ d16.)]
+		h'4 d8 d
+		cis8. h16 a8 r
+		g8.([ fis32 g)] a8 g
+		fis16([ e)] d8 r g %175
+		d'4( c32[ h16.)] a32([ g16.)]
+		g4 g8 gis
+		a4 c8 h16([ a)]
+		h4 d8 dis
+		e4 g8 g %180
+		fis4 d8 d
+		e4 g
+		\appoggiatura g8 fis4 r8 e16([ cis)]
+		d4. c16[( a)]
+		h4. g8 %185
+		\tuplet 3/2 8 { fis16[ e d] } h'8 \tuplet 3/2 8 { a16[ g fis] } c'8
+		h([ a)] r4
+		r8 g d' f
+		f?([ e)] g, g
+		g([ h)] d f %190
+		f?([ e)] a, a
+		a([ cis)] e([ g)]
+		fis! a, a a
+		a([ cis)] e([ g)]
+		fis4 r8 g16 g %195
+		fis([ e)] d8 r16 g g g
+		\tuplet 3/2 8 { fis16([ e d)] } d8 r \tuplet 3/2 8 { e16([ d c)] }
+		h8 \tuplet 3/2 8 { c16([ h a)] } g8 fis
+		g a'16([ fis)] g4~
+		g8 a16([ fis)] g4~ %200
+		g8 a16([ fis)] g4
+		r16 e d c h8 a
+		g g g g
+		g4 a\fermata
+		g r %205
+		R2*14 %219
+		R2\fermataMarkup \bar "||" %220 finis
 	}
 }
 
 LaudamusTenoreIILyrics = \lyricmode {
-	
+	Lau -- %170
+	da -- mus
+	te, be -- ne --
+	di -- ci -- mus
+	te, __ ad -- o --
+	ra -- mus, lau -- %175
+	da -- mus
+	te, be -- ne --
+	di -- ci -- mus
+	te, be -- ne --
+	di -- ci -- mus %180
+	te, ad -- o --
+	ra -- mus,
+	te, glo --
+	ri -- fi --
+	ca -- _ %185
+	_ _ _ mus
+	te,
+	lau -- da -- mus
+	te, be -- ne --
+	di -- ci -- mus %190
+	te, ad -- o --
+	ra -- mus,
+	te, glo -- ri -- fi --
+	ca -- mus
+	te, [ad -- o -- %195
+	ra -- mus, glo -- ri -- fi --
+	ca -- mus,] glo --
+	ri -- fi -- ca -- mus
+	te, glo -- ri --
+	fi -- ca -- %200
+	mus te,
+	glo -- ri -- fi -- ca -- mus
+	te, glo -- ri -- fi --
+	ca -- mus
+	te. %205 finis
 }
 
 % TenoreINotes = {

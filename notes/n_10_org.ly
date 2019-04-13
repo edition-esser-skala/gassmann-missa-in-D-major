@@ -963,7 +963,7 @@ LaudamusOrgano = {
 		g c h g
 		c a d d,
 		g e d cis
-		d4 d,
+		d4 d,\fermata
 		g8 g' g, r %205
 		g'\fE fis e g
 		fis e d16 e fis g
