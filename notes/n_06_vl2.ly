@@ -553,7 +553,7 @@ LaudamusViolinoII = {
 		a4. a16 fis
 		g d' h8 r h16 g
 		a4. a16 fis
-		g8 d'16 h r8 h16 g %215
+		g16^\critnote d' h8 r h16 g %215
 		a4-\critnote g8 fis
 		g es d c
 		h es d c

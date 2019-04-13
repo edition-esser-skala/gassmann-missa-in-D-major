@@ -467,7 +467,7 @@ LaudamusViolinoI = {
 		c!4. c16 a
 		h4. g'8
 		\tuplet 3/2 8 { fis16 e d } d8 \tuplet 3/2 8 { c16 h a } a8
-		h h'16 g r8 d16 h
+		h16^\critnote h' g8 r d16 h
 		\appoggiatura h8 c4. c16 a %130
 		h4. g'8
 		\tuplet 3/2 8 { e16 d c h[ a g] } d8 a'

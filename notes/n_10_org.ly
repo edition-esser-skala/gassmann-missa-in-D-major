@@ -979,7 +979,7 @@ LaudamusOrgano = {
 		g c h a
 		g c h a
 		g c d d,
-		g d g,4 \bar "||" %220 finis
+		g d g,4\fermata \bar "||" %220 finis
 	}
 }
 

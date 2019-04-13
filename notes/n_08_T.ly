@@ -1256,7 +1256,7 @@ LaudamusTenoreINotes = {
 		\clef "treble_8"
 		\key g \major \time 2/4 \autoBeamOff \tempoLaudamus
 			\set Score.currentBarNumber = #108
-		\partial 8 r8^\critnote R2*28 %135
+		\partial 8 r8 R2*28 %135
 		r4 r8 \mvTr g\pE^\soloE
 		d'4( c32[ h16.]) a32([ g16.)]
 		g4 g8 gis
@@ -1304,11 +1304,11 @@ LaudamusTenoreILyrics = \lyricmode {
 	ri -- fi --
 	ca -- _
 	_ _ mus %145
-	te, glo --
+	te, __ glo --
 	ri -- fi --
 	ca -- _
 	_ _ mus
-	te, ad -- o -- %150
+	te, __ ad -- o -- %150
 	ra -- mus, glo -- ri -- fi --
 	ca -- mus, glo --
 	ri -- fi -- ca -- mus
@@ -1395,12 +1395,12 @@ LaudamusTenoreIILyrics = \lyricmode {
 	ri -- fi --
 	ca -- _ %185
 	_ _ mus
-	te,
+	te, __
 	lau -- da -- mus
-	te, be -- ne --
+	te, __ be -- ne --
 	di -- ci -- mus %190
-	te, ad -- o --
-	ra -- mus,
+	te, __ ad -- o --
+	ra -- mus
 	te, glo -- ri -- fi --
 	ca -- mus
 	te, [ad -- o -- %195

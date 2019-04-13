@@ -79,6 +79,7 @@
 		\header {
 			movement = "2.1 GLORIA"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -117,7 +118,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 72 }
 		}
 	}
 }
