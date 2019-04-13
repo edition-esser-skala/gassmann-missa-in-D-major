@@ -1105,11 +1105,175 @@ GratiasOrgano = {
 		\key c \major \time 2/2 \tempoGratias
 			\set Score.currentBarNumber = #221
 		\mvTr c2\fE-\tuttiE c
+		g' g
+		g a4 h
+		c2 c,
+		c' h %225
+		a fis
+		h e,4 e
+		h1
+		e
+		e2. d4 %230
+		c2 a
+		d2. c4
+		h2 g
+		c h4 c
+		d1 %235
+		g,2 g'
+		d d
+		e fis
+		g4 g, g'2~
+		g4 gis a2~ %240
+		a4 ais h2~
+		h4 h c2~
+		c cis
+		d4 d, e fis
+		g h, c c %245
+		d d d, d
+		g d' h a
+		g2.-\critnote g4
+		d'1
+		d2 e4 fis %250
+		g2 g
+		g g
+		f! f
+		e2. e4
+		e1 %255
+		a2 a
+		g g
+		fis2. fis4
+		g1
+		d %260
+		d
+		g2. g4
+		g1
+		es
+		es?2 es %265
+		d1
+		d
+		g2 g
+		es c
+		f b,4 b %270
+		f'1
+		b,?
+		b'?2. a4
+		g2 g
+		a2. a4 %275
+		a1
+		d,2. c4
+		h!2 h
+		c2. c4
+		c1 %280
+		d2 f
+		g f
+		e2. c4-\critnote
+		f2 e
+		d2. h4 %285
+		e2 d
+		c2.-\critnote a4
+		d2 c
+		h g
+		c1 %290
+		d2 e4 f
+		g1
+		c,
+		e4 e e e
+		f f f f %295
+		fis fis fis fis
+		g g g g
+		c2 h
+		a g
+		f e4 f %300
+		\once \tieDashed g1~
+		g
+		c,\fermata \bar "||" %303 finis
 	}
 }
 
 GratiasBassFigures = \figuremode {
-	
+	r1 %221
+	r
+	<7>
+	r
+	r2 <2> %225
+	<[6\\]> <[5]>
+	<[5+] _+>1
+	<[5+] 4>2 <\l _+>
+	r1
+	<_+>2. <[4\+] 2>4 %230
+	<[6]>1
+	<_+>
+	<[6]>
+	r2 <6>4 <6 5>
+	<4>2 <_+> %235
+	r1
+	<6 4>2 <5 _+>4 <6 4>
+	<6>2 q
+	r1
+	r %240
+	r
+	r
+	r
+	<[_+]>2. <[6 5]>4
+	r <[6]>2. %245
+	<[4]>2 <[_+]>
+	r1
+	r
+	<_+>
+	<[_+]>2 <[6]>4 <[6 5]> %250
+	r1
+	r
+	<6>
+	<_+>
+	<[\t]> %255
+	r
+	<[2]>
+	<[6]>
+	r
+	r %260
+	r
+	<_->
+	<[\t]>
+	<7>
+	<6> %265
+	<_+>
+	<[\t]>
+	<_->
+	<6>2 <[_-]>
+	r1 %270
+	<[4-]>2 <3>
+	r1
+	r2. <[2]>4
+	<[_-]>1
+	<_+> %275
+	<[\t]>
+	r2. <[2]>4
+	<[6 5]>1
+	r
+	r %280
+	r2 <[6]>
+	r <[2]>
+	<6>1
+	r2 <[2]>
+	<6>1 %285
+	<[_+]>2 <[4\+]>
+	<6>1
+	<[_+]>2 <[4\+]>
+	<6>1
+	r %290
+	r2 <[6]>
+	<[4]> <[3]>
+	r1
+	<6>
+	r %295
+	<[6]>
+	r
+	r2 <[2]>
+	r <[6 4]>
+	<[6]> q4 q %300
+	<[4]>2 <[3]>4 <[2]>
+	<[3]>1
+	r1 %303 finis
 }
 
 % Organo = {
