@@ -867,12 +867,177 @@ LaudamusOrgano = {
 		\clef bass
 		\key g \major \time 2/4 \tempoLaudamus
 			\set Score.currentBarNumber = #108
-		\partial 8 r8 \mvTr g'\pE-\soloE g g g
+		\partial 8 r8-\critnote \mvTr g'\fE-\soloE g g g
+		h h h h
+		c c a d %110
+		g, g g h
+		c c cis cis
+		d d, fis g
+		fis d e fis
+		g g,16 a h8 cis %115
+		d4 d
+		g8 g, g r
+		g' fis e r
+		fis e d d
+		a'4 a, %120
+		d8 e fis g
+		a4 a,
+		r8 d fis d
+		g e a a,
+		d d' d, r %125
+		d d d d
+		g g, h g
+		d'4 d
+		g,8 g' g, r
+		d' d d d %130
+		r g g, h
+		c a d d,
+		g' c h a
+		g c h g
+		c r d d, %135
+		g g, r4
+		g'8\pE g g g
+		h h h h
+		c c a d,
+		g g h h %140
+		c c, cis cis
+		d d fis g
+		fis d e fis
+		g g, h cis
+		d4 d %145
+		g8 g, g' r
+		fis d e fis
+		g g, h cis
+		d4 d
+		r8 d fis d %150
+		a' a, fis' d
+		a' a, cis cis
+		d g a a,
+		d d fis fis
+		g g gis gis %155
+		a a fis d
+		g g gis gis
+		a a fis fis
+		g e a a,
+		d g fis e %160
+		d g fis e
+		d g fis e
+		g r a a,
+		d a d, d'\fE
+		cis a h cis %165
+		d e fis gis
+		a a, h cis
+		d d fis fis
+		g e a a,
+		d a d,4 %170
+		d'8\pE d d fis
+		g g gis gis
+		a4 a,8 h
+		cis cis cis cis
+		d d d16 c h a %175
+		g8 g g g
+		h h h h
+		c a d d,
+		g g h h
+		c c cis cis %180
+		d^\critnote d' h g
+		c, c cis cis
+		d d16 e fis8 g
+		fis d e fis
+		g g, h cis %185
+		d4 d
+		d8 d d d
+		h h h h
+		c c c c
+		h h h h %190
+		c c c c
+		cis cis cis cis
+		d d d d
+		cis cis cis cis
+		d d h g %195
+		d' d h g
+		d' d h c!
+		g' e d d,
+		g' c h a
+		g c h a %200
+		g c h g
+		c a d d,
+		g e d cis
+		d4 d,
+		g8 g' g, r %205
+		g'\fE fis e g
+		fis e d16 e fis g
+		a4 a,
+		d8 d, r4
+		d'8 g a a, %210
+		d d' d, r
+		d d d d
+		g g h g
+		d' d d, d
+		g g h g %215
+		c c d d,
+		g c h a
+		g c h a
+		g c d d,
+		g d g,4 \bar "||" %220 finis
 	}
 }
 
 LaudamusBassFigures = \figuremode {
-	
+	r8 r2 %108
+	r
+	r %110
+	r
+	r
+	r
+	r
+	r %115
+	r
+	r
+	r
+	r
+	r %120
+	r
+	r
+	r
+	r
+	r %125
+	r
+	r
+	r
+	r
+	r %130
+	r
+	r
+	r
+	r
+	r %135
+	r
+	r
+	r
+	r
+	r %140
+	r
+	r4. <_->8
+	r2
+	r
+	r %145
+	r
+	r
+	r
+	r
+	r %150
+	r
+	r
+	r
+	r
+	r %155
+	r
+	r
+	r4 <6>
+	r2
+	r %160
+	r8 <_->4.
 }
 
 % Organo = {
