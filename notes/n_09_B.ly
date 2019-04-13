@@ -465,6 +465,19 @@ GloriaBassoLyrics = \lyricmode {
 	pax. %107 finis
 }
 
+GratiasBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \autoBeamOff \tempoGratias
+			\set Score.currentBarNumber = #221
+		
+	}
+}
+
+GratiasBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

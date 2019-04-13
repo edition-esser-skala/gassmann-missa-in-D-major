@@ -562,6 +562,15 @@ LaudamusViolinoI = {
 	}
 }
 
+GratiasViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoGratias
+			\set Score.currentBarNumber = #221
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -1099,6 +1099,19 @@ LaudamusBassFigures = \figuremode {
 	r2 %220 finis
 }
 
+GratiasOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \tempoGratias
+			\set Score.currentBarNumber = #221
+		\mvTr c2\fE-\tuttiE c
+	}
+}
+
+GratiasBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -1416,6 +1416,32 @@ LaudamusTenoreIILyrics = \lyricmode {
 	te. %205 finis
 }
 
+GratiasTenoreINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 2/2 \autoBeamOff \tempoGratias
+			\set Score.currentBarNumber = #221
+		
+	}
+}
+
+GratiasTenoreILyrics = \lyricmode {
+	
+}
+
+GratiasTenoreIINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 2/2 \autoBeamOff \tempoGratias
+			\set Score.currentBarNumber = #221
+		
+	}
+}
+
+GratiasTenoreIILyrics = \lyricmode {
+	
+}
+
 % TenoreINotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
