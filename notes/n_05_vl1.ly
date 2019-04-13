@@ -502,7 +502,7 @@ LaudamusViolinoI = {
 		d8 e16 cis d4~
 		d8 e16 cis d4
 		h16 g' fis e d8 cis
-		d4 r8 h'16 gis
+		d4 r8 h'16\fE gis
 		a4. g16 e %165
 		fis4. fis8
 		e d cis h

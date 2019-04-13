@@ -446,6 +446,118 @@ LaudamusViolinoII = {
 		\clef treble
 		\key g \major \time 2/4 \tempoLaudamus
 			\set Score.currentBarNumber = #108
-		
+		\partial 8 r8 h'\fE h d, d
+		d d d d
+		e4 fis16 a g fis %110
+		g a h8 h dis
+		e e e e
+		a, fis16-\critnote g a8 b
+		a fis g a
+		g4. e8 %115
+		d g \tuplet 3/2 8 { fis16 e d } a'8
+		\once \slurDashed a( g) r4
+		h8 a g g16 e
+		a8 g fis fis
+		\tuplet 3/2 8 { e16 d cis } cis8 \tuplet 3/2 8 { e16 d cis } cis8 %120
+		fis g a h
+		e, cis cis cis
+		cis? d r fis
+		g h16 g fis8 e
+		fis d r h'16 g %125
+		a4. a16 fis
+		g4. h8
+		\tuplet 3/2 8 { a16 g fis } fis8 fis fis
+		g16 d' h8 r8 h16 g
+		\appoggiatura g8 a4. a16 fis %130
+		g4 h8 d
+		g, g4 fis8
+		g e d c
+		h e d d'
+		r \tuplet 3/2 8 { c16 h a } g8 fis %135
+		g g, r g'\pE
+		h h d, d
+		d d d d
+		e e a g16 fis
+		g a h8 g4 %140
+		g8 g e' e
+		a, a a b
+		a fis g a
+		d, d d e
+		\tuplet 3/2 8 { fis16 e d } g8 \tuplet 3/2 8 { fis16 e d } a'8 %145
+		a g r4
+		a8 fis g a
+		d, d d e-\critnote
+		\tuplet 3/2 8 { fis16 e d } g8 \tuplet 3/2 8 { fis16 e d } a'8
+		g fis r fis16 fis %150
+		e8 e a fis
+		e e a16 g' fis e
+		d h a g fis8 e
+		d4 d8 d
+		d d'4 h8 %155
+		e, e a fis
+		d d' d h
+		e, e a fis
+		g16 h a g fis8 e
+		d b' a g %160
+		fis b a g
+		fis b a g
+		g16 h a g fis8 e
+		d4 r
+		e'8\fE cis d e %165
+		d4. d8
+		cis h a g
+		fis16 fis' e d cis d a c
+		g8 \tuplet 3/2 8 { h16 a g } fis8 cis'
+		d a d, d\pE %170
+		fis fis fis fis
+		g4 h
+		e,8 d cis d
+		e e e e
+		d4 d16 e d c! %175
+		h8 h d d
+		d d d d
+		e-\critnote a4 g16 fis
+		g8 g4 r8
+		g4 e'8 e %180
+		a, a g h
+		c c e e
+		a, fis16 g a8 b
+		a fis g a
+		g4. e8 %185
+		d g fis a
+		g fis fis fis
+		d d' f d
+		d c16 e e c g8
+		g16 h h d d f f d %190
+		d8 c a a
+		<< { a a a a } \\ { e e e e } >>
+		a a a a
+		a a a a
+		a a d h %195
+		a a d d16 h
+		a8 a d16 c h a
+		g e d c h8 a
+		h es d c
+		h es d c %200
+		h es d h
+		r16 c' h a g8 fis
+		g g\f g g
+		g r r4\fermata
+		R2 %205
+		h8 a g h
+		a g fis16 g a h
+		a8 e \tuplet 3/2 8 { e16 d cis } cis8
+		d16 fis' d8 r16 g fis e
+		d h a g fis8 e %210
+		fis4 r8 h16 g
+		a4. a16 fis
+		g d' h8 r h16 g
+		a4. a16 fis
+		g8 d'16 h r8 h16 g %215
+		a4-\critnote g8 fis
+		g es d c
+		h es d c
+		h g'4 fis8
+		g d g,4\fermata \bar "||" %220 finis
 	}
 }
