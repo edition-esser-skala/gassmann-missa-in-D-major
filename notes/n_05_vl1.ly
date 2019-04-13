@@ -446,7 +446,119 @@ LaudamusViolinoI = {
 		\clef treble
 		\key g \major \time 2/4 \tempoLaudamus
 			\set Score.currentBarNumber = #108
-		
+		\partial 8 g'8\fE d'4 c16 h a g
+		g8 g g gis
+		a4 c8 h16 a %110
+		h c d8 d dis
+		e4 g
+		fis16 e d8 r e16( cis)
+		d4. c16( a)
+		h4. g8 %115
+		\tuplet 3/2 8 { fis16 e d } h'8 \tuplet 3/2 8 { a16 g fis } c'8
+		c( h) r g'16( dis)
+		e4. e16( cis)
+		d4. d8
+		\tuplet 3/2 8 { cis16 h a } a8 \tuplet 3/2 8 { g16 fis e } e8 %120
+		fis16 d' cis d cis d cis d
+		\tuplet 3/2 8 { cis16 h a } a8 \tuplet 3/2 8 { g16 fis e } e8
+		e8 fis r a
+		h16 g g' e d8 cis
+		d d, r d'16 h %125
+		c!4. c16 a
+		h4. g'8
+		\tuplet 3/2 8 { fis16 e d } d8 \tuplet 3/2 8 { c16 h a } a8
+		h h'16 g r8 d16 h
+		\appoggiatura h8 c4. c16 a %130
+		h4. g'8
+		\tuplet 3/2 8 { e16 d c h[ a g] } d8 a'
+		g a'16 fis g4~
+		g8 a16 fis g4~
+		g8 \tuplet 3/2 8 { e16 d c } h8 a %135
+		g g, r g'\p
+		d'4 c32 h16. a32 g16.
+		g8 g g gis
+		a4 c8 h16 a
+		h c d8 d dis %140
+		e4 g
+		\appoggiatura g8 fis4^\critnote r8 e16 cis
+		d4. c16 a
+		\appoggiatura c8 h4.^\critnote g8
+		\tuplet 3/2 8 { fis16 e d } h'8 \tuplet 3/2 8 { a16 g fis } c'8 %145
+		c h r e16 cis
+		d4. c16 a
+		h4. g8
+		\tuplet 3/2 8 { fis16 e d } h'8 \tuplet 3/2 8 { a16 g fis } c'8
+		h a r d16 d %150
+		cis8 cis16 a' d,8 d16 d
+		cis8 cis16 a' e h' a g
+		fis g fis e d8 cis
+		d4 a8 a
+		h^\critnote h'4 d,8 %155
+		\appoggiatura d8 cis4 a8 a
+		h h'4 d,8
+		\appoggiatura d cis4 r16 a a a
+		h g' fis e d8 cis
+		d e16 cis d4~ %160
+		d8 e16 cis d4~
+		d8 e16 cis d4
+		h16 g' fis e d8 cis
+		d4 r8 h'16 gis
+		a4. g16 e %165
+		fis4. fis8
+		e d cis h
+		a16^\critnote fis' e d cis d a c
+		\tuplet 3/2 8 { h[ a g] g' fis e } d8 e
+		d a d, d\pE %170
+		a' a a a
+		h4 d
+		cis8. h16 a8 r
+		g'8.( fis32 g) a8 g
+		fis16 e d8 r g, %175
+		d'4 c!32 h16. a32 g16.
+		g4 g8 gis
+		a4 c8 h16 a
+		h4 d8 dis
+		e4 g8 g %180
+		fis4 d8 d
+		e4 g
+		fis r8 e16( cis)
+		d4. c16 a
+		h4. g8 %185
+		\tuplet 3/2 8 { fis16 e d } h'8 \tuplet 3/2 8 { a16 g fis } c'8
+		h a a a
+		g f' d' f,
+		f e16 g g e c g
+		g d' d f f d' d f, %190
+		f8 e a, a
+		a g' g g
+		fis! fis fis fis
+		e e e g
+		fis4 r8 g16 g %195
+		fis d fis a g g h g
+		fis d fis a g e d c
+		h c h a g8 fis
+		g a'16 fis g4~
+		g8 a16 fis \once \tieDashed g4~ %200
+		g8 a16 fis g4
+		r16 e d c h8 a
+		g h\f h h
+		h^\critnote r r4\fermata
+		r r8 g'16 dis %205
+		e4. e16 cis
+		d4. d8
+		\tuplet 3/2 8 { cis16 h a } a8 \tuplet 3/2 8 { g16 fis e } e8
+		fis16 a' fis8 r16 h a g
+		fis g fis e d8 cis %210
+		d4 r8 d16 h
+		c!4. c16 a
+		h h' g8 r d16 h
+		c4. c16 a
+		h h' g8 r d %215
+		e16 g a, c h8 a
+		g a'16 fis g4~
+		g8 a16 fis g4~
+		g16 e d c h8 a
+		g d g,4\fermata \bar "||" %220 finis
 	}
 }
 
