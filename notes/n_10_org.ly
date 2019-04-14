@@ -1641,11 +1641,135 @@ QuiTollisOrgano = {
 		\key d \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #478
 		\mvTr d8\fE-\tuttiE r r4 d8 r r4
+		cis8 r r4 d8 r r4
+		g8 r r4 e8 r r4 %480
+		f8 r r4 c8 r r4
+		f8 r r4 f8 r r4
+		fis8 r r4 g8 r r4
+		gis8 r r4 a8 r r4
+		a8 r r4 d,8 r r4 %485
+		b'8 r r4 gis8 r r4
+		a8 r r4 a,8 r r4
+		d8 r r4 d2
+		\mvTr d8\p-\vlc r r4 a8 r r4
+		cis8 r r4 d8 r r4 %490
+		g,8 r r4 fis'8 r r4
+		g8 r r4 cis,8 r cis4
+		d1\fermata
+		g4 r es r
+		e r f r %495
+		f r f r
+		b r f f,
+		\mvTr b8\fE-\tutti r r4 f'8 r r4
+		a,8 r r4 as8 r r4
+		g8 r r4 fis8 r r4 %500
+		g8 r r4 g2
+		\mvTr c8\pE-\vlc r r4 f8 r r4
+		e!8 r r4 f8 r r4
+		b,8 r r4 a!8 r r4
+		b8 r r4 as8 r r4 %505
+		g8 r r4 c8 r r4
+		fis,8 r r4 g2\fermata
+		c4 r b r
+		a! r b r
+		g r g' f %510
+		e!2 d
+		g8 r r4 d8 r r4
+		g8 r es r r cis cis cis \noBreak
+		d1\fermata \bar "||"
+		\time 3/4 \tempoQuiSedes
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
+		r r \mvTr g\fE-\tuttiE \noBreak %515
+		g fis e
+		d4. e8 fis4
+		g d d
+		g2.
+		g %520
+		g
+		g2 g4
+		c c c
+		a2 f4
+		b2 b4 %525
+		g2 es4
+		a2 a4
+		fis2 d4
+		g2 r4
+		g2 g,4 %530
+		d'2 d4
+		d2 d,4
+		d'2.
+		d \noBreak
+		g,\fermata \bar "||" %535
+		\time 4/4 \tempoMiserere e'8 r r4 e8 r r4 \noBreak
+		e8 r r4 d8 r d r
+		d r d r cis r cis r
+		d2 d,\fermata \bar "||" %539 finis
 	}
 }
 
 QuiTollisBassFigures = \figuremode {
-	
+	r2 <6 4> %478
+	<7>1
+	r2 <7> %480
+	r1
+	r
+	<7->
+	<7>2 <_+>
+	<[\t]>1 %485
+	r2 <7>
+	<[6 4]> <[5 _+]>
+	r1
+	r2 <[_+]>
+	<7> <_+> %490
+	r <7->
+	r <7>
+	<6 4> <[5 _+]>
+	r1
+	r %495
+	r
+	<_->
+	<_->
+	<7->2 <4 2>
+	<_!> <7-> %500
+	<6 4> <[5 _!]>
+	r1
+	<7->2 <_!>
+	<_-> <7->
+	<_!> <4 2> %505
+	<_!> <[_-]>
+	<[7-]> <[_!]>
+	r <4! 2>
+	<6>1
+	<6>2 <4+ _->4 <6> %510
+	<7> <6> <_+>2
+	r <_+>
+	r r8 <7->4.
+	<6 4>4 <5 _+>8 <4 2> <5 _+>2
+	r4 r2. %515
+	r4 <6> <7>
+	<_+>2 <6>4
+	r2.
+	<[5] _!>2 <6- 4>4
+	<[6- 4]> <5 _!> <4 2> %520
+	<_! [1]> <4 2> <5 _!>
+	<6- 4> <5 _!>2
+	<_->2.
+	<6 5>
+	r %525
+	<6 5>
+	r
+	<[6 5]>
+	r
+	r %530
+	<[5 _+]>2 <[6 4]>4
+	<[7 _+]>2.
+	<6 4>
+	<5 4>4 <\l _+>2
+	r2. %535
+	r1
+	<6>2 <7 _+>4 <6 4>
+	<_+>2 <7>
+	<6 4>4 <5 _+>8 <4 2> <5 _+>2 %539 finis
 }
 
 % Organo = {

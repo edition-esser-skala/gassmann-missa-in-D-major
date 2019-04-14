@@ -202,6 +202,8 @@ tempoLaudamus = \tempoMarkup "Andante"
 tempoGratias = \tempoMarkup "[Tempo deest]"
 tempoDomineDeus = \tempoMarkup "[Tempo deest]"
 tempoQuiTollis = \tempoMarkup "Lento"
+	tempoQuiSedes = \tempoMarkup "Scherzetto"
+	tempoMiserere = \tempoMarkup "Lento"
 
 
 
