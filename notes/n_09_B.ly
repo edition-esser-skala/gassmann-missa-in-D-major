@@ -470,12 +470,156 @@ GratiasBassoNotes = {
 		\clef bass
 		\key c \major \time 2/2 \autoBeamOff \tempoGratias
 			\set Score.currentBarNumber = #221
-		
+		\mvTr c2.\fE^\tuttiE c4
+		g'1
+		g2 a4 h
+		c2 c,
+		c' h %225
+		a fis
+		h e,4 e
+		h1
+		e
+		e2. d4 %230
+		c2 a
+		d2. c4
+		h2 g
+		c h4 c
+		d1 %235
+		g,
+		R1*11 %247
+		g'2. g4
+		d1
+		d2 e4 fis %250
+		g2 g
+		g g
+		f! f
+		e2.^\critnote e4
+		e1 %255
+		a2 a
+		g g
+		fis2. fis4
+		g1
+		d %260
+		d
+		g2. g4
+		g1
+		es
+		es?2 es %265
+		d1
+		d
+		g2 g
+		es c
+		f b,4 b %270
+		f'1
+		b,?
+		b'?2. a4
+		g2 g
+		a2. a4 %275
+		a1
+		d,2. c4
+		h!2 h
+		c2. c4
+		c1 %280
+		d2 f^\critnote
+		g f
+		e2. c4^\critnote
+		f2 e
+		d2. h4 %285
+		e2 d
+		c2. a4
+		d2 c
+		h g
+		c1 %290
+		d2 e4( f)
+		g1
+		c,
+		e2 e
+		f f %295
+		fis2. fis4
+		g1
+		c2 h
+		a g
+		f e4 f %300
+		\once \tieDashed g1~
+		g
+		c,\fermata \bar "||" %303 finis
 	}
 }
 
 GratiasBassoLyrics = \lyricmode {
+	Gra -- ti -- %221
+	as
+	a -- gi -- mus
+	ti -- bi
+	pro -- pter %225
+	ma -- gnam
+	glo -- ri -- am
+	tu --
+	am,
+	pro -- pter %230
+	ma -- gnam,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- %235
+	am.
 	
+	Gra -- ti -- %248
+	as
+	a -- gi -- mus %250
+	ti -- bi
+	pro -- pter
+	ma -- gnam
+	glo -- ri --
+	am, %255
+	pro -- pter
+	ma -- gnam
+	glo -- ri --
+	am
+	tu -- %260
+	am.
+	Gra -- ti --
+	as
+	a --
+	gi -- mus %265
+	ti --
+	bi
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am %270
+	tu --
+	am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- %275
+	am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri --
+	am, %280
+	pro -- pter
+	ma -- gnam
+	glo -- riam
+	tu -- am,
+	pro -- pter %285
+	ma -- gnam,
+	pro -- pter
+	ma -- gnam,
+	ma -- gnam
+	glo -- %290
+	ri -- am
+	tu --
+	am,
+	pro -- pter
+	ma -- gnam %295
+	glo -- ri --
+	am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am %300
+	tu --
+	
+	am. %303 finis
 }
 
 % BassoNotes = {
