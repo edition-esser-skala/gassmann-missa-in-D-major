@@ -1389,8 +1389,8 @@ DomineDeusOrgano = {
 		c r c
 		f g g, %410
 		c c, c
-		c'2 r4
-		c2\pE c4
+		c2-\critnote r4
+		c'2\pE c4
 		c c c
 		c c c %415
 		f f, f'
@@ -1598,9 +1598,9 @@ DomineDeusBassFigures = \figuremode {
 	<6>2 <5>4 %440
 	<_+>2.
 	<6 4>4 <5 _+>2
-	<_+> <5>4
+	<_+>4 <7> <5>
 	r <6 4>8 <5 _+> r4
-	r2 <5>4 %445
+	r <7> <5> %445
 	r <6 4>8 <5 3> r4
 	<5 3>4 <6 4> <7>
 	<4 2> <3 1>2

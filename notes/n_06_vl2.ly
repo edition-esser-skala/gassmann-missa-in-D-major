@@ -658,6 +658,173 @@ DomineDeusViolinoII = {
 		\clef treble
 		\key f \major \time 3/4 \tempoDomineDeus
 			\set Score.currentBarNumber = #304
-		
+		a'4\fE a \once \slurDashed a8( f')
+		f4( e) r %305
+		e8 g,16 f e4 \once \slurDashed e'8( g)
+		g4( f) r
+		a, a8 a \once \slurDashed b( a)
+		a a' a, a \once \slurDashed b( a)
+		d g f4 e %310
+		f8 e f2
+		\slurDashed a,8( c) c( a) a( f)
+		f( d) \slurSolid d2
+		e8( g) g( e) e e
+		e4. f8 d4 %315
+		c8 c' c g g e
+		e4. f8 d4
+		c8 g'16 f \once \tieDashed e2~
+		e8 g16 f e2
+		f8 a16 f e4 d %320
+		e c r
+		R2.*4 %325
+		c'4 g' e
+		\once \slurDashed c( b a)
+		d8 b a4 g
+		a8 c16 b \once \tieDashed a2~
+		a8 c16 b a2 %330
+		d8 d16 b a4 g
+		a8 c16 b \once \tieDashed a2~
+		a8 c16 b a2
+		d8 d16 b a4 g
+		a <f c> q %335
+		q2.
+		a4\pE a \once \slurDashed c8( f)
+		\once \slurDashed f4( e) r
+		e c g'
+		\once \slurDashed g( f) r %340
+		a, a8 a \once \slurDashed b( a)
+		a a' a, a \once \slurDashed b( a)
+		g'4 f e
+		f8 c16 b a2
+		a8( c) c( f) f( a) %345
+		f e e4 c
+		c \slurDashed c8( f) f( a) \slurSolid
+		f e e4 e,
+		f f f
+		g g g %350
+		f8.( e32 d) c4 b
+		c c c8 e
+		e4 e c
+		c' h d,
+		e e c' %355
+		c h d,
+		e8 e e e e e
+		e g e\f e e e
+		f8. d16 c4 h
+		c2 r4 %360
+		e\p e g8. c16
+		c4 h r
+		h d, h'8 d
+		d8. c16 c4 r
+		r8 e e e f e %365
+		r e, e e f e
+		d'4 c h
+		c e, r
+		g8 g g g g g
+		f4 f f %370
+		f f e
+		f2 a4
+		a a f
+		f e g
+		a a f %375
+		f8.-\critnote e16 e4 g
+		a8 a a a a a
+		\once \slurDashed a( c) a a a a
+		b8.( a32 g) f4 e
+		f8 c f4 r %380
+		f8 g a4 a
+		b d8 d b b
+		a4 c8 c a a
+		r4 a( g)
+		f8 a a c f4 %385
+		a4. g8 f4
+		f e r
+		d, d2
+		e8 f g4 c
+		c h d %390
+		c h r
+		c4. d8 c4
+		c2.
+		h4 c d
+		c c h %395
+		c c,8 e g4~
+		g c e,
+		e d g~
+		g c e,
+		e d r %400
+		d4. e8 f4
+		e4. f8 g4
+		\tuplet 3/2 4 { a8 g f } e4 d
+		e8\f g16 f \once \tieDashed e2~
+		e8 g16 f e2 %405
+		f8 a16 f e4 d
+		e e e
+		d8 f16 e d2
+		c8 e16 d c2
+		d8 f16 e c4 h %410
+		c c8 e g c
+		c,2 r4
+		R2.
+		e8\pE f e2
+		g4 f e %415
+		f8 e f2
+		a4 a8 a b a
+		a4 a8 a b a
+		g4 a b
+		b2 a4 %420
+		g2 r4
+		r f a
+		a8. b16 a2
+		c4 b a
+		b4. c8 d4 %425
+		c b a
+		b8 a b4 b,
+		b'8 d16 b b4 \once \slurDashed a8( c)
+		b d16 b b4 \once \slurDashed a8( c)
+		b4 f g %430
+		g f r
+		a8 c16 a a4 a'
+		b,8 d16 b b4 d
+		a8 c16 a a4 c
+		g f e %435
+		f8 e f4 r
+		a4. b8 a4
+		b a a
+		b8 d16 b b4 b
+		b b b %440
+		e,2 f4
+		f e r
+		fis g a
+		g8 b16 g g8 fis g4
+		e f g %445
+		f8 a16 f f8 e f4
+		e f g
+		g8 f f2
+		a4 g f
+		f e r %450
+		f4. g8 a4
+		b4. d8 a4
+		b8.( a32 g) f4 e
+		f2 \once \tieDashed a4~
+		a c f %455
+		f e g,
+		a c f
+		f e r
+		e,4. f8 g4
+		b4. a8 g4 %460
+		f f e
+		f8\f a a a \once \slurDashed b( a)
+		a4 a8 a \once \slurDashed b( a)
+		g4 f e
+		f e2 %465
+		R2.*4
+		f'8 g g2 %470
+		c,4 b a
+		b a g
+		a8 c16 b \once \tieDashed a2~
+		a8 c16 b a2
+		d8 b a4 g %475
+		a a8 f f c
+		a2.\fermata \bar "||" %477 finis
 	}
 }

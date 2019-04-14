@@ -735,7 +735,7 @@ DomineDeusViolinoI = {
 		a8 b c4 c
 		d b'8 b d, d
 		c4 a'8 a c, c
-		r4 c b
+		r4 \once \slurDashed c( b)
 		a8 c f4 a %385
 		c4. b8 a4
 		a g r
@@ -814,7 +814,7 @@ DomineDeusViolinoI = {
 		d4. c8 b4 %460
 		\tuplet 3/2 4 { a8 g f } g2
 		f8\f f' c c d( c)
-		c f c c d c
+		c f c c \once \slurDashed d( c)
 		b4 a g
 		a g2 %465
 		R2.*4
