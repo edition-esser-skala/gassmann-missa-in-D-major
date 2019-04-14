@@ -282,7 +282,7 @@ DomineDeusCornoI = {
 		d2 r4
 		R2.
 		r4 r d
-		e d c %410
+		e d d %410
 		d d d
 		d2 r4
 		R2.*4 %416
@@ -304,7 +304,7 @@ DomineDeusCornoI = {
 		f e r
 		c-\tuttiE d2 %470
 		e4 d c
-		d8 f e4 d
+		\pa d8 f \pd e4 d
 		c e2
 		e4 e2
 		f4 e d %475
