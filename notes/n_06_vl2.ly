@@ -702,7 +702,7 @@ DomineDeusViolinoII = {
 		f e e4 e,
 		f f f
 		g g g %350
-		f8.( e32 d) c4 b
+		f8.( e32 d) c4 h?
 		c c c8 e
 		e4 e c
 		c' h d,
