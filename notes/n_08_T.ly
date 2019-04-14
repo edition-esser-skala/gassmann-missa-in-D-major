@@ -1578,12 +1578,156 @@ GratiasTenoreIINotes = {
 		\clef "treble_8"
 		\key c \major \time 2/2 \autoBeamOff \tempoGratias
 			\set Score.currentBarNumber = #221
-		
+		\mvTr c2.\fE^\tuttiE c4
+		h1
+		d2 d4 d
+		c2 c
+		c c %225
+		c a
+		fis g
+		fis1
+		e
+		gis2. gis4 %230
+		a( h) c2
+		a a
+		d h
+		g g4 a
+		g2( fis) %235
+		g1
+		R1*11 %247
+		h2. h4
+		a1
+		fis2 g4 a %250
+		g2 g
+		h h
+		a a
+		gis2. gis4
+		gis?1 %255
+		c2 c
+		h h
+		a2. a4
+		h1
+		a %260
+		a
+		b2. b4
+		b?1
+		b?
+		g2 g %265
+		fis1
+		a
+		b2 b
+		g g
+		a b4 b %270
+		b?2( a)
+		b1
+		f2 f
+		b b
+		a2. a4 %275
+		a1
+		a2 a
+		d d
+		c2. c4
+		c1 %280
+		a2 a
+		h! h
+		g g
+		a a
+		f a %285
+		gis gis
+		e e
+		fis fis
+		g h
+		c1 %290
+		c2 c
+		c( h)
+		c1
+		g2 g
+		a a %295
+		a2. a4
+		h1
+		c2 c
+		c c
+		c c %300
+		c h4 a
+		h1
+		c\fermata \bar "||" %303 finis
 	}
 }
 
 GratiasTenoreIILyrics = \lyricmode {
+	Gra -- ti -- %221
+	as
+	a -- gi -- mus
+	ti -- bi
+	pro -- pter %225
+	ma -- gnam
+	glo -- riam
+	tu --
+	am,
+	[pro -- pter %230
+	ma -- gnam,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- %235
+	am.]
 	
+	[Gra -- ti -- %248
+	as
+	a -- gi -- mus %250
+	ti -- bi
+	pro -- pter
+	ma -- gnam
+	glo -- ri --
+	am, %255
+	pro -- pter
+	ma -- gnam
+	glo -- ri --
+	am
+	tu -- %260
+	am.
+	Gra -- ti --
+	as
+	a --
+	gi -- mus %265
+	ti --
+	bi
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am %270
+	tu --
+	am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- %275
+	am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri --
+	am, %280
+	pro -- pter
+	ma -- gnam
+	glo -- riam
+	tu -- am,
+	pro -- pter %285
+	ma -- gnam,
+	pro -- pter
+	ma -- gnam,
+	ma -- gnam
+	glo -- %290
+	ri -- am
+	tu --
+	am,
+	pro -- pter
+	ma -- gnam %295
+	glo -- ri --
+	am,
+	pro -- pter
+	ma -- gnam
+	glo -- riam %300
+	tu -- _ _
+	_
+	am.] %303 finis
 }
 
 % TenoreINotes = {
