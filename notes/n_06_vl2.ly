@@ -593,7 +593,7 @@ GratiasViolinoII = {
 		a4 fis g a
 		h h8 c c a g fis %245
 		g4 g2 fis4
-		g d h c
+		g d h a
 		g4 h8 d g4 h
 		a8 fis a d fis d a fis
 		fis4 a g a %250
