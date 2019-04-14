@@ -1282,11 +1282,311 @@ DomineDeusOrgano = {
 		\key f \major \time 3/4 \tempoDomineDeus
 			\set Score.currentBarNumber = #304
 		\mvTr f4\fE-\soloE f f
+		c c c %305
+		c c c
+		f f, f'
+		f f f
+		f f f
+		b, c c, %310
+		f f'8 c a c
+		f,4 f' r
+		r g f
+		e c c
+		c2 g'4 %315
+		c c, c
+		c2 d8 h
+		c4 c' h
+		a a g
+		f g g, %320
+		c c8 b! a g
+		f4 r r
+		R2.
+		c'2 c4
+		f f, f' %325
+		f e c
+		f2 r4
+		b c c,
+		f f e
+		d d c %330
+		b c c,
+		f f' e
+		d d c
+		b c c,
+		f f' f, %335
+		f2.
+		f'4\pE f f
+		c c c
+		c e c
+		f f, f' %340
+		f f, f'
+		f f, f'
+		b, c c,
+		f f' f,
+		f' f, f' %345
+		c c c8 b
+		a4 f f'
+		c c c
+		d d d
+		e e e %350
+		f g g,
+		c c, c'
+		c c8 d e f
+		g4 g, h
+		c c8 d e f %355
+		g4 g, h
+		c8 c c c c c
+		c\f c c c c c
+		f4 g g,
+		c g c, %360
+		c'\p c c
+		g' g, g'
+		g h g
+		c c, c
+		c c c %365
+		c c c'
+		f, g g,
+		c c, c'
+		r c b!
+		a a a %370
+		b c c,
+		f2 r4
+		f f8 g a b
+		c2 e4
+		f f,8 g a b %375
+		c4 c e
+		f f, f'
+		f f, f'
+		b c c,
+		f c f, %380
+		f' f f
+		f f f
+		f f f
+		f2 c4
+		f f, f' %385
+		f2 f4
+		c c8 d e f
+		g4 g f
+		e c c
+		g' g g %390
+		c g f
+		e e e
+		f f fis
+		g2 r4
+		c, g' g, %395
+		c c, r
+		c' c8 d e f
+		g4 g, r
+		r c8 d e f
+		g4 g, g' %400
+		g, g' g,
+		c c c
+		f g g,
+		c\fE c' h
+		a a g %405
+		f g g,
+		c c c
+		c r h
+		c r c
+		f g g, %410
+		c c, c
+		c'2 r4
+		c2\pE c4
+		c c c
+		c c c %415
+		f f, f'
+		f f, r
+		f' f, r
+		c' c c
+		d e f %420
+		c c b
+		a f f
+		f f f
+		f f f
+		b2 r4 %425
+		f f f
+		b d8 es d c
+		b4 b f
+		b r f
+		b b b %430
+		b b8 c d e!
+		f4 f f
+		f f f
+		f f f
+		c c c %435
+		f f, f'
+		f f f
+		f f f
+		b b b8 a
+		g4 g g %440
+		a2 d,4
+		a' a8 g f e
+		d4 e fis
+		g d g,
+		c d e %445
+		f! c f,
+		c' c c
+		f f, f'
+		f r f
+		c c8 b a g %450
+		f4 f f
+		f f f
+		b c c,
+		f f' f,
+		f' f, f %455
+		c' c e
+		f f, r
+		c' c c
+		c2.
+		e2 r4 %460
+		f c c
+		f\fE f f
+		f f f
+		b c c,
+		f c c, %465
+		f2 r4
+		R2.
+		r4 r c'
+		f f, f'
+		f e c %470
+		f2 r4
+		b c c,
+		f f e
+		d d a
+		b c c, %475
+		f f f
+		f2.\fermata \bar "||" %477 finis
 	}
 }
 
 DomineDeusBassFigures = \figuremode {
-	
+	r2. %304
+	<6 4>4 <5 3>2 %305
+	r2.
+	<4 2>4 <[3 1]>2
+	r2.
+	r
+	r4 <6 4> <5 3> %310
+	r2.
+	r
+	r4 <_!>2
+	<6>2.
+	r %315
+	r
+	r
+	r
+	r
+	r %320
+	r
+	r
+	r
+	r
+	r %325
+	r4 <6>2
+	r2.
+	r4 <6 4> <5 3>
+	r2 <2>4
+	r2. %330
+	r4 <6 4> <5 3>
+	r2 <4 2>4
+	r2 <6 4>4
+	r <[6 4]> <[5 3]>
+	r2. %335
+	r
+	r
+	r
+	<7>
+	r %340
+	r
+	r
+	r
+	r
+	r %345
+	r
+	r
+	r
+	<6>
+	q %350
+	r
+	r
+	r
+	r
+	r %355
+	r
+	r
+	r
+	r
+	r %360
+	r
+	r
+	r
+	r
+	r %365
+	r
+	r
+	r
+	r
+	r %370
+	r
+	r
+	r
+	r
+	r %375
+	r
+	r
+	r
+	r
+	r %380
+	r
+	<6 4>
+	<5 3>
+	r
+	r %385
+	r
+	r
+	r
+	r
+	r %390
+	r
+	r
+	r
+	r
+	r %395
+	r
+	r
+	r
+	r
+	r %400
+	r
+	r
+	r
+	r
+	r %405
+	r
+	r
+	r
+	r
+	r %410
+	r
+	r
+	r
+	r
+	r %415
+	r
+	r
+	r
+	r
+	r %420
+	r
+	r
+	r
+	r
+	r %425
+	<7->4 <6 4> <5 3>
+	r2.
+	r
+	r
+	r2 <6 [4-]>4 %430
+	<5 [4-]> <5 3>2
 }
 
 % Organo = {
