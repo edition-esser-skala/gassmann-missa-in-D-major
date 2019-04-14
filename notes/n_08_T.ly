@@ -1916,6 +1916,32 @@ DomineDeusTenoreLyrics = \lyricmode {
 	tris. %462 finis
 }
 
+QuiTollisTenoreINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #478
+		
+	}
+}
+
+QuiTollisTenoreILyrics = \lyricmode {
+	
+}
+
+QuiTollisTenoreIINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #478
+		
+	}
+}
+
+QuiTollisTenoreIILyrics = \lyricmode {
+	
+}
+
 % TenoreINotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

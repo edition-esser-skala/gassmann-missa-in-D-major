@@ -823,9 +823,18 @@ DomineDeusViolinoI = {
 		d8 g f4 e
 		f8 a16 g \once \tieDashed f2~
 		f8 a16 g f2
-		g8 b16 g f4 e
+		g8 b16 g f4 e %475
 		f8 c c a a f
-		f2.\fermata \bar "||"
+		f2.\fermata \bar "||" %477 finis
+	}
+}
+
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #478
+		
 	}
 }
 

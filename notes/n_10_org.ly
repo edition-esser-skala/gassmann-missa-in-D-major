@@ -1635,6 +1635,19 @@ DomineDeusBassFigures = \figuremode {
 	r %477 finis
 }
 
+QuiTollisOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #478
+		\mvTr d8\fE-\tuttiE r r4 d8 r r4
+	}
+}
+
+QuiTollisBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
