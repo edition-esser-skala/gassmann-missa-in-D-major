@@ -1921,12 +1921,106 @@ QuiTollisTenoreINotes = {
 		\clef "treble_8"
 		\key d \minor \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #478
-		
+		R1*12 %489
+		r2 \mvTr d\pE^\tuttiE %490
+		d es4 d8([ c)]
+		b4 b r8 b b b
+		b2 a\fermata
+		h4 d d8([ c16 h)] c4
+		c b b8([ a16 g)] a4 %495
+		c4. d8 es4 es
+		des2( c)
+		b4 r r2
+		R1*4 %502
+		r2 f'
+		f ges4 f8([ es)]
+		d!4 d r f %505
+		f2 es
+		es? d\fermata
+		es?8. es16 es4 e8. e16 e4
+		f8 f f es d4 d
+		es8 es es d cis4 d %510
+		d( cis) d2
+		d8. c16 b4 c8. b16 a4
+		b8 b b b b4 b \noBreak
+		b( a8[ g)] a2\fermata \bar "||"
+		\time 3/4 \tempoQuiSedes
+			\set Timing.measurePosition = #(ly:make-moment -1/4) g4\fE
+			\once \tieDashed d'2.~ %515
+		\once \tieDashed d~
+		d
+		d2 r4
+		r r es
+		es d c %520
+		h c d
+		es? d d
+		\once \tieDashed es2.~
+		es4 f es
+		d2.~ %525
+		d4 es d
+		\once \tieDashed c2.~
+		c4 d c
+		b2 c4
+		d2 b4 %530
+		a2 b4
+		c2.
+		b
+		a \noBreak
+		g\fermata \bar "||" %535
+		\time 4/4 \tempoMiserere r4 b8 b b4 b \noBreak
+		c c c b
+		a2 \once \tieDashed b~
+		b4 a8[ g] a2\fermata \bar "||" %539 finis
 	}
 }
 
 QuiTollisTenoreILyrics = \lyricmode {
+	Qui %490
+	tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di:
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re, %495
+	mi -- se -- re -- re
+	no --
+	bis.
 	
+	Qui %503
+	tol -- lis pec --
+	ca -- ta, pec -- %505
+	ca -- ta
+	mun -- di:
+	Sus -- ci -- pe, sus -- ci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem %510
+	no -- stram,
+	sus -- ci -- pe, sus -- ci -- pe
+	de -- pre -- ca -- ti -- o -- nem
+	no -- stram. Qui
+	se -- %515
+	
+	des, %518
+	qui
+	se -- des ad %520
+	dex -- te -- ram
+	Pa -- tris, qui
+	se --
+	_ _
+	_ %525
+	_ _
+	_
+	des ad
+	dex -- te --
+	ram, ad %530
+	dex -- te --
+	ram
+	Pa --
+	_
+	tris: %535
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- _
+	_ bis.
 }
 
 QuiTollisTenoreIINotes = {

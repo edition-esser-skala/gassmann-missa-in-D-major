@@ -1654,13 +1654,13 @@ QuiTollisOrgano = {
 		\mvTr d8\p-\vlc r r4 a8 r r4
 		cis8 r r4 d8 r r4 %490
 		g,8 r r4 fis'8 r r4
-		g8 r r4 cis,8 r cis4
+		g8 r r4 r8 cis, cis4
 		d1\fermata
 		g4 r es r
 		e r f r %495
 		f r f r
 		b r f f,
-		\mvTr b8\fE-\tutti r r4 f'8 r r4
+		\mvTr b8\fE-\bassi r r4 f'8 r r4
 		a,8 r r4 as8 r r4
 		g8 r r4 fis8 r r4 %500
 		g8 r r4 g2
@@ -1679,7 +1679,7 @@ QuiTollisOrgano = {
 		d1\fermata \bar "||"
 		\time 3/4 \tempoQuiSedes
 			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
-		r r \mvTr g\fE-\tuttiE \noBreak %515
+		r r \mvTr g\fE-\bassiE \noBreak %515
 		g fis e
 		d4. e8 fis4
 		g d d
@@ -1700,8 +1700,8 @@ QuiTollisOrgano = {
 		d'2.
 		d \noBreak
 		g,\fermata \bar "||" %535
-		\time 4/4 \tempoMiserere e'8 r r4 e8 r r4 \noBreak
-		e8 r r4 d8 r d r
+		\time 4/4 \tempoMiserere es'?8 r r4 es?8 r r4 \noBreak
+		es?8 r r4 d8 r d r
 		d r d r cis r cis r
 		d2 d,\fermata \bar "||" %539 finis
 	}
@@ -1722,13 +1722,13 @@ QuiTollisBassFigures = \figuremode {
 	r2 <[_+]>
 	<7> <_+> %490
 	r <7->
-	r <7>
-	<6 4> <[5 _+]>
-	r1
-	r %495
-	r
-	<_->
-	<_->
+	r r8 <7>4.
+	<6 4>2 <[5 _+]>
+	<[_!]> <[7]>4 <[6]>
+	<[6 5]>1 %495
+	r2 <[7-]>
+	<[9] _->4 <[8]> <[4]> <[3]>
+	<_->1
 	<7->2 <4 2>
 	<_!> <7-> %500
 	<6 4> <[5 _!]>
@@ -1738,11 +1738,11 @@ QuiTollisBassFigures = \figuremode {
 	<_!> <4 2> %505
 	<_!> <[_-]>
 	<[7-]> <[_!]>
-	r <4! 2>
+	<[_-]> <4! 2>
 	<6>1
-	<6>2 <4+ _->4 <6> %510
-	<7> <6> <_+>2
-	r <_+>
+	<[6-]>2 <4+ _->4 <6> %510
+	<7> <[6\\]> <_+>2
+	r <[7] _+>
 	r r8 <7->4.
 	<6 4>4 <5 _+>8 <4 2> <5 _+>2
 	r4 r2. %515
@@ -1754,12 +1754,12 @@ QuiTollisBassFigures = \figuremode {
 	<_! [1]> <4 2> <5 _!>
 	<6- 4> <5 _!>2
 	<_->2.
-	<6 5>
-	r %525
-	<6 5>
-	r
-	<[6 5]>
-	r
+	<6 [5-]>2 <[7-]>4
+	r2. %525
+	<[6-] 5>2 <[7]>4
+	<[5-]>2.
+	<[6 5]>2 <[7 _+]>4
+	r2.
 	r %530
 	<[5 _+]>2 <[6 4]>4
 	<[7 _+]>2.
