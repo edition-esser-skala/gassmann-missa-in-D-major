@@ -205,6 +205,15 @@ GloriaCornoI = {
 	}
 }
 
+DomineDeusCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoDomineDeus
+			\set Score.currentBarNumber = #304
+		
+	}
+}
+
 % CornoI = {
 % 	\relative c' {
 % 		\clef treble

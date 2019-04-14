@@ -622,6 +622,19 @@ GratiasBassoLyrics = \lyricmode {
 	am. %303 finis
 }
 
+DomineDeusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \autoBeamOff \tempoDomineDeus
+			\set Score.currentBarNumber = #304
+		
+	}
+}
+
+DomineDeusBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -121,55 +121,106 @@
 % 			\midi { \tempo 4 = 72 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.3 GRATIAS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GratiasViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\GratiasViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore I"
+% 						\new Voice = "TenoreI" { \dynamicUp \GratiasTenoreINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreI \GratiasTenoreILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore II"
+% 						\new Voice = "TenoreII" { \dynamicUp \GratiasTenoreIINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreII \GratiasTenoreIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \GratiasBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \GratiasBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\GratiasOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\GratiasBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.3 GRATIAS"
+			movement = "2.4 DOMINE DEUS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex F]" } }
+						\partcombine \DomineDeusCornoI \DomineDeusCornoII
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GratiasViolinoI
+							\DomineDeusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GratiasViolinoII
+							\DomineDeusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \GratiasTenoreINotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \DomineDeusTenoreNotes }
 					}
-					\new Lyrics \lyricsto TenoreI \GratiasTenoreILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \GratiasTenoreIINotes }
-					}
-					\new Lyrics \lyricsto TenoreII \GratiasTenoreIILyrics
+					\new Lyrics \lyricsto Tenore \DomineDeusTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \GratiasBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DomineDeusBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \GratiasBassoLyrics
+					\new Lyrics \lyricsto Basso \DomineDeusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\GratiasOrgano
+						\DomineDeusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GratiasBassFigures
+					\DomineDeusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 100 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

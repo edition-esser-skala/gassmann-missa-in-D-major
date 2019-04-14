@@ -1730,6 +1730,19 @@ GratiasTenoreIILyrics = \lyricmode {
 	am.] %303 finis
 }
 
+DomineDeusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 3/4 \autoBeamOff \tempoDomineDeus
+			\set Score.currentBarNumber = #304
+		
+	}
+}
+
+DomineDeusTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreINotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

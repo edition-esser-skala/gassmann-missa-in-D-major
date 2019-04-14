@@ -204,3 +204,12 @@ GloriaCornoII = {
 		R1\fermataMarkup \bar "||" %107 finis
 	}
 }
+
+DomineDeusCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoDomineDeus
+			\set Score.currentBarNumber = #304
+		
+	}
+}
