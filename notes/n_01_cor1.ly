@@ -210,7 +210,106 @@ DomineDeusCornoI = {
 		\clef treble
 		\key c \major \time 3/4 \tempoDomineDeus
 			\set Score.currentBarNumber = #304
-		
+		e'4\fE r r
+		r d8 d d d %305
+		d2 r4
+		r e8 e e e
+		e4 e r
+		e e r
+		f e d %310
+		\tuplet 3/2 4 { e8 d c } c2
+		e4 r r
+		R2.
+		d2 r4
+		R2. %315
+		d2 r4
+		R2.
+		g,
+		g
+		r4 d' d %320
+		d2 r4
+		c4-\solo d2
+		e4 d c
+		d8 e f4 f
+		f e r %325
+		c-\tuttiE d2
+		e4 d c
+		d8 f e4 d
+		c e2
+		e2. %330
+		r4 e d
+		c2 e4
+		e2 r4
+		r e d
+		c c c %335
+		c2.
+		R
+		r4 d8\pE d d d
+		d4 r r
+		r e8 e e e %340
+		e4 r r
+		e r r
+		R2.
+		r4 e8 e e4
+		e2 r4 %345
+		r r d
+		e2 r4
+		R2.*4 %351
+		r4 d8 d d4
+		R2.*4 %356
+		d4 d2
+		d4 d2
+		R2.
+		r4 d8 d d d %360
+		d2 r4
+		R2.*2
+		r4 r8 d d d
+		d2 r4 %365
+		R2.*2
+		r4 r8 d d d
+		d4 r r
+		R2.*10 %370
+		r4 c8 c c c %380
+		c2 r4
+		c2 r4
+		c2 r4
+		R2.*3 %386
+		r4 d8 d d4
+		R2.*16 %403
+		g,2.\fE
+		g %405
+		r4 d' d
+		d2 r4
+		R2.
+		r4 r d
+		e d c %410
+		d d d
+		d2 r4
+		R2.*4 %416
+		c2.\p
+		c
+		R2.*2 %420
+		r4 d8 d d d
+		e2 r4
+		R2.*19 %441
+		r4 e,8 e e4
+		R2.*19 %461
+		e'8\fE e e4 r
+		e8 e e4 r
+		f e d
+		e d2 %465
+		c4-\solo d2
+		e4 d c
+		d8 e f4 f
+		f e r
+		c-\tuttiE d2 %470
+		e4 d c
+		d8 f e4 d
+		c e2
+		e4 e2
+		f4 e d %475
+		c c c
+		c2.\fermata \bar "||" %477 finis
 	}
 }
 

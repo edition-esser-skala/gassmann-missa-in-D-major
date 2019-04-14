@@ -1479,8 +1479,8 @@ DomineDeusBassFigures = \figuremode {
 	r2.
 	r
 	r
-	r
-	r %325
+	r2 <7>4
+	<4 2> <3 1>2 %325
 	r4 <6>2
 	r2.
 	<[6]>4 <6 4> <5 3>
@@ -1623,8 +1623,8 @@ DomineDeusBassFigures = \figuremode {
 	r2. %465
 	r
 	r
-	r
-	r
+	r2 <7>4
+	<4 2> <3 1>2
 	r4 <6>2 %470
 	r2.
 	<6>4 <6 4> <5 3>
