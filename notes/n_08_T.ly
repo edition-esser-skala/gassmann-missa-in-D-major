@@ -1735,12 +1735,185 @@ DomineDeusTenoreNotes = {
 		\clef "treble_8"
 		\key f \major \time 3/4 \autoBeamOff \tempoDomineDeus
 			\set Score.currentBarNumber = #304
-		
+		R2.*57 %360
+		\mvTr c8.([\pE^\soloE h32 a] g4) c8. e16
+		e4 d r
+		d8.([^\critnote h?32 a] g4) d'8([ f)]
+		f8. e16 e4 r
+		c c2 %365
+		c4 c2
+		f4( e) d
+		\tuplet 3/2 4 { e8([ d c)] } c4 r
+		e e2
+		f8.([ e32 d)] c2 %370
+		d8.([ c32 b] a4) g
+		a8([ g)] f4 c'~
+		c f a,
+		a g \once \tieDashed c~
+		c f a, %375
+		a8. g16 g4 r
+		f f2
+		a8([ c)] c2
+		d8.([ c32 b)] a4 g
+		f2. %380
+		a8([ b)] c4 c
+		d2.
+		c2 r4
+		f8.([ e32 d] c4) b
+		a c r %385
+		c4. b8 a4
+		a g r
+		h4. h8 h4
+		c8([ d)] e4 e~
+		e d f %390
+		e d r
+		R2.
+		d4. e8 d4
+		d4 e f
+		\tuplet 3/2 4 { e8[ d c] } d2\trill %395
+		c c4~
+		c e c
+		c h r
+		e2 c4
+		c h r %400
+		h4. c8 d4
+		c4.( d8) e4
+		\tuplet 3/2 4 { f8[( e d] } c4 d)
+		c2.
+		R2.*17 %421
+		f,4 a c
+		f8.([ e32 d)] c2
+		es4( d) c
+		b4. c8 d4 %425
+		es( d) c
+		d8([ c)] b2
+		d4 d es?8([ c)]
+		d2 es8([ c)]
+		d2 es4 %430
+		es? d r
+		c c f
+		d2.
+		c
+		b4 a g %435
+		a8[ g] f4 r
+		c'4. d8 c4
+		d c r
+		d4. d8 d4
+		e2 d4 %440
+		cis2 d4
+		d cis r
+		d2( c4
+		b4.) a8 b4
+		c2( b4 %445
+		a4.) g8 a4
+		g a b
+		b8([ a)] a2
+		c4( b) a
+		a g r %450
+		a4. b8 c4
+		d4. f8 c4
+		d8.([ c32 b] a4 g)
+		a2 \once \tieDashed c4~
+		c f a, %455
+		a g \once \tieDashed c~
+		c f a,
+		a g r
+		g4. a8 b4
+		d4. c8 b4 %460
+		\tuplet 3/2 4 { a8[( g f] } g2)
+		f2.
+		R2.*14 %476
+		R2.\fermataMarkup \bar "||" %477 finis
 	}
 }
 
 DomineDeusTenoreLyrics = \lyricmode {
+	Do -- mi -- ne %361
+	Fi -- li
+	u -- ni --
+	ge -- ni -- te
+	Je -- su %365
+	Chri -- ste,
+	Je -- su
+	Chri -- ste,
+	Je -- su,
+	Je -- su, %370
+	Je -- su
+	Chri -- ste, Do --
+	mi -- ne
+	Fi -- li u --
+	_ ni -- %375
+	ge -- ni -- te
+	Je -- su
+	Chri -- ste,
+	Je -- su Chri --
+	ste. %380
+	Do -- mi -- ne
+	De --
+	us,
+	A -- gnus
+	De -- i, %385
+	Fi -- li -- us
+	Pa -- tris,
+	Do -- mi -- ne
+	De -- us, A --
+	_ gnus %390
+	De -- i,
 	
+	Fi -- li -- us
+	Pa -- _ _
+	_ _ %395
+	tris, Do --
+	mi -- ne
+	De -- us,
+	A -- gnus
+	De -- i, %400
+	Fi -- li -- us
+	Pa -- tris,
+	Pa --
+	tris.
+	
+	Do -- mi -- ne %422
+	Fi -- li
+	u -- ni --
+	ge -- ni -- te %425
+	Je -- su
+	Chri -- ste.
+	Do -- mi -- ne
+	De -- us,
+	A -- gnus %430
+	De -- i,
+	Fi -- li -- us
+	Pa --
+	_
+	_ _ _ %435
+	_ tris,
+	Fi -- li -- us
+	Pa -- tris,
+	Fi -- li -- us
+	Pa -- _ %440
+	_ _
+	_ tris,
+	Do --
+	mi -- ne,
+	Do -- %445
+	mi -- ne,
+	Do -- mi -- ne
+	De -- us,
+	A -- gnus
+	De -- i, %450
+	Fi -- li -- us,
+	[Fi -- li -- us]
+	Pa --
+	tris, Do --
+	mi -- ne %455
+	De -- us, A --
+	_ gnus
+	De -- i,
+	Fi -- li -- us,
+	Fi -- li -- us %460
+	Pa --
+	tris. %462 finis
 }
 
 % TenoreINotes = {

@@ -627,12 +627,203 @@ DomineDeusBassoNotes = {
 		\clef bass
 		\key f \major \time 3/4 \autoBeamOff \tempoDomineDeus
 			\set Score.currentBarNumber = #304
-		
+		R2.*33 %336
+		\mvTr f8([\pE^\soloE e16 d] c4) f8. a16
+		a4 g r
+		g( c,) b'
+		b a r %340
+		f f2
+		f4 f2
+		b4 a g
+		a8. g16 f2
+		c' a8([ f)] %345
+		a([ g)] g2
+		c a8([ f)]
+		a([ g)] g2
+		h4 h2
+		c8.([ h32 a)] g2 %350
+		a8.([ g32 f)] e4 d
+		e8. d16 c4 g'~
+		g c e,
+		e d g
+		g( c) e, %355
+		e d r
+		c c2
+		e8([ g)] g2
+		a4 g g,
+		c2. %360
+		R2.*20 %380
+		f8([ g)] a4 a
+		b2.
+		a2 r4
+		a8([ b] a4) g
+		f a r %385
+		a4. g8 f4
+		f c r
+		r g'8([ a)] g f
+		e([ d)] c4 \once \tieDashed c'~
+		c h g %390
+		c g r
+		c4. d8 c4
+		c2.
+		h4 c d
+		c8[ a] g4 g, %395
+		c2 g'4~
+		g c e,
+		e d g~
+		g c e,
+		e d r %400
+		d4. e8 f4
+		e4.( f8) g4
+		a8([ f] g4 g,)
+		c2.
+		R2.*8 %412
+		c4 e g
+		\tuplet 3/2 4 { c8[( h a)] } g2
+		b!4( a) g %415
+		a8([ g)] f2
+		f4 f2
+		f4 f2
+		g4 a b
+		b2 a4 %420
+		g2 r4
+		R2.*6 %427
+		b4 b c8([ a)]
+		b2 c8([ a)]
+		b2^\critnote g4 %430
+		g f r
+		a a a
+		b2.
+		a
+		g4 f e %435
+		f f, r
+		R2.
+		f'4. g8 f4
+		b b r
+		g4. g8 g4 %440
+		a4 g f
+		f e r
+		d( e fis
+		g4.) fis?8 g4
+		c,( d e %445
+		f4.) e8 f4
+		e f g
+		g8([ f)] f2^\critnote
+		a4( g) f
+		f e r %450
+		f4. g8 a4
+		b4. b8 a4
+		b8.([ a32 g] f4 c)
+		f2 \once \tieDashed a4~
+		a a f %455
+		f e r
+		a2 f4
+		f e r
+		e4. f8 g4
+		b4. a8 g4 %460
+		f( c2)
+		f,2.
+		R2.*14 %476
+		R2.\fermataMarkup \bar "||" %477 finis
 	}
 }
 
 DomineDeusBassoLyrics = \lyricmode {
+	Do -- mi -- ne %337
+	De -- us,
+	Rex __ coe --
+	le -- stis, %340
+	De -- us
+	Pa -- ter,
+	Pa -- ter o --
+	mni -- po -- tens,
+	De -- us %345
+	Pa -- ter,
+	Rex coe --
+	le -- stis,
+	De -- us
+	Pa -- ter, %350
+	Pa -- ter o --
+	mni -- po -- tens, Do --
+	mi -- ne
+	De -- us, Rex,
+	Rex __ coe -- %355
+	le -- stis,
+	De -- us
+	Pa -- ter
+	o -- mni -- po --
+	tens. %360
 	
+	Do -- mi -- ne %381
+	De --
+	us,
+	A -- gnus
+	De -- i, %385
+	Fi -- li -- us
+	Pa -- tris,
+	Do -- mi -- ne
+	De -- us, A --
+	_ gnus %390
+	De -- i,
+	Fi -- li -- us
+	Pa --
+	_ _ _
+	_ _ _ %395
+	[tris, Do --
+	mi -- ne
+	De -- us, A --
+	_ gnus
+	De -- i, %400
+	Fi -- li -- us
+	Pa -- tris,
+	Pa --
+	tris.]
+	
+	Do -- mi -- ne %413
+	De -- us,
+	Rex __ coe -- %415
+	le -- stis,
+	De -- us
+	Pa -- ter,
+	Pa -- ter o --
+	mni -- po -- %420
+	tens.
+	
+	Do -- mi -- ne %428
+	[De -- us,
+	A -- gnus %430
+	De -- i,
+	Fi -- li -- us
+	Pa] --
+	_
+	_ _ _ %435
+	_ tris,
+	
+	Fi -- li -- us
+	Pa -- tris,
+	Fi -- li -- us %440
+	Pa -- _ _
+	_ tris,
+	Do --
+	mi -- ne,
+	Do -- %445
+	mi -- ne,
+	[Do -- mi -- ne
+	De -- us,
+	A -- gnus
+	De -- i, %450
+	Fi -- li -- us,
+	[Fi -- li -- us]
+	Pa --
+	tris, Do] --
+	mi -- ne %455
+	[De -- us,
+	A -- gnus
+	De -- i,
+	Fi -- li -- us,
+	Fi -- li -- us %460
+	Pa --
+	tris.] %462 finis
 }
 
 % BassoNotes = {
