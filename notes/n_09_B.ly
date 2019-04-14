@@ -628,7 +628,7 @@ DomineDeusBassoNotes = {
 		\key f \major \time 3/4 \autoBeamOff \tempoDomineDeus
 			\set Score.currentBarNumber = #304
 		R2.*33 %336
-		\mvTr f8([\pE^\soloE e16 d] c4) f8. a16
+		\mvTr f8.([\pE^\soloE e32 d] c4) f8. a16
 		a4 g r
 		g( c,) b'
 		b a r %340
@@ -679,7 +679,7 @@ DomineDeusBassoNotes = {
 		c2.
 		R2.*8 %412
 		c4 e g
-		\tuplet 3/2 4 { c8[( h a)] } g2
+		c8([ h16 a)] g2
 		b!4( a) g %415
 		a8([ g)] f2
 		f4 f2
