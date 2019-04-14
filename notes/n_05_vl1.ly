@@ -635,7 +635,7 @@ GratiasViolinoI = {
 		h1
 		e4 e16 d c h a4 a
 		a1
-		g4 h d f
+		g4 h d f!
 		e2 g %290
 		f e4 d
 		d1
@@ -649,7 +649,7 @@ GratiasViolinoI = {
 		d d c d %300
 		d1\trill
 		d
-		c\fermata \bar "||"
+		c\fermata \bar "||" %303 finis
 	}
 }
 
