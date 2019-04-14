@@ -567,7 +567,89 @@ GratiasViolinoI = {
 		\clef treble
 		\key c \major \time 2/2 \tempoGratias
 			\set Score.currentBarNumber = #221
-		
+		c'8\fE c, e g c4 e
+		d g, h d
+		f f f g8 f
+		e4 c g' e
+		c' c, r8 e fis g %225
+		fis?4. g8 fis4 e
+		dis h e2~
+		e dis
+		e4 e,8 g h4 e
+		gis2 r8 gis a h %230
+		a4. h8 a4 g
+		fis2 r8 fis g a
+		g4. a8 g4 f
+		e8 fis e fis g4 c,
+		h g' a, fis' %235
+		g8 g, h d g4 h
+		h2 a4 h
+		c c c d8 c
+		h4 d, d dis
+		e2. eis4 %240
+		fis2. fis4
+		g2. gis4
+		a2. g4
+		fis a c,2
+		h8 g' g e e c h a %245
+		g4. a8 a2
+		g4 d h a
+		g8 h d g h d g g
+		fis d fis a d a fis d
+		d'2 c4 c %250
+		h g d h
+		g h d g
+		a d,8 d d4 a'
+		gis8 e gis h gis e h gis
+		e gis gis h h e e d %255
+		c4 e a c
+		h e,8 e e4 cis
+		d fis a c!
+		h8 g d h g4 h'
+		a h8 a a4 a %260
+		a8 d, fis a d4 a
+		b b b b
+		b? b b b
+		g g g g
+		g g g g %265
+		fis8 d, fis a d a fis' d
+		a' fis d'2 a4
+		b2 h4. a16 h
+		c2 c4 b
+		a4. g16 a b4 d, %270
+		c b' c, a'
+		b8 f d b f d f b
+		d b' d,2 d4
+		d8 b' d,2 b'4
+		a a8 a a4 e %275
+		cis8 a cis e a4 e
+		f8 d, f a d4 f
+		f d'8 f, f4 f
+		e g8 g g4 e
+		e8 c e g c4 e, %280
+		f f8 e d4 d
+		d2 d4 d
+		g g16 f e d c4 c
+		c1
+		f4 f16 e d c h4 h %285
+		h1
+		e4 e16 d c h a4 a
+		a1
+		g4 h d f
+		e2 g %290
+		f e4 d
+		d1
+		e4 c, e g
+		c c c c
+		c c c c %295
+		d d d d
+		d d d d
+		e e e e
+		e e e e
+		d d c d %300
+		d1\trill
+		d
+		c\fermata \bar "||"
 	}
 }
 

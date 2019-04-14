@@ -1615,7 +1615,7 @@ GratiasTenoreIINotes = {
 		g2 g %265
 		fis1
 		a
-		b2 b
+		b2 h?
 		g g
 		a b4 b %270
 		b?2( a)
