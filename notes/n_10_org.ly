@@ -1681,7 +1681,7 @@ QuiTollisOrgano = {
 			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
 		r r \mvTr g\fE-\bassiE \noBreak %515
 		g fis e
-		d4. e8 fis4
+		d4. e8 fis?4
 		g d d
 		g2.
 		g %520

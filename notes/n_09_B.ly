@@ -831,12 +831,90 @@ QuiTollisBassoNotes = {
 		\clef bass
 		\key d \minor \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #478
-		
+		R1*15 %492
+		R1\fermataMarkup
+		\mvTr g'4.\pE^\tuttiE f8 es4 es
+		e e f f %495
+		r2 f4. f8
+		b4 b, f'2
+		b,4 r r2
+		R1*8 %506
+		R1\fermataMarkup
+		c'8. c16 c4 b8. b16 b4
+		a!8 a a a b4 b
+		g8 g g g g4 f %510
+		e!2 d
+		R1
+		g8 g es es cis4 cis \noBreak
+		d2 d\fermata \bar "||"
+		\time 3/4 \tempoQuiSedes
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
+		r r g\fE \noBreak %515
+		g fis e
+		d4. e8 fis?4
+		g d d
+		\once \tieDashed g2.~
+		\once \tieDashed g~ %520
+		g
+		g2 g4
+		c2.
+		a2 f4
+		b2. %525
+		g2 es4
+		a2.
+		fis2 d4
+		g2 g4
+		g2 g4 %530
+		d2 d4
+		d2.
+		\once \tieDashed d~
+		d
+		g,\fermata \bar "||" %535
+		\time 4/4 \tempoMiserere r4 es'8 es es4 es \noBreak
+		es es d d
+		d2 cis
+		d1\fermata \bar "||" %539 finis
 	}
 }
 
 QuiTollisBassoLyrics = \lyricmode {
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re, %495
+	mi -- se --
+	re -- re no --
+	bis.
 	
+	Sus -- ci -- pe, sus -- ci -- pe %508
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem %510
+	no -- stram,
+	
+	de -- pre -- ca -- ti -- o -- nem
+	no -- stram.
+	Qui %515
+	se -- des ad
+	dex -- te -- ram
+	Pa -- tris, qui
+	se --
+	
+	des, qui %522
+	se --
+	des, qui
+	se -- %525
+	des, qui
+	se --
+	des ad
+	dex -- te --
+	ram, ad %530
+	[dex -- te --
+	ram
+	Pa --
+	
+	tris:] %535
+	[Mi -- se -- re -- re,
+	mi -- se -- re -- re]
+	no -- _
+	bis. %539 finis
 }
 
 % BassoNotes = {
