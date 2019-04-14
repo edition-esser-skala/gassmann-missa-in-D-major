@@ -1946,7 +1946,7 @@ QuiTollisTenoreINotes = {
 		b( a8[ g)] a2\fermata \bar "||"
 		\time 3/4 \tempoQuiSedes
 			\set Timing.measurePosition = #(ly:make-moment -1/4) g4\fE
-			\once \tieDashed d'2.~ %515
+			\once \tieDashed d'2.~ \noBreak %515
 		\once \tieDashed d~
 		d
 		d2 r4
@@ -2020,7 +2020,7 @@ QuiTollisTenoreILyrics = \lyricmode {
 	Mi -- se -- re -- re,
 	mi -- se -- re -- re
 	no -- _
-	_ bis.
+	_ bis. %539 finis
 }
 
 QuiTollisTenoreIINotes = {
@@ -2028,12 +2028,111 @@ QuiTollisTenoreIINotes = {
 		\clef "treble_8"
 		\key d \minor \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #478
-		
+		R1*11 %488
+		\mvTr a2\pE^\tuttiE a
+		b4 a8([ g)] fis2 %490
+		g r8 c b a
+		g4 g r8 g g g
+		g2 fis\fermata
+		r4 g2 g4
+		\once \tieDashed g2~ g8[ f16 e] f4 %495
+		a4. b8 c4 c
+		c8([ b16 a] b2 a4)
+		b r r2
+		R1*3 %501
+		c2 c
+		des4 c8([ b)] a!2
+		b r8 es des? c
+		b4 b r d %505
+		d2 c
+		c h\fermata
+		g8. g16 g4 g8. g16 g4
+		c8 c c c c([ b16 a)] b4
+		b8 b b b b4 a %510
+		g2 fis
+		b8. a16 g4 a8. g16 fis4
+		g8 g g g g4 g \noBreak
+		g( fis8[ e)] fis2 \bar "||"
+		\time 3/4 \tempoQuiSedes
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
+		r r b\fE \noBreak %515
+		b a g
+		fis4. g8 a4
+		b a r
+		r r c
+		c h a %520
+		g a h
+		c h h
+		g2.
+		c2 a4
+		f2. %525
+		b2 g4
+		es2.
+		a2 fis4
+		g2 a4
+		b2 g4 %530
+		fis2 g4
+		a2.
+		\once \tieDashed g~
+		g2 fis4 \noBreak
+		g2.\fermata \bar "||" %535
+		\time 4/4 \tempoMiserere r4 g8 g g4 g \noBreak
+		g g fis g
+		fis2 \once \tieDashed g~
+		g4 fis8[ e] fis2\fermata \bar "||" %539 finis
 	}
 }
 
 QuiTollisTenoreIILyrics = \lyricmode {
+	Qui tol -- %489
+	lis pec -- ca -- %490
+	ta, pec -- ca -- ta
+	mun -- di, pec -- ca -- ta
+	mun -- di:
+	Mi -- se --
+	re -- re, %495
+	mi -- se -- re -- re
+	no --
+	bis.
 	
+	Qui tol -- %502
+	lis pec -- ca --
+	ta, pec -- ca -- ta
+	mun -- di, pec -- %505
+	ca -- ta
+	mun -- di:
+	Sus -- ci -- pe, sus -- ci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem %510
+	no -- stram,
+	sus -- ci -- pe, sus -- ci -- pe
+	[de -- pre -- ca -- ti -- o -- nem
+	no -- stram.] 
+	Qui %515
+	se -- des ad
+	dex -- te -- ram
+	[Pa -- tris,]
+	qui
+	se -- des ad %520
+	dex -- te -- ram
+	Pa -- tris, qui
+	se --
+	des, qui
+	se -- %525
+	des, qui
+	se --
+	des ad
+	dex -- te --
+	ram, [ad %530
+	dex -- te --
+	ram
+	Pa --
+	_
+	tris:] %535
+	[Mi -- se -- re -- re,
+	mi -- se -- re -- re]
+	no -- _
+	_ bis. %539 finis
 }
 
 % TenoreINotes = {
