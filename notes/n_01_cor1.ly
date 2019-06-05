@@ -313,6 +313,15 @@ DomineDeusCornoI = {
 	}
 }
 
+QuoniamCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #540
+		
+	}
+}
+
 % CornoI = {
 % 	\relative c' {
 % 		\clef treble

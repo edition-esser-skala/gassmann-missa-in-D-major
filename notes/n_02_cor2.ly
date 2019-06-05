@@ -312,3 +312,12 @@ DomineDeusCornoII = {
 		e2.\fermata \bar "||" %477 finis
 	}
 }
+
+QuoniamCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #540
+		
+	}
+}

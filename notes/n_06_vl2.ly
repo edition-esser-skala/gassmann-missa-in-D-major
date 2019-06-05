@@ -900,3 +900,12 @@ QuiTollisViolinoII = {
 		b4 a8 g a2\fermata \bar "||" %539 finis
 	}
 }
+
+QuoniamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #540
+		
+	}
+}

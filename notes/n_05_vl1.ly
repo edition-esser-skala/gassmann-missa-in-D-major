@@ -901,6 +901,15 @@ QuiTollisViolinoI = {
 	}
 }
 
+QuoniamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #540
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
