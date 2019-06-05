@@ -1778,11 +1778,213 @@ QuoniamOrgano = {
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #540
 		d4\fE-\soloE d8. d16 d8 d d d
+		cis cis cis cis cis cis cis cis
+		d d d d d d d d
+		a'4 a,8 a a a' fis d
+		g g g g g g g g
+		fis fis fis fis d d d d %545
+		a' a a, a a a a a
+		a a a a a a a a
+		a a a a a a a a
+		d d d d fis fis fis fis
+		e e e e e e e e %550
+		e e e e a, a cis dis
+		e\p e e e e e e e
+		e e e e a, a a a
+		a\f a a a a a a a
+		a a a a a a a a %555
+		a a a a a a a a
+		a a a a d d d d
+		g g g g g g g g
+		a a a a a, a a a
+		d4 r8 fis a a a, a %560
+		d4 d,8. d16 d4 r
+		d'8\pE d d d d d d d
+		cis cis cis cis cis cis cis cis
+		d d d d d d d d
+		a' a a a a a fis d %565
+		g g g g g g g g
+		fis fis fis fis d d d d
+		a a a a a a a a
+		a a a a a a a a
+		a a a a a a a a %570
+		a a a a d d d d
+		d d d d d d d d
+		d d d d d d d d
+		h h h h gis gis gis gis
+		a a a a a h cis dis %575
+		e e e e e e e e
+		e e e e e e e e
+		e e e e e e e e
+		e e e e a a a a
+		a a a a a a a a %580
+		gis gis gis gis gis gis gis gis
+		a a, cis a r e' gis e
+		a a a a d, d d d
+		e e e e e, e e e
+		a\fE a a a a a a a %585
+		a a a a a a a a
+		a a a a a a a a
+		e' e e e e e e e
+		a, a a a a a a a
+		a a a a e' e e e %590
+		a a, cis d e e e, e
+		a4 a8. a16 a4 r
+		a'8\pE a a a a a a a
+		a a a g! fis fis fis e
+		dis dis dis dis dis dis dis dis %595
+		e e e fis g fis e d
+		cis cis cis cis cis cis cis cis
+		d4 d8 e fis fis d d
+		a' a a a a, a a a
+		a a a a a a a a %600
+		a a a a a a a a
+		a a a a d d d d
+		d d d d d d d d
+		d d d d d d d d
+		d d d d d d d d %605
+		d d d d g g g g
+		g g g g g g g g
+		fis fis fis fis fis fis fis fis
+		e e cis cis d d d d
+		d d d d d d d d %610
+		e e d cis d e fis g
+		a a, a a a a a a
+		a a a a a a a a
+		a a a a a a a a
+		d d d d d d d d %615
+		d d d d d d d d
+		r d fis d r e cis a
+		d d d d g g g g
+		a a a a a, a a a
+		d d d d d d d d %620
+		d d d d d d d d
+		e e e e e e e e
+		cis cis cis cis cis cis cis cis
+		d d d d f g f e
+		d d d d d d d d %625
+		cis cis cis cis cis a h cis
+		d d fis d a' a, cis a
+		d d d d g g g g
+		a a a a a, a a a
+		d\fE d d d d d d d %630
+		cis cis cis cis cis cis cis cis
+		d d d d d d d d
+		a'4 a,8 a a a a a
+		a a a a a a a a
+		a a a a a a a a %635
+		a a a a a a a a
+		a a a' a d, d d d
+		g g g g g g g g
+		a a a a a, a a a
+		d d fis g a a a, a %640
+		d4 d8. d16 d4 r\fermata \bar "||" %641 finis
 	}
 }
 
 QuoniamBassFigures = \figuremode {
-	
+	r1 %540
+	r
+	r
+	r
+	r
+	r %545
+	r
+	r
+	r
+	r
+	r %550
+	r
+	r
+	r
+	r
+	r %555
+	r
+	r
+	r
+	r
+	r %560
+	r
+	r
+	r
+	r
+	r %565
+	r
+	r
+	<6 4>4 <5 3> r2
+	<6 4>4 <5 3> r2
+	<6 4>4 <5 3> r2 %570
+	<7>1
+	r2 <6 4>4 <7 4 2>
+	r1
+	<6>2 <6 5>
+	r1 %575
+	<_+>2 <6 4>
+	<7 _+> <6 4>
+	<5 _+> <6 4>
+	r1
+	r %580
+	r
+	r
+	r
+	<6 4>2 <5 [_+]>
+	r1 %585
+	<6 4>
+	<[5 3]>
+	<_+>
+	r
+	r %590
+	r
+	r
+	r
+	r
+	r %595
+	r
+	r
+	r
+	r2 <6 4>
+	<5 3> <6 4> %600
+	<5 3> <6 4>
+	<5 3>1
+	r2 <6 4>
+	<5 3> <6 4>
+	<5 3> <6 4> %605
+	<5 3>1
+	r
+	r
+	r
+	r %610
+	r
+	r
+	r
+	r
+	r %615
+	r
+	r
+	r
+	<6 4>2 <5 3>
+	r <_!> %620
+	r1
+	r
+	r
+	r
+	r %625
+	r
+	r
+	r
+	r
+	r %630
+	r
+	r
+	r
+	r
+	r %635
+	r
+	r
+	r
+	r
+	r %640
+	r %641 finis
 }
 
 % Organo = {
