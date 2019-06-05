@@ -834,6 +834,69 @@ QuiTollisViolinoII = {
 		\clef treble
 		\key d \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #478
-		
+		r8 f'(\fE e d) r g( fis g)
+		r \slurDashed g( f e) r a,( g f)
+		r b( d b) r \slurSolid d( c b) %480
+		r \once \slurDashed a( c a) r b( a g)
+		r \slurDashed a( b a) r a( g f) \slurSolid
+		r c'( b a) r g( b g')
+		r \slurDashed d( c h) r a( h cis)
+		r e( d cis) \slurSolid r d( cis d) %485
+		r d( cis d) r d( cis d)
+		\once \slurDashed r a( g f) r g( f e)
+		\once \slurDashed r g( f e) d cis d4
+		r8 \slurDashed f(\pE e d) r cis( h a)
+		r g'( f e) r d( fis d) %490
+		r g( a b) r c( b a)
+		r g( b g) r b( g' b,)
+		r b( g' b,) \slurSolid a2\fermata
+		r16 h( g h) d g g8 r16 \once \slurDashed c,( g c) es g g8
+		r16 c, c e g g g8 r16 c, c f a f f8 %495
+		r16 a, f a a8 b r16 a f a c es es8
+		r16 b f b des des des8 r16 b f b a4
+		r8 des(\fE c b) r \slurDashed a( g f)
+		r es'( des c) r f,( es f)
+		r f( es d) r es( d es) %500
+		r es( d es) d2
+		r8 es(\pE d c) r f( e f)
+		r b( as g) r f( g a)
+		r b( c des) r es( des c)
+		r b( d b) r b( d b) %505
+		r h( d h) r es,( g es)
+		r es( c' es,) \slurSolid d2\fermata-\critnote
+		r16 es c es g c c8 r16 c, e g c e! e8
+		r16 c, f a! c f es8 r16 b, d f b d d8
+		r16 b, es g b es es8 r16 e,? g cis d f f8 %510
+		r8 d cis cis d d, d4
+		r8 b'16 a g8 b r a16 g fis8 a'
+		g g g g g g g g \noBreak
+		g4 fis8 e fis2\fermata \bar "||"
+		\time 3/4 \tempoQuiSedes
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
+		r r b,\fE \noBreak %515
+		b a g
+		fis4. g8 a4
+		b a d,
+		g g8 h c4
+		c h a %520
+		g a h
+		c h h
+		c8 es c es c es
+		c2 a4
+		b8 d b d b d %525
+		b2 g4
+		a8 c a c a c
+		a2 fis4
+		g2 a8.( g32 a)
+		b4( d g) %530
+		fis,2 g4
+		a a( c)
+		b g g
+		g2 fis4 \noBreak
+		g2.\fermata \bar "||" %535
+		\time 4/4 \tempoMiserere r8 es'? g es r es g es \noBreak
+		r c es c r a b g
+		r a c a r b d b
+		b4 a8 g a2\fermata \bar "||" %539 finis
 	}
 }

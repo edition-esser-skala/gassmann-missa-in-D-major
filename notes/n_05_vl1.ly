@@ -864,7 +864,7 @@ QuiTollisViolinoI = {
 		r d( f d) r \slurDashed d( f d) %505
 		r d( f d) r c( es c)
 		r c( es c) \slurSolid h2\fermata
-		r16 c, e g c es es8 r16 es, g b e g g8
+		r16 c, es g c es es8 r16 e, g b e g g8
 		r16 f, a! c f c' c8 r16 d,, f b d f f8
 		r16 es,? g b es g g8 r16 b, cis e f a a8 %510
 		r g g g fis d, d4
@@ -888,16 +888,16 @@ QuiTollisViolinoI = {
 		c' a' c, a' c, a'
 		c,8.( b32 c) d8 d, c' d,
 		b'2 c8.( b32 c)
-		d4 g8.( fis?32 g) b4
+		d4 g8.( fis?32 g) b4 %530
 		a,2 b4
 		c fis8.( e32 fis) a4
 		g g, g
 		a2. \noBreak
-		g\fermata \bar "||"
+		g\fermata \bar "||" %535
 		\time 4/4 \tempoMiserere r8 g' b g r g b g \noBreak
 		r es? g es r fis g b,
 		r fis' a fis r g b g
-		g4 fis8 e fis2\fermata \bar "||"
+		g4 fis8 e fis2\fermata \bar "||" %539 finis
 	}
 }
 
