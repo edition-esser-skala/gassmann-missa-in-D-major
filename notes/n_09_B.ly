@@ -922,12 +922,139 @@ QuoniamBassoNotes = {
 		\clef bass
 		\key d \major \time 4/4 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #540
-		
+		R1*22 %561
+		\mvTr d2\pE^\soloE d
+		a' r4 a
+		d2 d
+		cis8([ h)] a4 r a %565
+		h2 h
+		a8 fis d4 r d
+		a'2 a,
+		fis'4 e r a,
+		a'2 a, %570
+		e'4 g fis a
+		a2 h4 cis
+		d4. d,8 d2
+		d'4( h8[ gis] e4) d'
+		cis8([ h)] a4 r a %575
+		gis2 a
+		h4( d) cis a
+		gis2 a
+		h4 d cis a
+		a2 cis4. a8 %580
+		e'4. e,8 e2
+		e d
+		cis4( a' fis) d
+		e1
+		a,4 r r2 %585
+		R1*7 %592
+		a'2 a
+		a r4 a
+		a4.( c8 h4) a %595
+		g8([ fis)] e2 g4^\critnote
+		g( h a) g
+		fis4. e8 d4 d
+		cis2 d
+		e4( g) fis d %600
+		cis2 d
+		e4. g8 fis4 d
+		d2 g
+		a4( c) h g
+		d2 g %605
+		a4. c8 h4 g
+		g2 g8([ a)] h([ cis)]
+		d4. d,8 d2
+		e4( g) fis2
+		g4( h) a2 %610
+		g fis
+		fis4 e r a
+		a2 a
+		a4. a,8 a4 a
+		d2 fis4 a %615
+		d4. d,8 d2
+		a' g
+		fis4 d' h g
+		a2( a,)
+		d r4 a' %620
+		a( b) b( a)
+		gis2 e4 e
+		e( a) a( g)
+		f4. e8 d4 d
+		d2 f4. d8 %625
+		a'4. a8 a2
+		a g
+		fis!4( d' h) g
+		a2( a,)
+		d r %630
+		R1*10 %640
+		R1\fermataMarkup \bar "||" %641 finis
 	}
 }
 
 QuoniamBassoLyrics = \lyricmode {
+	Quo -- ni -- %562
+	am tu
+	so -- lus
+	san -- ctus, tu %565
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus
+	san -- ctus, tu
+	so -- lus %570
+	Do -- mi -- nus, tu
+	so -- lus al --
+	tis -- si -- mus
+	Je -- su
+	Chri -- ste, tu %575
+	so -- lus
+	san -- ctus, tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al -- %580
+	tis -- si -- mus
+	Je -- su,
+	Je -- su
+	Chri --
+	ste. %585
 	
+	Quo -- ni -- %593
+	am tu
+	so -- lus %595
+	san -- ctus, tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus
+	san -- ctus, tu %600
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus
+	san -- ctus, tu
+	so -- lus %605
+	Do -- mi -- nus, tu
+	so -- lus al --
+	tis -- si -- mus
+	Je -- su,
+	Je -- su, %610
+	Je -- su
+	Chri -- ste, tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al -- %615
+	tis -- si -- mus
+	Je -- _
+	_ _ _ su
+	Chri --
+	ste, tu %620
+	so -- lus __
+	san -- ctus, tu
+	so -- lus __
+	Do -- mi -- nus, tu
+	so -- lus al -- %625
+	tis -- si -- mus
+	Je -- su,
+	Je -- su
+	Chri --
+	ste. %630 finis
 }
 
 % BassoNotes = {

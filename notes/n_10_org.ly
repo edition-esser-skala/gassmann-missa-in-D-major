@@ -1864,7 +1864,7 @@ QuoniamOrgano = {
 		d d d d f g f e
 		d d d d d d d d %625
 		cis cis cis cis cis a h cis
-		d d fis d a' a, cis a
+		d d fis! d a' a, cis a
 		d d d d g g g g
 		a a a a a, a a a
 		d\fE d d d d d d d %630
@@ -1917,7 +1917,7 @@ QuoniamBassFigures = \figuremode {
 	<7>1
 	r2 <6 4>4 <7 4 2>
 	r1
-	<6>2 <6 5>
+	<[6\\]>2 <6 5>
 	r1 %575
 	<_+>2 <6 4>
 	<7 _+> <6 4>
