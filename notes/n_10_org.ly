@@ -1987,6 +1987,19 @@ QuoniamBassFigures = \figuremode {
 	r1 %641 finis
 }
 
+CumSanctoOrgano = {
+	\relative c {
+		\clef "treble_8"
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #642
+		\mvTr d'2\fE-\tuttiE d4 d
+	}
+}
+
+CumSanctoBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

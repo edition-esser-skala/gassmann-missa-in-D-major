@@ -385,6 +385,15 @@ QuoniamCornoI = {
 	}
 }
 
+CumSanctoCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #642
+		
+	}
+}
+
 % CornoI = {
 % 	\relative c' {
 % 		\clef treble

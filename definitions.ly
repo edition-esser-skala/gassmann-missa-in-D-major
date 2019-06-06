@@ -205,6 +205,7 @@ tempoQuiTollis = \tempoMarkup "Lento"
 	tempoQuiSedes = \tempoMarkup "Scherzetto"
 	tempoMiserere = \tempoMarkup "Lento"
 tempoQuoniam = \tempoMarkup "Allegro"
+tempoCumSancto = \tempoMarkup "Presto"
 
 
 

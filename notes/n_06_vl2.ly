@@ -1010,3 +1010,12 @@ QuoniamViolinoII = {
 		d4 d,8. d16 d4 r\fermata \bar "||" %641 finis
 	}
 }
+
+CumSanctoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #642
+		
+	}
+}

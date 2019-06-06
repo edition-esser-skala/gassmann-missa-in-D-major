@@ -1011,6 +1011,15 @@ QuoniamViolinoI = {
 	}
 }
 
+CumSanctoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #642
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

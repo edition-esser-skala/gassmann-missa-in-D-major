@@ -384,3 +384,12 @@ QuoniamCornoII = {
 		e e8. e16 e4 r\fermata \bar "||" %641 finis
 	}
 }
+
+CumSanctoCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #642
+		
+	}
+}
