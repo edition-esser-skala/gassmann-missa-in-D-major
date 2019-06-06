@@ -906,7 +906,108 @@ QuoniamViolinoI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #540
-		
+		<d a' fis'>4\fE d8. d16 fis fis a a d d fis fis
+		<a,, e' a e'>4 a'8. a16 a a cis cis e e g g
+		<fis a, d,>4 d8. d16 d d fis fis a a d d
+		cis8 h a4 r a
+		h16 h g g d d h h d d g g h h h h
+		a a fis fis d d a a d d fis fis a a fis fis %545
+		e e fis fis e e a a a, a cis cis e e g g
+		fis4 e a,16 a cis cis e e a a
+		e e fis fis e e a a a, a cis cis e e g g
+		g4 fis d16 d fis fis a a d d
+		gis, gis gis gis gis gis gis gis a a a a a a a a %550
+		h h h h h h h h cis cis cis cis a, a a a
+		gis\p gis gis gis gis gis gis gis a a a a a a a a
+		h h h h h h h h cis cis cis cis a' a a a
+		cis,\f cis cis cis cis cis cis cis d d d d d d d d
+		e e e e e e e e fis fis fis fis d d d d %555
+		cis cis cis cis cis cis cis cis d d d d d d d d
+		e e e e e e e e fis fis fis fis a a a a
+		h ais h ais h ais h ais h a g fis e d cis h
+		cis a cis a e' cis e cis g' e g e h' g fis e
+		fis e fis g a fis e d a4 e' %560
+		d d,8. d16 d4 r
+		<d a' fis'>4\pE d8. d16 fis fis a a d d fis fis
+		<a,, e' a e'>4 a'8. a16 a a cis cis e e g g
+		<fis a, d,>4 d8. d16 d d fis fis a a d d
+		cis8 h a4 r a %565
+		h16 h g g d d h h d d g g h h h h
+		a a fis fis d d a a d d fis fis a a fis fis
+		e e fis fis e e a a a, a cis cis e e g g
+		fis4 e a,16 a cis cis e e a a
+		e e fis fis e e a a a, a cis cis e e g g %570
+		e e e e g g g g fis fis fis fis a a a a
+		a( fis) a( fis) a( fis) a( fis) h g h g cis a cis a
+		d d a a fis fis d d a a d d fis fis a a
+		gis gis gis gis gis gis gis gis h h h h h h h h
+		a a a, a cis cis e e a a a a a a a a %575
+		gis gis gis gis gis gis gis gis a a a a a a a a
+		h h h h h h h h cis cis cis cis a, a a a
+		gis gis gis gis gis gis gis gis a a a a a a a a
+		h h h h h h h h cis cis cis cis e e e e
+		a e cis a cis a cis e a e cis a cis a cis e %580
+		e h gis e gis e gis h e h gis e gis e gis h
+		e,2 d
+		cis16 cis cis cis a'' a a a fis fis fis fis d d d d
+		cis cis cis cis cis cis cis cis h h h h h h h h
+		a\fE a cis cis e e a a e e fis fis e e a a %585
+		a, a d d fis fis a a fis fis g! g fis fis a a
+		a, a cis cis e e a a e e fis fis e e a a
+		gis h h h h h h h h d d d d d d d
+		cis a a a a a a a fis fis fis fis fis fis fis fis
+		e e e e e e e e d d d d d d d d %590
+		cis4. h16 a h2
+		a4 a,8. a16 a4 r
+		a'\pE a,8 a a16 a cis cis e e a a
+		a8^\critnote a'16 a, a4 a16 a' a,8 a4
+		a8 a'16 a, a8 c h fis16 dis h dis fis a %595
+		g e g h e dis e dis e4 g,
+		g r8 h a e16 cis a cis e a
+		fis8 d'16 cis d cis d cis d8 d,16 fis fis a a d
+		cis cis cis cis cis cis cis cis d d d d d d d d
+		e e e e e e e e fis fis fis fis d d d d %600
+		cis cis cis cis cis cis cis cis d d d d d d d d
+		e e e e e e e e fis fis fis fis a a a a
+		fis fis fis fis fis fis fis fis g g g g g g g g
+		a a a a a a a a h h h h g, g g g
+		fis fis fis fis fis fis fis fis g g g g g g g g %605
+		a a a a a a a a h h h h h g h d
+		g h g d h g' h, g g8 a h cis!
+		d16 fis a fis d fis d a fis d' a fis d8 a'
+		g e'16 g, g4 fis16 d-\critnote fis a d a fis d
+		g4 h a16 fis a d fis d a fis %610
+		g8 e'16 g, g4 fis8 d'16 fis, fis4
+		fis e16 e cis cis a a cis cis e e a a
+		cis8 cis a' a e e fis fis
+		e16 e a a e e cis cis a h cis d e fis g e
+		fis fis h h a a h h a a fis fis d d a a %615
+		fis d fis a d fis, a d <fis a, d,>8 q q4
+		a,8 fis'16 a, a4 g8 e'16 g, g4
+		fis16 fis fis fis d' d d d h h h h g' g g g
+		fis fis fis fis fis fis fis fis e e e e e e e e
+		d8 <fis, a,>16 q q8 q q4 a %620
+		a b b a
+		gis16 e gis h e h gis h e,4 e
+		e a a g
+		f4. e8 d4 d
+		r8 a'16 g f4 r8 a16 g f4 %625
+		r16 a cis e a e cis e a,8 a, a4
+		a'8 fis'!16 a, a4 g8 e'16^\critnote g, g4
+		fis16 fis fis fis d' d d d h h h h g' g g g
+		fis fis fis fis fis fis fis fis e e e e e e e e
+		d4\fE d,8. d16 fis fis a a d d fis fis %630
+		e4 a,8. a16 a a cis cis e e g g
+		<fis a, d,>4 d8. d16 d d fis fis a a d d
+		cis8 h a4 r d,
+		cis16 cis cis cis cis cis cis cis d d d d d d d d
+		e e e e e e e e fis fis fis fis d d d d %635
+		cis cis cis cis cis cis cis cis d d d d d d d d
+		e e e e e e e e fis fis fis fis a a a a
+		h ais h ais h ais h ais h a g fis e d cis h
+		cis a cis a e' cis e cis g' e g e h' g fis e
+		fis e fis g a fis e d a4 e' %640
+		d d,8. d16 d4 r\fermata \bar "||" %641 finis
 	}
 }
 
