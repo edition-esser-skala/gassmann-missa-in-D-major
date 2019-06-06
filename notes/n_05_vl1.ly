@@ -925,7 +925,7 @@ QuoniamViolinoI = {
 		cis cis cis cis cis cis cis cis d d d d d d d d
 		e e e e e e e e fis fis fis fis a a a a
 		h ais h ais h ais h ais h a g fis e d cis h
-		cis a cis a e' cis e cis g' e g e h' g fis e
+		cis a cis a e' cis e cis g'! e g e h' g fis e
 		fis e fis g a fis e d a4 e' %560
 		d d,8. d16 d4 r
 		<d a' fis'>4\pE d8. d16 fis fis a a d d fis fis
@@ -960,7 +960,7 @@ QuoniamViolinoI = {
 		cis4. h16 a h2
 		a4 a,8. a16 a4 r
 		a'\pE a,8 a a16 a cis cis e e a a
-		a8^\critnote a'16 a, a4 a16 a' a,8 a4
+		a8^\critnote a'16 a, a4 a8 a'16 a, a4
 		a8 a'16 a, a8 c h fis16 dis h dis fis a %595
 		g e g h e dis e dis e4 g,
 		g r8 h a e16 cis a cis e a
@@ -1005,7 +1005,7 @@ QuoniamViolinoI = {
 		cis cis cis cis cis cis cis cis d d d d d d d d
 		e e e e e e e e fis fis fis fis a a a a
 		h ais h ais h ais h ais h a g fis e d cis h
-		cis a cis a e' cis e cis g' e g e h' g fis e
+		cis a cis a e' cis e cis g'! e g e h' g fis e
 		fis e fis g a fis e d a4 e' %640
 		d d,8. d16 d4 r\fermata \bar "||" %641 finis
 	}

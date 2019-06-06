@@ -1795,9 +1795,9 @@ QuoniamOrgano = {
 		a a a a a a a a %555
 		a a a a a a a a
 		a a a a d d d d
-		g g g g g g g g
+		g g g g g g g gis?
 		a a a a a, a a a
-		d4 r8 fis a a a, a %560
+		d4 r8 g^\critnote a a a, a %560
 		d4 d,8. d16 d4 r
 		d'8\pE d d d d d d d
 		cis cis cis cis cis cis cis cis
@@ -1875,7 +1875,7 @@ QuoniamOrgano = {
 		a a a a a a a a %635
 		a a a a a a a a
 		a a a' a d, d d d
-		g g g g g g g g
+		g g g g g g g gis?
 		a a a a a, a a a
 		d d fis g a a a, a %640
 		d4 d8. d16 d4 r\fermata \bar "||" %641 finis
@@ -1963,7 +1963,7 @@ QuoniamBassFigures = \figuremode {
 	r
 	r
 	<6 4>2 <5 3>
-	r <_!> %620
+	r2. <_!>4 %620
 	r1
 	r
 	r

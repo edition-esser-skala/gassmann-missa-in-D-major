@@ -906,6 +906,107 @@ QuoniamViolinoII = {
 		\clef treble
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #540
-		
+		<d a' fis'>4\fE d8. d16 d d fis fis a a d d
+		<a, e' a e'>4 e'8. e16 e e a a cis cis e e
+		d4 fis,8. fis16 fis fis a a fis' fis fis fis
+		e8 d cis cis cis e fis fis
+		g16 g d d h h g g h h d d g g g g
+		fis^\critnote fis d d a a fis fis a a d d fis fis d d %545
+		cis cis d d cis cis cis cis cis cis a a cis cis e e
+		d4 cis a16 a cis cis e e cis cis
+		cis cis d d cis cis cis cis cis cis a a cis cis e e
+		e4 d a16 a d d fis fis a, a
+		h h h h h h h h cis cis cis cis cis cis cis cis %550
+		gis' gis gis gis gis gis gis gis a a a a cis,, cis cis cis
+		h\pE h h h h h h h cis cis cis cis cis cis cis cis
+		gis' gis gis gis gis gis gis gis a a a a e e e e
+		e\fE e e e e e e e fis fis fis fis fis fis fis fis
+		cis' cis cis cis cis cis cis cis d d d d fis, fis fis fis %555
+		e e e e e e e e fis fis fis fis fis fis fis fis
+		cis' cis cis cis cis cis cis cis d d d d fis fis fis fis
+		g fis g fis g fis g fis g fis e d cis h a gis
+		a e a e cis' a cis a e' cis e cis g'! e d cis
+		d cis d e fis8 h, a d4 cis8 %560
+		d4 <fis, a,>8. q16 q4 r
+		<d a' fis'>4\pE d8. d16 d d fis fis a a d d
+		<a, e' a e'>4 e'8. e16 e e a a cis cis e e
+		d4 d8. d16 d d a a fis' fis fis fis
+		e8 d cis4 r fis %565
+		g16 g d d h h g g h h d d g g g g
+		a a a a fis fis d d fis, fis d' d fis fis d d
+		cis cis d d cis cis cis cis e, e a a cis cis e e
+		d4 cis cis16 cis a a cis cis e e
+		cis cis d d cis cis a a e e a a cis cis cis cis %570
+		cis cis cis cis e e e e d d d d fis fis fis fis
+		fis d fis d fis d fis d g d g d g e g e
+		fis fis fis fis d d a a fis fis a a d d fis fis
+		d d d d d d d d d d d d d d d d
+		cis cis a a cis cis e e cis cis d d e e fis fis %575
+		h, h h h h h h h cis cis cis cis cis cis cis cis
+		gis' gis gis gis gis gis gis gis a a a a cis,, cis cis cis
+		h h h h h h h h cis cis cis cis cis cis cis cis
+		gis' gis gis gis gis gis gis gis a a a a cis cis cis cis
+		e a e cis a cis e a e a e cis a cis e a %580
+		h, e h gis e gis h e gis e h gis e h h d
+		cis2 h
+		cis16 cis cis cis cis' cis cis cis d d d d h h h h
+		a a a a a a a a gis gis gis gis gis gis gis gis
+		a\fE a cis cis e e cis cis cis cis d d cis cis cis cis %585
+		a a fis fis d' d fis fis d d e e d d fis fis
+		e e a, a cis cis cis cis cis cis d d cis cis cis cis
+		h gis' gis gis gis gis gis gis gis h h h h h h h
+		a cis, cis cis cis cis cis cis d d d d d d d d
+		cis cis cis cis cis cis cis cis h h h h h h h h %590
+		a a a a a a a a a a a a gis gis gis gis
+		a4 a,8. a16 a4 r
+		a'\pE a,8 a a16 a cis cis e e a a
+		a8^\critnote a'16 a, a4 a8 a'16 a, a4
+		fis8 fis'16 fis, fis4 fis8 fis'16 fis, fis4 %595
+		e8 fis g a h a g fis
+		e e'16 e, e4 e8 e'16 e, e4
+		fis fis8 g a a fis fis
+		e16 e e e e e e e fis fis fis fis fis fis fis fis
+		cis' cis cis cis cis cis cis cis d d d d fis, fis fis fis %600
+		e e e e e e e e fis fis fis fis fis fis fis fis
+		cis' cis cis cis cis cis cis cis d d d d fis fis fis fis
+		a, a a a a a a a h h h h h h h h
+		fis' fis fis fis fis fis fis fis g g g g h,, h h h
+		a a a a a a a a h h h h h h h h %605
+		fis' fis fis fis fis fis fis fis g g g g g d g h
+		d g d h g d' h g d8 d d e
+		a16 d fis d a d a fis d a' fis d a8 d
+		e8 g16 e e4 d16 a d fis a d a fis
+		e4 g fis16 d fis a d a fis d %610
+		e8 g16 e e4 d8 fis16 d d4
+		d cis16 cis e e a, a cis cis e e a a
+		a8 a cis cis cis cis d d
+		cis16 cis a' a e e cis cis a gis a h cis d e cis
+		d d g g fis fis g g fis fis d d a a fis fis %615
+		d a d fis a d, fis a d8 <fis a, d,> q4
+		fis,8 a16 fis fis4 e8 g16 e e4
+		d16 d d d fis fis fis fis g g g g h h h h
+		a d d d d d d d cis cis cis cis cis cis cis cis
+		d8 d,16 d d8 d d4 f %620
+		f?8 f f f f f f f
+		h, h h h h h h h
+		e e e e e e e e
+		a, a a a a' b a g
+		f f16 e d4 r8 f16 e d4 %625
+		e8 e e e e cis d e
+		fis! a16 fis fis4 e8 g16 e e4
+		d16 d d d fis fis fis fis g g g g h h h h
+		a d d d d d d d cis cis cis cis cis cis cis cis
+		d4\fE d,8. d16 d d fis fis a a d d %630
+		<a e'>4 e8. e16 e e a a cis cis e e
+		d4 fis,8. fis16 fis fis a a fis' fis fis fis
+		e8 d cis4 r fis,
+		e16 e e e e e e e fis fis fis fis fis fis fis fis
+		cis' cis cis cis cis cis cis cis d d d d fis, fis fis fis %635
+		e e e e e e e e fis fis fis fis fis fis fis fis
+		cis' cis cis cis cis cis cis cis d d d d fis fis fis fis
+		g fis g fis g fis g fis g fis e d cis h a gis
+		a e a e cis' a cis a e' cis e cis g'! e d cis
+		d e fis g a fis e d a8 d4 cis8 %640
+		d4 d,8. d16 d4 r\fermata \bar "||" %641 finis
 	}
 }
