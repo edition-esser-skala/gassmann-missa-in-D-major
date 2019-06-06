@@ -1993,11 +1993,129 @@ CumSanctoOrgano = {
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #642
 		\mvTr d'2\fE-\tuttiE d4 d
+		e d8 cis d4 d
+		e d8 cis d4 h
+		cis8 h a4 h2 %645
+		<< {
+			a4 a8 h cis d e4
+			d cis8 h cis4 e
+			d cis8 h cis4 e~
+			e d2 cis4
+			d
+		} \\ {
+			r4 a a a
+			h a8 gis a4 a
+			h a8 gis a4 g
+			fis d e2
+			d4
+		} >> \clef bass d d d %650
+		e d8 cis d4 d
+		e d8 cis d4 h
+		cis a h2
+		a4 a8 h cis d e d
+		cis4 d g fis %655
+		e fis8 g a2~
+		a \once \tieDashed g2~
+		g4 fis e2
+		d4 d d, r
+		r a'' d, d, %660
+		r a'' d, d,
+		a'' ais h h,
+		fis'2 r4 a
+		h2 e,
+		a4 a a a %665
+		h a8 gis a4 a
+		h a8 gis a4 g
+		fis4. d8 e4 \once \tieDashed a~
+		a2 \once \tieDashed g~
+		g4 fis e2 %670
+		d4 d e fis
+		g2. fis4
+		e fis8 g a2
+		h fis
+		h,4 \clef "treble_8" h' cis d %675
+		<< { e2 d cis4 } \\ { r4 e, fis gis a } >>
+		\clef bass a, h cis
+		d2 e
+		fis4 g d2
+		g4 r r d %680
+		g2 r4 d
+		g e h' h,
+		e r r h
+		e cis d d,
+		a' a d2 %685
+		r4 a d2
+		a' h
+		fis g
+		d a'
+		d, r %690
+		r r4 a'
+		d, r r2
+		r r4 a'
+		d,2 g
+		a a, %695
+		d1
+		d\fermata \bar "|." %697 FINIS
 	}
 }
 
 CumSanctoBassFigures = \figuremode {
-	
+	r1 %642
+	r
+	r
+	r %645
+	r
+	r
+	r
+	r
+	r %650
+	<6>
+	q2. q4
+	q2 <7>4 <[6\\]>
+	r1
+	r %655
+	r
+	r
+	r
+	r
+	r %660
+	r
+	<4>4 <4> <9> <8>
+	<5 4>2. <6>4
+	<_+>2 <7>
+	r1 %665
+	r
+	r
+	r
+	r
+	r %670
+	r
+	r
+	r
+	r
+	r %675
+	r
+	r2 <6>
+	r <7>4 <6!>
+	r1
+	r2. <7!>4 %680
+	r2. <7!>4
+	r1
+	r2. <_+>4
+	r <6 5>2.
+	r1 %685
+	r
+	<4>4 <3> <9> <8>
+	<4> <3> <9> <8>
+	r1
+	r %690
+	r
+	r
+	r
+	r
+	<6 4>2 <5 3> %695
+	r1
+	r %697 FINIS
 }
 
 % Organo = {
