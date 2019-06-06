@@ -318,7 +318,7 @@ QuoniamCornoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #540
-			e'4\fE e8. e16 e4 r %540
+		e'4\fE e8. e16 e4 r %540
 		d d8. d16 d4 r
 		e e8. e16 e4 r
 		r8 d d d d4 r
