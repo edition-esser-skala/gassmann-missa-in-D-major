@@ -318,7 +318,70 @@ QuoniamCornoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #540
-		
+			e'4\fE e8. e16 e4 r %540
+		d d8. d16 d4 r
+		e e8. e16 e4 r
+		r8 d d d d4 r
+		c2 c4 r
+		c2 c4 r %545
+		d8 e d d d4 r8 f
+		e4 d8 d d4 r8 g
+		d e d d d4 r8 f
+		f4 e8 e e4 r8 e
+		d4 d8 d d4 r %550
+		d2 d4 r
+		R1*2
+		d2 e4 r
+		d2 e4 r %555
+		R1
+		r2 r4 g
+		a r r2
+		d,8 d d4 f8 f f4
+		e r8 f e4 d %560
+		c c8. c16 c4 r
+		R1
+		r4 d8\pE d d4 r
+		R1
+		r4 d8 d d4 r %565
+		R1
+		r4 e8 e e4 r
+		R1
+		r4 d8 d d4 r
+		R1*5 %574
+		r4 d8 d d4 r %575
+		R1*9 %584
+		d4\fE r d8 e d d %585
+		e4 r e8 f e e
+		d4 r d8 e d d
+		d2 d4 r
+		d8 d d4 e8 e e4
+		d8 d d4 d8 d d4 %590
+		d r d d
+		d d8 d d4 r
+		R1*6 %598
+		g,1\pE
+		g %600
+		g
+		g2 c
+		c1
+		c
+		R1*13 %617
+		r2 r4 f
+		e2 d
+		c8 c16 c c8 c c4 r %620
+		R1*9 %629
+		e4\fE e8. e16 e4 r %630
+		d d8. d16 d4 r
+		e4 e8. e16 e4 r
+		r d8 d d4 e
+		d2 e4 r
+		d f e2 %635
+		g,1
+		g2 r4 e'
+		f r r2
+		d4 d d f
+		e r8 f e4 d %640
+		c c8. c16 c4 r\fermata \bar "||" %641 finis
 	}
 }
 
