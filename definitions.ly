@@ -207,6 +207,8 @@ tempoQuiTollis = \tempoMarkup "Lento"
 tempoQuoniam = \tempoMarkup "Allegro"
 tempoCumSancto = \tempoMarkup "Presto"
 
+tempoCredo = \tempoMarkup "Allegro mà non troppo"
+
 
 
 % modify the Scheme function 'format-bass-figure'

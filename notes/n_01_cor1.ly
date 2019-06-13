@@ -426,6 +426,19 @@ CumSanctoCornoI = {
 	}
 }
 
+CredoCornoI = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/4 \tempoCredo
+		
+	}
+}
+
 % CornoI = {
 % 	\relative c' {
 % 		\clef treble

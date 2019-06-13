@@ -2372,6 +2372,40 @@ CumSanctoTenoreIILyrics = \lyricmode {
 	men. %696 FINIS
 }
 
+CredoTenoreINotes = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 2/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoTenoreILyrics = \lyricmode {
+	
+}
+
+CredoTenoreIINotes = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 2/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoTenoreIILyrics = \lyricmode {
+	
+}
+
 % TenoreINotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

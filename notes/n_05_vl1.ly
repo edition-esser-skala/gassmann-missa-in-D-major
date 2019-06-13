@@ -1075,6 +1075,19 @@ CumSanctoViolinoI = {
 	}
 }
 
+CredoViolinoI = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/4 \tempoCredo
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

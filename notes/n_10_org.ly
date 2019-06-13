@@ -2118,6 +2118,23 @@ CumSanctoBassFigures = \figuremode {
 	r %697 FINIS
 }
 
+CredoOrgano = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c {
+		\clef bass
+		\key d \major \time 2/4 \tempoCredo
+		\mvTr d8\fE-\tuttiE d d d
+	}
+}
+
+CredoBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
