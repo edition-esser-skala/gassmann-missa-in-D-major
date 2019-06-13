@@ -2264,7 +2264,7 @@ CumSanctoTenoreIINotes = {
 			\set Score.currentBarNumber = #642
 		R1*4 %645
 		r4 \mvTr a\fE^\tuttiE a a
-		h a8([ gis)] a4 a
+		h a8([ gis)] a4 cis^\critnote
 		h a8([ gis)] a4 g
 		fis d e2
 		d4 d8([ e)] fis([ g)] a4 %650
