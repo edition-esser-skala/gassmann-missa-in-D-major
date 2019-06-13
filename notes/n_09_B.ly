@@ -1150,7 +1150,7 @@ CumSanctoBassoLyrics = \lyricmode {
 	a -- men,
 	a -- _
 	_ _
-	[men, a] --
+	_ _
 	men, %690
 	a --
 	men,

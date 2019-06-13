@@ -2156,19 +2156,19 @@ CumSanctoTenoreINotes = {
 		e d d d %655
 		d2 cis
 		h4 cis8[ d] e4 d
-		cis d~ \once \tieDashed d cis
+		cis \once \tieDashed d~ d cis
 		d fis fis fis
 		g fis8([ e)] fis4 fis %660
 		g fis8([ e)] fis4 fis
 		e2 d
 		cis4 d8[ e] fis4 e
-		dis4. cis16[ dis] e4 d
-		cis cis8([ d)] e4 e %665
+		dis4. cis16[ dis] e4. d8
+		cis4 cis8([ d)] e4 e %665
 		e2. e4
 		e2 e
 		e4 d d cis
-		h( cis8[ d)] e2
-		cis4 \once \tieDashed d~ d cis %670
+		h( cis8[ d] e4)^\critnote d
+		cis \once \tieDashed d~ d cis %670
 		d d2( c4)
 		h h2 a4
 		g a8[ h] a4 e'
@@ -2187,7 +2187,7 @@ CumSanctoTenoreINotes = {
 		e2) d4 fis
 		e4. fis16[ e] d4. e16[ d]
 		cis4. d16[ cis] h4. cis16[ h]
-		a4 d d( cis)
+		a4 \once \tieDashed d~ d cis
 		d2 r %690
 		r r4 e
 		fis r r2
@@ -2247,7 +2247,7 @@ CumSanctoTenoreILyrics = \lyricmode {
 	men, a --
 	_ _ _ _
 	_ _ _ _
-	_ [men, a] --
+	_ _ _
 	men, %690
 	a --
 	men,
@@ -2305,8 +2305,8 @@ CumSanctoTenoreIINotes = {
 		g2) fis4 a( %685
 		g2) fis4 \once \tieDashed d'~
 		d8[ cis16 h] cis4. h16[ ais] h4~
-		h8[ a16 g] a4. g16[ fis] g4
-		fis fis e2
+		h8[ a16 g] a4. g16[ fis] \once \tieDashed g4~
+		g^\critnote fis e2
 		d r %690
 		r r4 cis'
 		d r r2
@@ -2362,7 +2362,7 @@ CumSanctoTenoreIILyrics = \lyricmode {
 	men, a --
 	_ _ _
 	_ _ _
-	_ [men, a] --
+	_ _
 	men, %690
 	a --
 	men,

@@ -1016,7 +1016,62 @@ CumSanctoViolinoI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #642
-		
+		d'2\fE d4 d
+		e d8 cis d4 d
+		e d8 cis d4 h
+		cis8 h a4 h2 %645
+		a4 a8 h cis d e cis
+		d4 cis8 h cis4 e
+		d cis8 h cis a e'4~
+		e8 a, d2 cis4
+		d r r d %650
+		cis a'2 d,4
+		cis a'2 d,4
+		cis2 d
+		cis4 cis8 d e4 e
+		e8 d16 cis d4 d d %655
+		d2 cis
+		h4 cis8 d e4 d
+		cis8 a d2 cis4
+		d fis fis fis
+		g fis8 e fis a fis d %660
+		g4 fis8 e fis a fis d
+		e2 d
+		cis4 d8 e fis4 e
+		dis4. cis16 dis e4. d8
+		cis4 cis8 d e4 e %665
+		gis, e'2 e4
+		gis, e'2 e4
+		e d2 cis4
+		h cis8 d e4 d
+		cis d2 cis4 %670
+		d d2 c4
+		h h2 a4
+		g a8 h a4 e'
+		d2 cis
+		h4 h cis d %675
+		e2 d
+		cis4 cis d e~
+		e8 d16 cis d2 \once \tieDashed c4~
+		c h a2
+		h8 d d h' c, a' a, c %680
+		h d g h c, a' a, c
+		h h' g h fis a dis, fis
+		e h' g h fis a dis, fis
+		e4 e d8 e fis4
+		e8 g cis, e d fis fis a %685
+		g e cis e d4 fis
+		e4. fis16 e d4. e16 d
+		cis4. d16 cis h4. cis16 h
+		a4 d2 cis4
+		d8 a' fis a g h e, g %690
+		fis a d, fis e g cis, e
+		fis a fis a g h e, g
+		fis a d, fis e g cis, e
+		d a' fis a g h e, g
+		fis a d, fis e g cis, e %695
+		d4 d, d d
+		d1\fermata \bar "|." %697 FINIS
 	}
 }
 
