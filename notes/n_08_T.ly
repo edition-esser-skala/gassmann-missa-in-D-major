@@ -2157,7 +2157,7 @@ CumSanctoTenoreINotes = {
 		d2 cis
 		h4 cis8[ d] e4 d
 		cis d~ \once \tieDashed d cis
-		d fis fis e
+		d fis fis fis
 		g fis8([ e)] fis4 fis %660
 		g fis8([ e)] fis4 fis
 		e2 d
@@ -2187,7 +2187,7 @@ CumSanctoTenoreINotes = {
 		e2) d4 fis
 		e4. fis16[ e] d4. e16[ d]
 		cis4. d16[ cis] h4. cis16[ h]
-		a4 d~ d cis
+		a4 d d( cis)
 		d2 r %690
 		r r4 e
 		fis r r2
@@ -2247,7 +2247,7 @@ CumSanctoTenoreILyrics = \lyricmode {
 	men, a --
 	_ _ _ _
 	_ _ _ _
-	_ _ _
+	_ [men, a] --
 	men, %690
 	a --
 	men,
@@ -2255,7 +2255,6 @@ CumSanctoTenoreILyrics = \lyricmode {
 	men, a --
 	men, a -- %695
 	men. %696 FINIS
-% 	Cum San -- cto Spi -- ri -- tu in glo -- ria De -- i Pa -- tris
 }
 
 CumSanctoTenoreIINotes = {
@@ -2263,12 +2262,115 @@ CumSanctoTenoreIINotes = {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #642
-		
+		R1*4 %645
+		r4 \mvTr a\fE^\tuttiE a a
+		h a8([ gis)] a4 a
+		h a8([ gis)] a4 g
+		fis d e2
+		d4 d8([ e)] fis([ g)] a4 %650
+		g fis8[( e)] fis([ g)] a4
+		g fis8([ e)] fis4 gis
+		\once \tieDashed a2~ a4 gis
+		a a a g
+		g fis h a %655
+		g a8[ h] a4 e'
+		d2 h^\critnote
+		a g
+		fis4 d' d d
+		e d8([ cis)] d4 d %660
+		e d8([ cis)] d4 d
+		d8[ cis16 h] cis4~ cis8[ h16 ais] h4
+		h2 a4. gis8
+		fis[ gis16 a] h8[ a] gis4. fis16[ gis]
+		a4 a8[( h]) cis4 cis %665
+		d cis8([ h)] cis4 cis
+		d cis8([ h)] cis4 cis
+		a a g8[ a16 h] a8[ cis]
+		d2 h
+		a g %670
+		fis4 r r2
+		r4 h cis d
+		e d \once \tieDashed cis2~
+		cis4 \once \tieDashed h~ h ais
+		h r r2 %675
+		r4 e, fis gis
+		a2 g
+		fis g
+		a4 \once \tieDashed g~ g fis
+		g h( a2) %680
+		g4 h( a2)
+		g4 g( fis2)
+		g4 h( a2)
+		g4 g( fis8[ g] a4
+		g2) fis4 a( %685
+		g2) fis4 \once \tieDashed d'~
+		d8[ cis16 h] cis4. h16[ ais] h4~
+		h8[ a16[ g] a4. g16[ fis] g4
+		fis fis e2
+		d r %690
+		r r4 cis'
+		d r r2
+		r r4 cis
+		d2 h
+		a4 d2( cis4) %695
+		d1
+		R\fermataMarkup \bar "|." %697 FINIS
 	}
 }
 
 CumSanctoTenoreIILyrics = \lyricmode {
-	
+	Cum San -- cto %646
+	Spi -- ri -- tu in
+	glo -- ria De -- i
+	Pa -- tris, a --
+	men, in glo -- ria %650
+	De -- i __ Pa -- tris,
+	De -- i __ Pa -- tris,
+	a -- _
+	men, in glo -- ria
+	De -- i Pa -- tris, %655
+	a -- _ _ _
+	_ _
+	_ _
+	men, cum San -- cto
+	Spi -- ri -- tu %660
+	in glo -- ria De -- i
+	Pa -- _ tris,
+	a -- _ _
+	_ _ _ _
+	men, cum San -- cto %665
+	Spi -- ri -- tu in
+	glo -- ria De -- i
+	Pa -- tris, a -- _
+	_ _
+	_ _ %670
+	men,
+	a -- _ _
+	_ _ _
+	_ _
+	men, %675
+	a -- _ _
+	_ _
+	_ _
+	_ _ _
+	men, a -- %680
+	men, a --
+	men, a --
+	men, a --
+	men, a --
+	men, a -- %685
+	men, a --
+	_ _ _
+	_ _ _
+	_ [men, a] --
+	men, %690
+	a --
+	men,
+	a --
+	men, a --
+	men, a -- %695
+	men. %696 FINIS
+	% 	Cum San -- cto Spi -- ri -- tu in glo -- ria De -- i Pa -- tris
 }
 
 % TenoreINotes = {
