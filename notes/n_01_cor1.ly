@@ -390,7 +390,39 @@ CumSanctoCornoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #642
-		
+		R1*8 %649
+		r4 e'\fE e2 %650
+		r e
+		r e
+		R1
+		r4 d d2
+		R1*4 %658
+		r2 r4 e
+		f e8 d e4 r %660
+		r e8 d e4 e
+		R1*3
+		r4 d d d %665
+		r2 d
+		r d
+		R1*12 %679
+		c1 %680
+		c
+		c4 r r2
+		R1
+		r4 d c e
+		r d e e %685
+		r d e e
+		d2 r
+		R1
+		r4 e d2
+		c r4 f %690
+		e2 d
+		c r4 f
+		e2 d
+		e f
+		e d %695
+		c4 c, c c
+		c1\fermata \bar "|." %697 FINIS
 	}
 }
 
