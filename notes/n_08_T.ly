@@ -2305,7 +2305,7 @@ CumSanctoTenoreIINotes = {
 		g2) fis4 a( %685
 		g2) fis4 \once \tieDashed d'~
 		d8[ cis16 h] cis4. h16[ ais] h4~
-		h8[ a16[ g] a4. g16[ fis] g4
+		h8[ a16 g] a4. g16[ fis] g4
 		fis fis e2
 		d r %690
 		r r4 cis'
@@ -2370,7 +2370,6 @@ CumSanctoTenoreIILyrics = \lyricmode {
 	men, a --
 	men, a -- %695
 	men. %696 FINIS
-	% 	Cum San -- cto Spi -- ri -- tu in glo -- ria De -- i Pa -- tris
 }
 
 % TenoreINotes = {

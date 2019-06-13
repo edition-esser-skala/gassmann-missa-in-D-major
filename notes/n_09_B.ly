@@ -1062,12 +1062,102 @@ CumSanctoBassoNotes = {
 		\clef bass
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #642
-		
+		R1*8 %649
+		r4 \mvTr d\fE^\tuttiE d d %650
+		e d8([ cis)] d4 d
+		e d8([ cis)] d4 h
+		cis a h2
+		a4 a8([ h)] cis([ d)] e([ d)]
+		cis4 d g fis %655
+		e fis8[ g] a2~
+		a g2~
+		g4 fis e2
+		d4 r r2
+		r4 a' d,2 %660
+		r4 a' d,2
+		R1*3
+		r4 a' a a %665
+		h a8([ gis)] a4 a
+		h a8([ gis)] a4 g
+		fis4. d8 e4 \once \tieDashed a~
+		a2 \once \tieDashed g~
+		g4 fis e2 %670
+		d4 d e fis
+		g2. fis4
+		e fis8[ g] a2
+		h fis
+		h,4 r r2 %675
+		R1
+		r4 a h cis
+		d2 e
+		fis4 g d2
+		g4 r r d %680
+		g2 r4 d
+		g e( h'2)
+		e,4 r r h
+		e cis d2
+		r4 a d2 %685
+		r4 a d2
+		a' h
+		fis g
+		d a'
+		d, r %690
+		r r4 a'
+		d, r r2
+		r r4 a'
+		d,2 g
+		a a, %695
+		d1
+		R\fermataMarkup \bar "|." %697 FINIS
 	}
 }
 
 CumSanctoBassoLyrics = \lyricmode {
+	Cum San -- cto %650
+	Spi -- ri -- tu in
+	glo -- ria De -- i
+	Pa -- tris, a --
+	men, in glo -- ria
+	De -- i Pa -- tris, %655
+	a -- _ _
+	_
+	_ _
+	men,
+	a -- men, %660
+	a -- men,
 	
+	cum San -- cto %665
+	Spi -- ri -- tu in
+	glo -- ria De -- i
+	Pa -- tris, a -- _
+	_
+	_ _ %670
+	men, a -- _ _
+	_ _
+	_ _ _
+	_ _
+	men, %675
+	
+	a -- _ _
+	_ _
+	_ _ _
+	men, a -- %680
+	men, a --
+	men, a --
+	men, a --
+	men, a -- men,
+	a -- men, %685
+	a -- men,
+	a -- _
+	_ _
+	[men, a] --
+	men, %690
+	a --
+	men,
+	a --
+	men, a --
+	[men, a] -- %695
+	men. %696 FINIS
 }
 
 % BassoNotes = {
