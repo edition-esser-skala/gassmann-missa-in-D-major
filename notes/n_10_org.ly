@@ -2112,8 +2112,8 @@ CumSanctoBassFigures = \figuremode {
 	r
 	r
 	r
-	r
-	<6 4>2 <[5 \t]>4 <\t 3> %695
+	r2 <[6]>
+	<6 4> <[5 \t]>4 <\t 3> %695
 	r1
 	r %697 FINIS
 }

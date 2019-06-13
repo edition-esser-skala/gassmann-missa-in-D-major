@@ -420,8 +420,8 @@ CumSanctoCornoII = {
 		e r4 d'
 		c2 g
 		c d
-		c g
+		c g %695
 		e4 c c c
-		c1\fermata \bar "|."
+		c1\fermata \bar "|." %697 FINIS
 	}
 }
