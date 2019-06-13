@@ -2140,12 +2140,122 @@ CumSanctoTenoreINotes = {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #642
-		
+		\mvTr d2\fE^\tuttiE d4 d
+		e d8([ cis)] d4 d
+		e d8([ cis)] d4 h
+		cis8([ h)] a4 h2 %645
+		a4 a8([ h)] cis([ d)] e4
+		d cis8([ h)] cis4 e^\critnote
+		d cis8[ h] cis[ a] e'4~
+		e8[ a,] d2 cis4
+		d r r d %650
+		cis r r d
+		cis r r d
+		cis2 d
+		cis4 cis8([ d)] e4 e
+		e d d d %655
+		d2 cis
+		h4 cis8[ d] e4 d
+		cis d~ \once \tieDashed d cis
+		d fis fis e
+		g fis8([ e)] fis4 fis %660
+		g fis8([ e)] fis4 fis
+		e2 d
+		cis4 d8[ e] fis4 e
+		dis4. cis16[ dis] e4 d
+		cis cis8([ d)] e4 e %665
+		e2. e4
+		e2 e
+		e4 d d cis
+		h( cis8[ d)] e2
+		cis4 \once \tieDashed d~ d cis %670
+		d d2( c4)
+		h h2 a4
+		g a8[ h] a4 e'
+		d2 cis
+		h4 h cis d %675
+		e2 d
+		cis4 cis d \once \tieDashed e~
+		e8[ d16 cis] d2 \once \tieDashed c4~
+		c h a2
+		h4 d( c2) %680
+		h4 d( c2)
+		h4 \once \tieDashed e~ e dis
+		e g( fis2)
+		e4 e( d!8[ e] fis4
+		e2) d4 fis( %685
+		e2) d4 fis
+		e4. fis16[ e] d4. e16[ d]
+		cis4. d16[ cis] h4. cis16[ h]
+		a4 d~ d cis
+		d2 r %690
+		r r4 e
+		fis r r2
+		r r4 e
+		fis2 g
+		fis e %695
+		d1
+		R\fermataMarkup \bar "|." %697 FINIS
 	}
 }
 
 CumSanctoTenoreILyrics = \lyricmode {
-	
+	Cum San -- cto %642
+	Spi -- ri -- tu in
+	glo -- ria De -- i
+	Pa -- tris, a -- %645
+	men, in glo -- ria
+	De -- i __ Pa -- tris,
+	a -- _ _ _
+	_ _
+	men, a -- %650
+	men, a --
+	men, a --
+	men, a --
+	men, in glo -- ria
+	De -- i Pa -- tris, %655
+	a -- _
+	_ _ _ _
+	_ _ _
+	men, cum San -- cto
+	Spi -- ri -- tu in %660
+	glo -- ria De -- i
+	Pa -- tris,
+	a -- _ _ _
+	_ _ _ _
+	men, cum San -- cto %665
+	Spi -- ri --
+	tu in
+	glo -- ria De -- i
+	Pa -- tris,
+	a -- _ _ %670
+	men, a --
+	[men, a] -- _
+	_ _ _ _
+	_ _
+	men, a -- _ _ %675
+	_ _
+	men, a -- _ _
+	_ _
+	_ _
+	men, a -- %680
+	men, a --
+	men, a -- _
+	men, a --
+	men, a --
+	men, a -- %685
+	men, a --
+	_ _ _ _
+	_ _ _ _
+	_ _ _
+	men, %690
+	a --
+	men,
+	a --
+	men, a --
+	men, a -- %695
+	men. %696 FINIS
+% 	Cum San -- cto Spi -- ri -- tu in glo -- ria De -- i Pa -- tris
 }
 
 CumSanctoTenoreIINotes = {

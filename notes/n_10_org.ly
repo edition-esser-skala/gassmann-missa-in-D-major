@@ -2080,7 +2080,7 @@ CumSanctoBassFigures = \figuremode {
 	r
 	r %660
 	r
-	<4>4 <4> <9> <8>
+	<4>4 <3> <9> <8>
 	<5 4>2. <6>4
 	<_+>2 <7>
 	r1 %665
