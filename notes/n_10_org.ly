@@ -2128,11 +2128,209 @@ CredoOrgano = {
 		\clef bass
 		\key d \major \time 2/4 \tempoCredo
 		\mvTr d8\fE-\tuttiE d d d
+		a' a a a
+		a a a a
+		d, a' a a
+		a a a a %5
+		d, a' a a
+		h h cis cis
+		d d d, g
+		a a a, a
+		d4 d8 cis %10
+		h4 gis
+		a a'
+		e e,
+		a8 a' a, h
+		cis a d a %15
+		e' d e e,
+		a h cis a
+		e' fis gis e
+		a h cis a
+		h a gis e %20
+		a a, cis a
+		a a a a
+		a a a a
+		h h e e
+		a, a' a, r %25
+		e' e, e' r
+		r a, cis e
+		a fis e e,
+		a a cis a
+		fis'4 dis %30
+		e r
+		e e,
+		a8 a'16 h cis8 a
+		h h, h' a
+		gis e fis gis %35
+		a4 a,
+		d e
+		a, \once \tieDashed a'~
+		a a,
+		e' e %40
+		fis gis
+		a a,
+		e' e
+		h' h,
+		h h %45
+		e e,
+		e' gis
+		a gis8 a
+		h4 h,
+		e e, %50
+		e'8 e e e
+		e4 r
+		r8 h' h, h'
+		e, e, e e'
+		e4 r8 e %55
+		fis e dis h
+		e h gis h
+		e,4 e'
+		a8 a, a' g!
+		fis gis? ais fis %60
+		h h, d h
+		e cis d e
+		fis e fis fis,
+		h h d fis
+		h,4 h8 cis %65
+		d4 e
+		fis fis
+		fis8 gis ais fis
+		h4 h,8 h'
+		g!4 e %70
+		a a,
+		d fis
+		g e
+		d d,
+		g8 g g g %75
+		g' g g g
+		d d d d
+		g d fis d
+		g g g4
+		r8 g, h d %80
+		g, g g4
+		r8 g h d
+		g h, c d
+		g,4 g'
+		g g %85
+		a8 a a a
+		a a a a
+		a a gis gis
+		a a a g
+		fis fis fis fis %90
+		e e e e
+		d4 d
+		a' a,
+		h h'
+		fis fis, %95
+		g g'
+		d d
+		a'8 a a a
+		a, a a a
+		d2\fermata \bar "||" %100 finis
 	}
 }
 
 CredoBassFigures = \figuremode {
-	
+	r2
+	r
+	<6 4>4 <5 3>
+	r2
+	<6 4>4 <7 5> %5
+	r2
+	r
+	r4. <7 5>8
+	<6 4>4 <5 3>
+	r2 %10
+	r4 <5 3>
+	r2
+	<_+>
+	r
+	r %15
+	<4>4 <_+>
+	r2
+	<[_+]>
+	r
+	r %20
+	<4>4 <3>
+	r2
+	<6 4>4 <5 3>
+	r <6 4>8 <[5] _+>
+	r2 %25
+	<[_+]>
+	r4. <_+>8
+	r <6> <4> <_+>
+	r2
+	r %30
+	<_+>
+	r4 <6 4>8 <5 _+>
+	r4 <[6]>8 <6>
+	<[_+]>2
+	<[6]> %35
+	r
+	r4 <4>8 <_+>
+	r2
+	r
+	<6 4>4 <[5] _+> %40
+	<6> <6 5>
+	r2
+	<_+>
+	<[6\\] 4>4 <[5] _+>
+	<7 [_+]>2 %45
+	<4 2>4 <_+>
+	r2
+	r
+	<4>4 <_+>
+	<[_+]>2 %50
+	r
+	r
+	r8 <[_+]>4.
+	q2
+	r %55
+	r
+	<[_+]>2
+	r
+	r
+	<7 [_+]> %60
+	r
+	r
+	<_+>
+	r4 <6>8 <_+>
+	r2 %65
+	r
+	<[4]>4 <[_+]>
+	q2
+	r
+	<[6]> %70
+	r
+	r4 <6 5!>
+	r <[6!]>
+	<6 4> <5 3>
+	r2 %75
+	<6 4!>4 <5 3>
+	<6 4> <5 3>
+	r <[6]>
+	r2
+	r %80
+	r
+	r
+	r
+	r
+	r %85
+	r
+	<6 4>4 <5 3>
+	r2
+	r
+	<7>4 <6> %90
+	<7> <6>
+	r2
+	r
+	r
+	r %95
+	r
+	r
+	<5 4>
+	<\t 3>
+	r %100 finis
 }
 
 % Organo = {
