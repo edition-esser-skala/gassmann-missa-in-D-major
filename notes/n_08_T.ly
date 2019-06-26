@@ -2381,12 +2381,158 @@ CredoTenoreINotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 2/4 \autoBeamOff \tempoCredo
-		
+		\mvTr fis2\fE^\tuttiE
+		e
+		r8 e fis g
+		fis e r4
+		r8 e fis g %5
+		fis e r e
+		d4 e
+		d8([ fis)] fis e
+		d4( cis)
+		d \mvTr \once \tieDashed d~\pE^\soloE %10
+		d8[( e16 fis] e8) d
+		cis4 h8 a
+		h4. cis16([ d)]
+		cis4 e~
+		e8 d16([ cis)] fis8 d %15
+		cis4 h
+		a r
+		R2*20 %37
+		r4 \mvTr e'~\fE^\tuttiE
+		e d8([ cis)]
+		cis4 h %40
+		d2
+		cis
+		h4 e
+		e8([ dis16 cis)] dis4
+		dis? fis %45
+		fis8([ e16 dis)] e4
+		e e
+		e e8 fis
+		e4( dis8) dis
+		e4 r %50
+		\mvTr h2\pE^\soloE
+		h8([ cis)] cis([ dis)]
+		dis?2
+		e4 h~
+		h cis8 h %55
+		a4. a8
+		gis4 r
+		h8([ cis)] d!4
+		d8([ cis)] cis e
+		e2 %60
+		d
+		\once \tieDashed cis~
+		cis
+		h4 r
+		d8([ fis)] fis([ e)] %65
+		d4 cis8([ h)]
+		h4 ais
+		ais cis
+		d4. d8
+		e([ fis)] e([ d)] %70
+		cis4 cis
+		d c
+		h a8 g
+		a4. a8
+		g4 r %75
+		R2*8 %83
+		r4 \mvTr d'\fE^\tuttiE
+		d e8 d %85
+		cis!8. d16 e8 e
+		fis4 e
+		d e8 d
+		cis4 cis8 e
+		e4 \once \tieDashed d~ %90
+		d cis
+		d fis
+		e2
+		d4 d
+		cis2 %95
+		h4 h
+		a d8 d
+		d2(
+		cis)
+		d\fermata \bar "||" %100 finis
 	}
 }
 
 CredoTenoreILyrics = \lyricmode {
+	Pa --
+	trem
+	[o -- mni -- po --
+	ten -- tem,
+	o -- mni -- po -- %5
+	ten -- tem, fa --
+	cto -- rem
+	coe -- li et
+	ter] --
+	rae, vi -- %10
+	si --
+	bi -- li -- um
+	o -- mni --
+	um et __
+	in -- vi -- si -- %15
+	bi -- li --
+	um.
 	
+	Et __ %38
+	ex
+	Pa -- tre %40
+	na --
+	tum
+	an -- te
+	o -- mnia,
+	an -- te %45
+	o -- mnia,
+	an -- te
+	o -- mni -- a
+	sae -- cu --
+	la. %50
+	De --
+	um de __
+	De --
+	o, lu --
+	men de %55
+	lu -- mi --
+	ne,
+	De -- um
+	ve -- rum de
+	De -- %60
+	o
+	ve --
+	
+	ro.
+	Ge -- ni -- %65
+	tum, non
+	fa -- ctum,
+	con -- sub --
+	stan -- ti --
+	a -- lem %70
+	Pa -- tri:
+	Per quem
+	o -- mni -- a
+	fa -- cta
+	sunt. %75
+	
+	Qui
+	pro -- pter nos
+	ho -- mi -- nes et
+	pro -- pter
+	no -- stram sa --
+	lu -- tem de --
+	scen -- _
+	_
+	dit, de --
+	scen --
+	dit, de --
+	scen --
+	dit, de --
+	scen -- dit de
+	coe -- 
+	
+	lis.
 }
 
 CredoTenoreIINotes = {

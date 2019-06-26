@@ -2136,7 +2136,7 @@ CredoOrgano = {
 		h h cis cis
 		d d d, g
 		a a a, a
-		d4 d8 cis %10
+		d4 \mvTr d8\pE-\soloE cis %10
 		h4 gis
 		a a'
 		e e,
@@ -2164,7 +2164,7 @@ CredoOrgano = {
 		gis e fis gis %35
 		a4 a,
 		d e
-		a, \once \tieDashed a'~
+		a, \once \tieDashed \mvTr a'~\fE-\tuttiE
 		a a,
 		e' e %40
 		fis gis
@@ -2177,7 +2177,7 @@ CredoOrgano = {
 		a gis8 a
 		h4 h,
 		e e, %50
-		e'8 e e e
+		\mvTr e'8\pE-\soloE e e e
 		e4 r
 		r8 h' h, h'
 		e, e, e e'
@@ -2210,7 +2210,7 @@ CredoOrgano = {
 		g, g g4
 		r8 g h d
 		g h, c d
-		g,4 g'
+		g,4 \mvTr g'\fE-\tuttiE
 		g g %85
 		a8 a a a
 		a a a a
@@ -2233,20 +2233,20 @@ CredoOrgano = {
 CredoBassFigures = \figuremode {
 	r2
 	r
-	<6 4>4 <5 3>
+	r4 <6 4>8 <7 5>
 	r2
-	<6 4>4 <7 5> %5
+	r4 <6 4>8 <7 5> %5
 	r2
-	r
+	<[6]>4 <[6 5]>
 	r4. <7 5>8
 	<6 4>4 <5 3>
 	r2 %10
-	r4 <5 3>
+	r4 <6>8 <5>
 	r2
 	<_+>
 	r
-	r %15
-	<4>4 <_+>
+	<[6]> %15
+	<[6] 4>4 <[5] _+>
 	r2
 	<[_+]>
 	r
@@ -2277,8 +2277,8 @@ CredoBassFigures = \figuremode {
 	<[6\\] 4>4 <[5] _+>
 	<7 [_+]>2 %45
 	<4 2>4 <_+>
-	r2
-	r
+	r <[6]>
+	r q8 q
 	<4>4 <_+>
 	<[_+]>2 %50
 	r
@@ -2286,25 +2286,25 @@ CredoBassFigures = \figuremode {
 	r8 <[_+]>4.
 	q2
 	r %55
-	r
+	r4 <[6 5]>8 <[7 _+]>
 	<[_+]>2
+	r4 <[7! _+]>
+	r4. <[\t]>8
+	<7 [_+]>2 %60
 	r
-	r
-	<7 [_+]> %60
-	r
-	r
-	<_+>
+	<[6 5]>4. \bassFigureExtendersOn <6 5>8 \bassFigureExtendersOff
+	<_+>2
 	r4 <6>8 <_+>
-	r2 %65
-	r
-	<[4]>4 <[_+]>
-	q2
-	r
+	r4. <[6\\]>8 %65
+	<[6]>4 q
+	<[4]> <[_+]>
+	q <[6]>
+	r2
 	<[6]> %70
 	r
 	r4 <6 5!>
-	r <[6!]>
-	<6 4> <5 3>
+	r2
+	<4>4 <3>
 	r2 %75
 	<6 4!>4 <5 3>
 	<6 4> <5 3>
@@ -2318,8 +2318,8 @@ CredoBassFigures = \figuremode {
 	r %85
 	r
 	<6 4>4 <5 3>
-	r2
-	r
+	<[4 2]> <[6]>8 <[5]>
+	r4. <[2]>8
 	<7>4 <6> %90
 	<7> <6>
 	r2
