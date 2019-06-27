@@ -2233,7 +2233,7 @@ CredoOrgano = {
 CredoBassFigures = \figuremode {
 	r2
 	r
-	r4 <6 4>8 <7 5>
+	<[6 4]>8 <[5 3]> <6 4> <7 5>
 	r2
 	r4 <6 4>8 <7 5> %5
 	r2
@@ -2246,7 +2246,7 @@ CredoBassFigures = \figuremode {
 	<_+>
 	r
 	<[6]> %15
-	<[6] 4>4 <[5] _+>
+	<[6 4]>4 <4>8 <_+>
 	r2
 	<[_+]>
 	r
@@ -2279,7 +2279,7 @@ CredoBassFigures = \figuremode {
 	<4 2>4 <_+>
 	r <[6]>
 	r q8 q
-	<4>4 <_+>
+	<[6] 4>4 <[5] _+>
 	<[_+]>2 %50
 	r
 	r
@@ -2298,7 +2298,7 @@ CredoBassFigures = \figuremode {
 	r4. <[6\\]>8 %65
 	<[6]>4 q
 	<[4]> <[_+]>
-	q <[6]>
+	q <[6 5]>
 	r2
 	<[6]> %70
 	r
