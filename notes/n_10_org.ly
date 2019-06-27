@@ -2333,6 +2333,19 @@ CredoBassFigures = \figuremode {
 	r %100 finis
 }
 
+EtIncarnatusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #101
+		\mvTr g'4\fE-\soloE g, g
+	}
+}
+
+EtIncarnatusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

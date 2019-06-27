@@ -18,61 +18,106 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\partTitle "3" "C R E D O"
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.1 CREDO"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex D]" } }
+% 						\partcombine \CredoCornoI \CredoCornoII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\CredoViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\CredoViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore I"
+% 						\new Voice = "TenoreI" { \dynamicUp \CredoTenoreINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreI \CredoTenoreILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore II"
+% 						\new Voice = "TenoreII" { \dynamicUp \CredoTenoreIINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreII \CredoTenoreIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \CredoBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\CredoOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\CredoBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.1 CREDO"
+			movement = "3.2 ET INCARNATUS EST"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex D]" } }
-						\partcombine \CredoCornoI \CredoCornoII
-					>>
-				>>
-				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\CredoViolinoI
+							\EtIncarnatusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\CredoViolinoII
+							\EtIncarnatusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \CredoTenoreINotes }
+						\new Voice = "TenoreI" { \dynamicUp \EtIncarnatusTenoreINotes }
 					}
-					\new Lyrics \lyricsto TenoreI \CredoTenoreILyrics
+					\new Lyrics \lyricsto TenoreI \EtIncarnatusTenoreILyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \CredoTenoreIINotes }
+						\new Voice = "TenoreII" { \dynamicUp \EtIncarnatusTenoreIINotes }
 					}
-					\new Lyrics \lyricsto TenoreII \CredoTenoreIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \CredoBassoLyrics
+					\new Lyrics \lyricsto TenoreII \EtIncarnatusTenoreIILyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\CredoOrgano
+						\EtIncarnatusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\CredoBassFigures
+					\EtIncarnatusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

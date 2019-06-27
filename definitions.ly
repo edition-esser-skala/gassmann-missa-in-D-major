@@ -208,6 +208,7 @@ tempoQuoniam = \tempoMarkup "Allegro"
 tempoCumSancto = \tempoMarkup "Presto"
 
 tempoCredo = \tempoMarkup "Allegro mà non troppo"
+tempoEtIncarnatus = \tempoMarkup "Adagio"
 
 
 
