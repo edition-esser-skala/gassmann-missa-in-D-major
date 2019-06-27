@@ -435,6 +435,36 @@ CredoCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 2/4 \tempoCredo
-		
+		c'2\fE
+		g
+		R
+		r8 g g g
+		g r r4 %5
+		r8 g g g
+		c4 r
+		r r8 d
+		c4 g
+		e-\critnote r %10
+		R2*27 %37
+		r8 g g g
+		g4 r8 g
+		d'4 d %40
+		c r
+		g8 g g4
+		R2*43 %85
+		r8 g g g
+		c4 g
+		R2
+		r8 g g g
+		g4 g %90
+		R2
+		r4 c
+		g g
+		c r
+		R2*2 %96
+		e,4 c'
+		g8 g g g
+		g g16 g g8 g
+		c,2\fermata \bar "||" %100 finis
 	}
 }

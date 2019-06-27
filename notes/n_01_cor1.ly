@@ -435,7 +435,37 @@ CredoCornoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 2/4 \tempoCredo
-		
+		e'2\fE
+		d
+		R
+		r8 d d d
+		d r r4 %5
+		r8 d d d
+		\pao c4 r
+		r r8 f
+		e4 d
+		c^\critnote r %10
+		R2*27 %37
+		r8 d d d
+		d4 r8 d
+		d4 d %40
+		c r
+		d8 d d4
+		R2*43 %85
+		r8 d d d
+		e4 d
+		R2
+		r8 d d d
+		d4 c %90
+		R2
+		r4 e
+		d d
+		\pao c r
+		R2*2 %96
+		c4 e
+		d8 d d d
+		d8 d16 d d8 d
+		c2\fermata \bar "||" %100 finis
 	}
 }
 
