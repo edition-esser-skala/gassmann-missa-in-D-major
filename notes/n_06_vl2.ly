@@ -1081,6 +1081,105 @@ CredoViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 2/4 \tempoCredo
-		
+		fis16\fE d' a fis d fis a d
+		cis a e cis e a cis e
+		d a cis a d a e' a,
+		d a cis a cis a cis e
+		a a, cis^\critnote a d a e' a, %5
+		d a cis a cis a cis e
+		d8 d e e
+		d16 a d fis a8 e
+		d4 cis
+		d fis,~\p %10
+		fis h^\critnote
+		e, d8 cis
+		e gis gis a16 h
+		a4 a,8 h
+		cis a d a %15
+		e' cis h4
+		a8 h cis a
+		e' fis gis e
+		a h cis a
+		h a gis e %20
+		a a, cis a
+		r a' h cis
+		d4 cis
+		r8 h a gis
+		r a4 gis8 %25
+		r h4 a8
+		r cis4 h8
+		a a4 gis8
+		a cis16 d e8 cis
+		a4 fis' %30
+		e8 fis gis gis,
+		gis8.( a32 h) a8 gis
+		a cis,16 d e8 cis'
+		fis,2
+		h8 gis a h %35
+		a d16 cis cis8 cis
+		d16 h a h h4\trill
+		a8 cis16 e a\f e cis a
+		a cis cis8 h a
+		a cis16 a gis8 e16 gis %40
+		a8 a h h
+		a16 e a cis e cis a e
+		gis e gis h e8 gis,
+		gis fis16 e fis8 dis
+		h fis' a a %45
+		a gis16 fis gis8 gis
+		gis16 e gis h h8 h
+		a16 cis cis a h8^\critnote cis
+		h e dis4
+		e16 h e h gis' e h gis %50
+		gis?2\pE
+		gis8 a a fis
+		fis2
+		gis8 h16 gis gis8 gis16 e
+		e4 r8 e %55
+		fis e dis h
+		e h' gis h
+		e,4 e
+		a8 a, a' g!
+		fis gis? ais fis %60
+		h h, d h
+		e cis d e
+		fis e fis fis
+		h, h' d16 h ais cis
+		h8 h, h cis %65
+		d4 e
+		fis r8 fis'
+		cis'4 e,
+		r8 h d4
+		R2 %70
+		r8 a cis4
+		r8 fis, a c
+		h4 r
+		r8 g' a, fis'
+		g, d'16 c h8 h %75
+		c4 h8 g'
+		g4 fis8 a
+		g fis a,4
+		a16 g c h h8 h'
+		h,4. a8 %80
+		a16 g c h h8 h'
+		h,4. a8
+		g g4 fis8
+		g4 h\fE
+		h8 h h h %85
+		a16 e a cis! cis a cis e
+		d fis d a cis e cis a
+		h8 cis16 d e8 h
+		a16 e a cis e cis a e
+		a8 a a a %90
+		g g g g
+		fis16 d fis a d a fis d
+		d'4 r8 cis
+		h16 h, d fis h fis d h
+		h'4^\critnote r8 a %95
+		g16 g, h d g d h g
+		fis'4 fis8 fis
+		e16 d' e, d' e, d' e, d'
+		e, cis' e, cis' e, cis' e, cis'
+		d2\fermata \bar "||" %100 finis
 	}
 }
