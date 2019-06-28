@@ -1192,7 +1192,82 @@ EtIncarnatusViolinoI = {
 		\clef treble
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #101
-		
+		\mvTr d'8(\fE-\markup { \remark "sotto voce" } h) d( h) d( h')
+		h4 a c,
+		c8( a) c( a) \once \slurDashed c( a')
+		a4 g d
+		e8( d) g( fis) e( d) %105
+		e4 d r8 d
+		\tuplet 3/2 4 { cis8[ d e] } g, g g g
+		fis16 e fis g a8 a'( fis d)
+		\tuplet 3/2 4 { cis[ d e] } g, g g g
+		g4 fis8 a' fis d %110
+		h4 g'8 e e cis
+		d2 d4
+		c!16^\critnote h c8 r c c fis
+		fis( a) a c,( h a)
+		h16 a h8 r h h d %115
+		d( g) g d( c h)
+		h4 a d
+		cis8 g' g e d c
+		h2.\f
+		a\fp %120
+		g4 g, r
+		d''8(\p h) d( h) d( h')
+		h4 a c,
+		c8( a) c( a) c( a')
+		a4 g d %125
+		e8( d) g fis e d
+		e4 d r8 d
+		d16 cis d8 h' d, cis d
+		\tuplet 3/2 4 { cis h a } a2
+		e'8 a, cis e a e %130
+		fis4 e g
+		fis8 fis fis fis fis fis
+		e4 a, a'
+		a g g
+		g fis r %135
+		r e g
+		r fis a
+		a g fis
+		e2 d4
+		h a r %140
+		R2.
+		r4 r8 a'4\fE fis8
+		fis e r g4 fis16 e
+		fis8 a r d, d d
+		h g'16 e d4 cis %145
+		d d, r
+		fis'8(\pE a) fis( a) fis( a)
+		g4 fis e
+		d8 d, fis a d4
+		c!16 h c8 r e d c %150
+		c4 h8 g h d
+		g a g4 f
+		e8( g) e( g) e( g)
+		r e e d f e16 d
+		e4 e e %155
+		d8 fis! d fis d fis
+		fis4 r r
+		r8d, fis a fis a
+		c!4 h a
+		r8 h d g h g %160
+		e4 r g8 fis16 e
+		d4 c h
+		a a' r
+		h, h' r
+		r r c, %165
+		h8 g h d g h
+		R2.*3
+		r4 r d,\fE %170
+		c16 h c8 r c c fis
+		fis a a c, h a
+		h16 a h8 r h d d
+		d g g d c h
+		h4 a d %175
+		cis8 g' g e d c
+		h4 a2
+		g4 g, r\fermata \bar "||" %178 finis
 	}
 }
 
