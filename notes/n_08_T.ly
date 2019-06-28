@@ -2900,6 +2900,32 @@ EtIncarnatusTenoreIILyrics = \lyricmode {
 	est. %170 finis
 }
 
+CrucifixusTenoreINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 3/4 \autoBeamOff \tempoCrucifixus
+			\set Score.currentBarNumber = #179
+		
+	}
+}
+
+CrucifixusTenoreILyrics = \lyricmode {
+	
+}
+
+CrucifixusTenoreIINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 3/4 \autoBeamOff \tempoCrucifixus
+			\set Score.currentBarNumber = #179
+		
+	}
+}
+
+CrucifixusTenoreIILyrics = \lyricmode {
+	
+}
+
 % TenoreINotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

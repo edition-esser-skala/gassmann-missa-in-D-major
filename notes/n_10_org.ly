@@ -2500,6 +2500,19 @@ EtIncarnatusBassFigures = \figuremode {
 	r2. %178 finis
 }
 
+CrucifixusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \tempoCrucifixus
+			\set Score.currentBarNumber = #179
+		\mvTr g'4\fE-\tuttiE r g8 g
+	}
+}
+
+CrucifixusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

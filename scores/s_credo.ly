@@ -75,46 +75,101 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.2 ET INCARNATUS EST"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\EtIncarnatusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\EtIncarnatusViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore I"
+% 						\new Voice = "TenoreI" { \dynamicUp \EtIncarnatusTenoreINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreI \EtIncarnatusTenoreILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore II"
+% 						\new Voice = "TenoreII" { \dynamicUp \EtIncarnatusTenoreIINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreII \EtIncarnatusTenoreIILyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EtIncarnatusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\EtIncarnatusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\partTitle "3" "C R E D O"
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.2 ET INCARNATUS EST"
+			movement = "3.3 CRUCIFIXUS"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\EtIncarnatusViolinoI
+							\CrucifixusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\EtIncarnatusViolinoII
+							\CrucifixusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \EtIncarnatusTenoreINotes }
+						\new Voice = "TenoreI" { \dynamicUp \CrucifixusTenoreINotes }
 					}
-					\new Lyrics \lyricsto TenoreI \EtIncarnatusTenoreILyrics
+					\new Lyrics \lyricsto TenoreI \CrucifixusTenoreILyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \EtIncarnatusTenoreIINotes }
+						\new Voice = "TenoreII" { \dynamicUp \CrucifixusTenoreIINotes }
 					}
-					\new Lyrics \lyricsto TenoreII \EtIncarnatusTenoreIILyrics
+					\new Lyrics \lyricsto TenoreII \CrucifixusTenoreIILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \CrucifixusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \CrucifixusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\EtIncarnatusOrgano
+						\CrucifixusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\EtIncarnatusBassFigures
+					\CrucifixusBassFigures
 				}
 			>>
 			\layout { }
