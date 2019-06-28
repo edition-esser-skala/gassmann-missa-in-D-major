@@ -1273,6 +1273,30 @@ CrucifixusViolinoII = {
 		\clef treble
 		\key g \minor \time 3/4 \tempoCrucifixus
 			\set Score.currentBarNumber = #179
-		
+		r16 d\fE g d b' g d' b g'8 g
+		g4 r r %180
+		r16 d, es d fis d a' fis fis'8 fis
+		fis?4 r r
+		r16 d, g d b' g d' b g'8 h
+		h?4 r r
+		r16 es,, c es es c g' es c'8 c %185
+		c4 h16 g h g g'8 h,
+		c4 r d
+		d2 es4
+		r16 g, h g d' h g' d es c g' es
+		c4 r h %190
+		c16 c, es c g' es c' g es'8 es
+		c d c16 f, a! f c' a es' c
+		es8 d d16 b, d b c8-\critnote c
+		b16 d g d b' g g'8 r4
+		r16 es, g es b' g es'8 r4 %195
+		r16 es, g es c' g es'8 r4
+		r16 d, fis d a' fis fis'8 r4
+		r16 g, b g d' b g'8 r4
+		r16 g, b g e' cis g'8 r4
+		r16 g, a g d' a g'8 r4 %200
+		r16 d, fis d a' fis fis'8 r4
+		r16 d, g d b' g d' b g'8 g,,
+		g2.\fermata \bar "||" %203 finis
 	}
 }

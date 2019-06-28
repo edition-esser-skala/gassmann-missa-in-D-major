@@ -1289,7 +1289,7 @@ CrucifixusViolinoI = {
 		r16 g h g d' h g' d es c g' es
 		d4 r d %190
 		c16 c, es c g' es c' g es'8 es
-		c d c16 f, a f c' a es' c
+		c d c16 f, a! f c' a es' c
 		es8 d d16 b, d b fis'8 fis
 		g16 g b g d' b b'8 r4
 		r16 g, b g es' b g'8 r4 %195
