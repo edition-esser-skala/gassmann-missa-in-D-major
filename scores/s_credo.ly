@@ -79,6 +79,7 @@
 		\header {
 			movement = "3.2 ET INCARNATUS EST"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
