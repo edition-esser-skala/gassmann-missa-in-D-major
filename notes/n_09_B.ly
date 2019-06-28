@@ -1306,12 +1306,58 @@ CrucifixusBassoNotes = {
 		\clef bass
 		\key g \minor \time 3/4 \autoBeamOff \tempoCrucifixus
 			\set Score.currentBarNumber = #179
-		
+		R2.
+		\mvTr g'2\fE^\tuttiE g4 %180
+		d d r
+		d8 d d4 d
+		g g, r
+		r f'!2
+		es8. d16 c4 c %185
+		g' g, r
+		as'( g) f
+		g2 c,4
+		\once \tieDashed g'2.~
+		g2 g4 %190
+		c,2 c4
+		f8 f f4 f
+		b b, r
+		g'2.
+		es %195
+		es
+		d2 r4
+		g2.
+		cis,
+		d %200
+		d
+		g,
+		R\fermataMarkup \bar "||" %203 finis
 	}
 }
 
 CrucifixusBassoLyrics = \lyricmode {
-	
+	Cru -- ci -- %180
+	fi -- xus
+	e -- ti -- am pro
+	no -- bis,
+	sub
+	Pon -- ti -- o Pi -- %185
+	la -- to
+	pas -- sus
+	et se --
+	pul --
+	tus %190
+	est, sub
+	Pon -- ti -- o Pi --
+	la -- to
+	pas --
+	sus, %195
+	pas --
+	sus
+	et
+	se --
+	pul -- %200
+	tus
+	est. %202 finis
 }
 
 % BassoNotes = {
