@@ -1189,6 +1189,81 @@ EtIncarnatusViolinoII = {
 		\clef treble
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #101
-		
+		h'8(\fE g) h( g) h( g')
+		g4 fis a,
+		\slurDashed a8( fis) a( fis) a( c) \slurSolid
+		c4 h h
+		\slurDashed c8( h) e( d) c( h) \slurSolid %105
+		c4 h r8 h
+		a4 e8 e e e
+		d16 cis d e fis8 \once \slurDashed fis'( d fis,)
+		\tuplet 3/2 4 { e[ fis g] } e e e e
+		e4 d8 fis' d a %110
+		h4 h8 g g e
+		fis2 fis4
+		a16 g a8 r a fis a
+		\once \slurDashed c( fis) fis \once \slurDashed a,( g fis)
+		g16 fis g8 r g g h %115
+		h( d) h h( a g)
+		g4 fis a
+		g g a
+		g2.\f
+		g4\f fis2\p %120
+		g4 g, r
+		h'8(\p g) h( g) h( g')
+		g4 fis a,
+		\slurDashed a8( fis) a( fis) a( c) \slurSolid
+		c4 h h %125
+		\once \slurDashed c8( h) e d c h
+		c4 h r8 h
+		h4 h h
+		e, cis cis
+		cis?8 e a cis e cis %130
+		d4 cis? e
+		d8 d d d d d
+		cis4 a r
+		r r e'
+		e d r %135
+		r cis e
+		r d fis
+		fis e d
+		cis2 d4
+		g, fis r %140
+		R2.
+		r4 r8 fis'4\fE d8
+		d cis r e4 d16 cis
+		d8 fis r fis, a a
+		g h16 g fis4 e %145
+		fis d r
+		\slurDashed d'8(\pE fis) d( fis) d( fis) \slurSolid
+		e4 d cis
+		d8 d, fis a fis4
+		a16 g a8 r c! h a %150
+		a4 g r
+		r d' d
+		\slurDashed c8( e) c( e) c( e) \slurSolid
+		r c c h d c16 h
+		c4 a g %155
+		fis!8 a fis a fis a
+		a4 r r
+		r8 fis d fis d fis
+		a4 g fis
+		r8 g h h d h %160
+		c4 r e8 d16 c
+		h4 a g
+		fis fis' r
+		g, g' r
+		r r a, %165
+		g8 d g h d g
+		R2.*3
+		r4 r h,\fE %170
+		a16 g a8 r a a c
+		c fis fis a, g fis
+		g16 fis g8 r g h h
+		h d h h a g
+		g4 fis fis %175
+		g g a
+		g g fis
+		g g, r\fermata \bar "||" %178 finis
 	}
 }
