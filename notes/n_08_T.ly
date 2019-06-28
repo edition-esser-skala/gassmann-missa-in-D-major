@@ -2695,12 +2695,105 @@ EtIncarnatusTenoreINotes = {
 		\clef "treble_8"
 		\key g \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
 			\set Score.currentBarNumber = #101
-		
+		R2.*21 %121
+		\mvTr d2.\pE^\soloE
+		h4( a) c
+		c2 c4
+		c( h) d %125
+		e8([ d)] g([ fis)] e([ d)]
+		e4 d r
+		d2 d4
+		\tuplet 3/2 4 { cis8([ h a)] } a2
+		e' e4 %130
+		fis( e) g
+		fis2 fis4
+		e2 r4
+		r r e
+		e d d~ %135
+		d8[ cis16 d] \once \tieDashed e2~
+		e8[ d16 e] \once \tieDashed fis2~
+		fis4 e d
+		cis2 d4
+		h a \once \tieDashed d~ %140
+		d( cis8[ h)] cis4
+		d2 r4
+		R2.*4 %146
+		d4 d fis
+		e( d) cis
+		d2 d4
+		c!16([ h] c4) e8 d([ c)] %150
+		c4 h r
+		r d d
+		c8([ e)] e2
+		e4.( d8 f) e16([ d)]
+		e4 e e %155
+		d8([ fis!)] fis2
+		fis8( d4 e) d16([ cis)]
+		d2 d4
+		c!( h) a
+		h4. d8 d4 %160
+		e4. g8 g[ fis16 e]
+		d4 c h
+		a8[ c] r c4 h16[ a]
+		h8[ d] r d4 c16[ h]
+		a4 h c %165
+		h2 d4
+		d8([ e] d4) c
+		h2.(
+		a2) a4
+		g2. %170
+		R2.*7 %177
+		R2.\fermataMarkup \bar "||" %178 finis
 	}
 }
 
 EtIncarnatusTenoreILyrics = \lyricmode {
+	Et %122
+	in -- car --
+	na -- tus
+	est __ de %125
+	Spi -- ri -- tu
+	San -- cto
+	ex Ma --
+	ri -- a,
+	ex Ma -- %130
+	ri -- a
+	Vir -- gi --
+	ne,
+	et
+	ho -- mo fa -- %135
+	_
+	_
+	_ ctus
+	est, et
+	ho -- mo fa -- %140
+	ctus
+	est.
 	
+	Et in -- car -- %147
+	na -- tus
+	est de
+	Spi -- ri -- tu %150
+	San -- cto
+	ex Ma --
+	ri -- a
+	Vir -- gi --
+	ne, ex Ma -- %155
+	ri -- a
+	Vir -- gi --
+	ne, et
+	ho -- mo
+	fa -- _ _ %160
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ ctus %165
+	est, et
+	ho -- mo
+	fa --
+	ctus
+	est. %170 finis
 }
 
 EtIncarnatusTenoreIINotes = {

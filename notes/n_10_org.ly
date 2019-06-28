@@ -2339,11 +2339,165 @@ EtIncarnatusOrgano = {
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #101
 		\mvTr g'4\fE-\soloE g, g
+		d' d d,
+		d d' d
+		g g, g
+		g g g %105
+		g g gis
+		a cis a
+		d d, d'
+		a cis a
+		d d, d' %110
+		g a a,
+		d d, d'
+		d d d
+		d d d
+		d d d %115
+		d d d
+		d d d
+		e e fis
+		g2 g,4
+		d'2. %120
+		g4 g, r
+		g'4\pE g, g'
+		d d, d'
+		d d, d'
+		g g, g' %125
+		g g g
+		g g g,
+		g' g, gis'
+		a a, a
+		a a a %130
+		a a a
+		a gis gis
+		a a' a,
+		h h cis
+		d d, d' %135
+		a' a, a'
+		r d, d,
+		d' r d
+		a' a, d
+		d d d %140
+		g a a,
+		d\fE fis d
+		a' a, a'
+		d, d fis
+		g a a, %145
+		d d, r
+		d'\pE d d
+		a'2 a,4
+		d d, d'
+		d d d %150
+		g g, g'
+		h, h h
+		c c c
+		g' g, g'
+		c, c cis %155
+		d d, d'
+		d a' a,
+		d d, d'
+		d d d
+		g g, g' %160
+		g g g
+		g r g,
+		d' d d
+		d d d
+		d d d %165
+		g2 r4
+		g, h d
+		g, h g
+		d' d, d'
+		g g, g\fE %170
+		d' d d
+		d d d
+		d d d
+		d d d
+		d d d %175
+		e e fis
+		g d' d,
+		g g, r\fermata \bar "||" %178 finis
 	}
 }
 
 EtIncarnatusBassFigures = \figuremode {
-	
+	r2. %101
+	<6 4>4 <5 3>2
+	r2.
+	<4 2>4 <5 3>2
+	r2. %105
+	<6 4>4 <5 3> r
+	r2.
+	r
+	r
+	r %110
+	r
+	r
+	r
+	r
+	r %115
+	r
+	r
+	r
+	r
+	r %120
+	r
+	r
+	r
+	r
+	r %125
+	r
+	r
+	r
+	r
+	r %130
+	r
+	r
+	r
+	r
+	r %135
+	<6 4>4 <7 [_+]>2
+	r2.
+	r
+	r
+	<6 4>4 <5 3>2 %140
+	r2.
+	r
+	r
+	r
+	r %145
+	r
+	r
+	r
+	r
+	r %150
+	r
+	r
+	r
+	r
+	r %155
+	r
+	r
+	r
+	r
+	r %160
+	<6 4>
+	<5 3>
+	r
+	r
+	r %165
+	r
+	r
+	r
+	r
+	r %170
+	r
+	r
+	r
+	r
+	r %175
+	r
+	r
+	r %178 finis
 }
 
 % Organo = {

@@ -1184,8 +1184,6 @@ CredoViolinoII = {
 	}
 }
 
-}
-
 EtIncarnatusViolinoII = {
 	\relative c' {
 		\clef treble
