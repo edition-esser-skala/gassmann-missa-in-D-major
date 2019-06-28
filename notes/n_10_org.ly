@@ -2506,11 +2506,59 @@ CrucifixusOrgano = {
 		\key g \minor \time 3/4 \tempoCrucifixus
 			\set Score.currentBarNumber = #179
 		\mvTr g'4\fE-\tuttiE r g8 g
+		g4 g, g' %180
+		d r d8 d
+		d4 d, d'
+		g g, g'8 g
+		f!4 r f
+		es c c8 c %185
+		g'4 g, g'
+		as g f
+		g g c,
+		g' g g
+		g g g %190
+		c, r c8 c
+		f4 f, f'
+		b, b a
+		g r g'
+		es r es %195
+		es r es
+		d r d
+		g r g
+		cis, r cis
+		d r d %200
+		d r d
+		g g, g
+		g2.\fermata \bar "||" %203 finis
 	}
 }
 
 CrucifixusBassFigures = \figuremode {
-	
+	r2. %179
+	r %180
+	r
+	r
+	r
+	<6 4! 2>
+	r %185
+	<6 4> <[5] _!>2
+	r2.
+	r
+	r
+	r %190
+	r
+	r
+	r
+	r
+	r %195
+	<6>
+	r
+	r
+	<7>
+	r %200
+	r
+	r
+	r %203 finis
 }
 
 % Organo = {
