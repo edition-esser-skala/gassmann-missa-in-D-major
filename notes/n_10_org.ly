@@ -2541,7 +2541,7 @@ CrucifixusBassFigures = \figuremode {
 	r
 	<6 4! 2>
 	r %185
-	<6 4> <[5] _!>2
+	<6 4>4 <[5] _!>2
 	r2.
 	r
 	r

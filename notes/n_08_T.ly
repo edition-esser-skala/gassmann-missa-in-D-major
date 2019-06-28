@@ -2905,12 +2905,58 @@ CrucifixusTenoreINotes = {
 		\clef "treble_8"
 		\key g \minor \time 3/4 \autoBeamOff \tempoCrucifixus
 			\set Score.currentBarNumber = #179
-		
+		R2.
+		r4 \mvTr d\fE^\tuttiE b %180
+		b a r
+		a8 b c4 c
+		b8([ a)] g4 r
+		r d'2
+		c8. d16 es4 es %185
+		es d r
+		r c2~
+		c4( h) c
+		h2 c4
+		d2 h4 %190
+		c2 es4
+		c8 d c4 es
+		es8([ d)] d4 r
+		d2.
+		es %195
+		c
+		c2 r4
+		b2.
+		b
+		\once \tieDashed a~ %200
+		a2 a4
+		g2.
+		R2.\fermataMarkup \bar "||" %203 finis
 	}
 }
 
 CrucifixusTenoreILyrics = \lyricmode {
-	
+	Cru -- ci -- %180
+	fi -- xus
+	e -- ti -- am pro
+	no -- bis,
+	sub
+	Pon -- ti -- o Pi -- %185
+	la -- to
+	pas --
+	sus
+	et se --
+	pul -- tus %190
+	est, sub
+	Pon -- ti -- o Pi --
+	la -- to
+	pas --
+	sus, %195
+	pas --
+	sus
+	et
+	se --
+	pul -- %200
+	tus
+	est. %202 finis
 }
 
 CrucifixusTenoreIINotes = {
