@@ -3027,12 +3027,231 @@ EtResurrexitTenoreINotes = {
 		\clef "treble_8"
 		\key d \major \time 2/4 \autoBeamOff \tempoEtResurrexit
 			\set Score.currentBarNumber = #204
-		
+		\mvTr fis2\fE^\tuttiE
+		e4 e %205
+		fis2
+		fis
+		e4 fis8 g
+		fis e r e
+		e4 fis8 g %210
+		fis e r4
+		R2*2
+		d2
+		e %215
+		e4 e8 e
+		a4 a,
+		d d8 cis
+		d4 d8 d
+		d4( cis) %220
+		d \mvTr d\pE^\soloE
+		e8 d16([ cis)] d8 d
+		d4( cis8) h
+		a4. g8
+		fis8. g16 a4 %225
+		a2
+		a
+		a
+		a
+		gis4 h8 d %230
+		c2(
+		h4.) h8
+		a2
+		R2*27 %260
+		r4 d8 d
+		e4 d8 g
+		d4( c8) d
+		h4 r
+		\mvTr d8\fE^\tuttiE d e f %265
+		f?([ e)] e e
+		e e fis g
+		g([ fis)] fis4
+		d e8([ d)]
+		cis cis cis4 %270
+		d cis
+		cis2
+		h4 r
+		\mvTr h\pE^\soloE fis'
+		e8([ d)] cis([ h)] %275
+		ais4 h8 h
+		cis8. fis,16 fis8 cis'
+		d([ cis16 d] e8) d
+		cis8. d16 e8 d
+		cis4( h8) h %280
+		a4 r
+		R2*4 %285
+		\mvTr e'8\fE^\tuttiE e e e
+		fis4 e
+		dis e
+		e( dis)
+		e e8 e %290
+		e4 d!
+		cis8 d e cis
+		d2
+		cis
+		cis %295
+		cis
+		\once \tieDashed d~
+		d
+		\time 3/4 cis\fermata \tempoEtVitam a4
+		h h cis %300
+		d2 h4
+		cis4. d8 e4
+		d2 \once \tieDashed fis4~
+		fis e d
+		h cis8[ d e d] %305
+		cis2 d4~
+		d cis8[ h] cis4
+		d2 a4
+		h h d
+		cis( d) e %310
+		d4. d8 e4
+		fis e d
+		cis2 \tieDashed d4~
+		d2.~
+		d4 cis8[ h] cis4~ %315
+		cis2.~
+		cis4 h8[ ais] h4~
+		h2.~
+		h4 ais8[ gis?] ais4
+		h2 d4~ %320
+		d \tieSolid e d
+		cis d e
+		fis e g
+		fis e g
+		fis2. %325
+		e
+		d
+		cis4 d8[ e fis e]
+		dis2 \once \tieDashed e4~
+		e dis8[ cis] dis4 %330
+		e2.
+		e4 fis g
+		fis2.
+		e
+		d2 r4 %335
+		R2.*2
+		r4 r e
+		fis2 r4
+		R2.*2 %341
+		r4 r e
+		fis2.
+		e
+		fis %345
+		R\fermataMarkup \bar "|." %346 FINIS
 	}
 }
 
 EtResurrexitTenoreILyrics = \lyricmode {
+	Et %204
+	re -- sur -- %205
+	re --
+	xit
+	ter -- ti -- a
+	di -- e se --
+	cun -- dum Scri -- %210
+	ptu -- ras.
 	
+	Et %214
+	a -- %215
+	scen -- dit in
+	coe -- lum,
+	se -- det ad
+	dex -- te -- ram
+	Pa -- %220
+	tris. Et
+	i -- te -- rum ven --
+	tu -- rus
+	est cum
+	glo -- ri -- a %225
+	ju --
+	di --
+	ca --
+	re
+	vi -- vos et %230
+	mor --
+	tu --
+	os.
+	
+	Qui cum %261
+	Pa -- tre et
+	Fi -- li --
+	o
+	si -- mul ad -- o -- %265
+	ra -- tur et
+	con -- glo -- ri -- fi --
+	ca -- tur:
+	Qui lo --
+	cu -- tus est %270
+	per Pro --
+	phe --
+	tas.
+	Et in
+	u -- nam %275
+	san -- ctam ca --
+	tho -- li -- cam et
+	a -- po --
+	sto -- li -- cam ec --
+	cle -- si -- %281
+	am.
+	
+	In re -- mis -- si -- %286
+	o -- nem
+	pec -- ca --
+	to --
+	rum. Et ex -- %290
+	pe -- cto
+	re -- sur -- re -- cti --
+	o --
+	nem
+	mor -- %295
+	tu --
+	o --
+	
+	rum. Et
+	vi -- tam ven -- %300
+	tu -- ri
+	sae -- cu -- li,
+	a -- _
+	_ _
+	_ _ %305
+	_ _
+	_ _
+	men, et
+	vi -- tam ven --
+	tu -- ri %310
+	sae -- cu -- li,
+	a -- _ _
+	_ _
+	
+	_ _ %315
+	
+	_ _
+	
+	_ _
+	men, a -- %320
+	_ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ %325
+	_
+	_
+	_ _
+	_ _
+	_ _ %330
+	men,
+	a -- _ _
+	_
+	_
+	men, %335
+	
+	a -- %338
+	men,
+	
+	a -- %342
+	men,
+	a --
+	men. %345 FINIS
 }
 
 EtResurrexitTenoreIINotes = {
