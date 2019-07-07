@@ -468,3 +468,17 @@ CredoCornoII = {
 		c,2\fermata \bar "||" %100 finis
 	}
 }
+
+EtResurrexitCornoII = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #204
+		
+	}
+}

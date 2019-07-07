@@ -1360,6 +1360,24 @@ CrucifixusBassoLyrics = \lyricmode {
 	est. %202 finis
 }
 
+EtResurrexitBassoNotes = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c {
+		\clef bass
+		\key d \major \time 2/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #204
+		
+	}
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
