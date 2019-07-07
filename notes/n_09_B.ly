@@ -1392,7 +1392,7 @@ EtResurrexitBassoNotes = {
 		\mvTr a'4\pE^\soloE a
 		gis e8 e
 		e([ gis)] h([ d)] %235
-		cis4 h
+		cis4 a^\critnote
 		a r
 		a r
 		d r
@@ -1467,7 +1467,7 @@ EtResurrexitBassoNotes = {
 		a2 a4
 		h a g
 		fis h2 %330
-		e,4 fis g
+		e,4 fis gis
 		\once \tieDashed a2.~
 		\once \tieDashed a~
 		a
