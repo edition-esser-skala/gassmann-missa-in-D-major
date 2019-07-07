@@ -2572,11 +2572,308 @@ EtResurrexitOrgano = {
 		\key d \major \time 2/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #204
 		\mvTr d8\fE-\tuttiE d d d
+		a' a a a %205
+		d, d d d
+		d d d d
+		a a a a
+		d a a a
+		a a a a %210
+		d a a a
+		d d d d
+		e e e e
+		fis fis fis fis
+		g g gis gis %215
+		a a a a
+		a, a a' a
+		g! g fis e
+		d e fis d
+		g e a a, %220
+		d e \mvTr fis\pE-\soloE d
+		g a fis e
+		d4 r8 g
+		fis d e cis
+		d e fis d %225
+		cis4 r
+		d r
+		cis r
+		d r8 dis
+		e4 e, %230
+		a8 a c a
+		d h e e,
+		a h cis! d
+		e e gis h
+		gis4 r8 gis %235
+		a a, cis a
+		r d fis d
+		r cis a cis
+		r h gis e
+		r a cis a %240
+		e'4 r8 fis
+		e d cis d
+		cis h a4
+		e' e,
+		a8 h cis a %245
+		h' a gis cis,
+		d e cis a
+		gis fis gis e
+		a h cis h
+		a4 r %250
+		r8 a' a g!
+		fis4. d8
+		cis h cis a
+		d e fis d
+		g a h g %255
+		fis d e cis
+		d e fis d
+		g4 g
+		fis fis
+		g8 e c d %260
+		g,4 g'8 g
+		g g g g
+		r g d' d,
+		g4 g,
+		\mvTr g'8\fE-\tuttiE g g g %265
+		c,4 c8 h
+		a a a a
+		d4 d
+		g e
+		fis fis, %270
+		h e
+		fis fis,
+		h8 e fis fis,
+		\mvTr h'\pE-\soloE cis d h
+		g4 e %275
+		fis g
+		fis8 fis ais fis
+		h a gis e
+		a4 r8 e
+		a cis, d e %280
+		a, a cis a
+		e'4 r8 e
+		fis4 gis
+		a gis
+		a a, %285
+		\mvTr a'8\fE-\tuttiE a a a
+		a a a a
+		h h e, e
+		h' h h, h
+		e4 \clef "treble_8" << {
+			e'8 e %290
+			e4 d!
+			cis8 d e cis
+		} \\ {
+			e,8 e %290
+			fis4 gis
+			a8 h cis a
+		} >> \clef bass
+		d, e fis d
+		a'4 a,
+		\once \tieDashed a2~ %295
+		a
+		\once \tieDashed b~
+		b
+		\time 3/4 a\fermata \tempoEtVitam \clef "treble_8" a'4
+		<< {
+			h h cis %300
+			d2 h4
+			cis4. d8 e4
+			d2
+		} \\ {
+			r4 r e,
+			fis fis gis?
+			a2 g4
+			fis4. g8
+		} >> \clef bass d4
+		e e fis
+		g2 g4 %305
+		a4. g8 fis4
+		e fis8 g a g
+		fis4 d \once \tieDashed a'~
+		a2 gis4
+		a2 a4 %310
+		h h cis
+		d cis h
+		a4. g8 fis4
+		e fis g
+		a a a %315
+		d, d d
+		g g g
+		cis, cis cis
+		fis fis fis
+		h, d h8 a %320
+		gis2 gis4
+		a a a
+		a a a
+		a a a
+		d fis d %325
+		a' a, a'
+		h2 g4
+		a a, a'
+		h a g
+		fis h h, %330
+		e fis gis
+		a a, a'
+		d, d d
+		a' a a,
+		d fis d %335
+		a'2 a,4
+		d2 d4
+		g a a,
+		d fis d
+		a'2 a,4 %340
+		d2 d4
+		g a a,
+		d fis d
+		a'2 a,4
+		d d d %345
+		d2.\fermata \bar "||" %346 FINIS
 	}
 }
 
 EtResurrexitBassFigures = \figuremode {
-	
+	r2 %204
+	r %205
+	r
+	r
+	r4 <6 4>8 <7 5>
+	r2
+	r4 <6 4>8 <7 5> %210
+	r2
+	r
+	r
+	r
+	r %215
+	r
+	r
+	r
+	r
+	r %220
+	r
+	r
+	r
+	r
+	r %225
+	r
+	r
+	r
+	r4. <6 5>8
+	<_+>2 %230
+	r
+	r
+	r
+	r
+	r %235
+	r
+	r
+	r
+	r
+	r %240
+	r
+	r
+	r
+	r
+	r4 <6> %245
+	r <6>8 q
+	r2
+	r
+	r
+	r %250
+	r
+	<7>4 <6>
+	r2
+	r
+	r %255
+	r
+	r
+	r
+	r
+	r %260
+	r
+	<6 [4!]>4 <5 3>
+	r2
+	r
+	r4 <6 [4!]>8 <7!> %265
+	r2
+	<[5] _+>4 <6 4>8 <5>
+	r2
+	r
+	r %270
+	r
+	r
+	r
+	r
+	<6>4 q %275
+	r2
+	r4 <6>
+	r2
+	r
+	r %280
+	r
+	<_+>
+	<6>4 q
+	r2
+	r %285
+	r
+	<6>4 <[5]>
+	r2
+	r
+	r %290
+	r
+	r
+	r
+	r
+	r %295
+	r
+	<7>
+	<6>
+	<_+>2.
+	r %300
+	r
+	r
+	r
+	<9>4 <8> <6>
+	r2 <6>4 %305
+	r2.
+	<7>
+	<6>
+	<6 4 2>2 <6>4
+	r2. %310
+	r4. <7>8 <6 5>4
+	r <6> q
+	r2 q4
+	<7>2.
+	<7 4>4 <\l 3>2 %315
+	<7 4>4 <\l [3]>2
+	<7 4>4 <\l 3>2
+	<7 4>4 <\l 3>2
+	<7 4>4 <\l [3]>2
+	r2. %320
+	r
+	r4 <6 4> <5 3>
+	<6 4> <5 3> <7 5>
+	<6 4> <5 3> <7>
+	<9> <6> r %325
+	<4> <3> r
+	<9> <8> r
+	r2 <6>4
+	<_+>2 <6>4
+	<7> <7 _+>2 %330
+	r2.
+	r
+	r
+	r
+	r %335
+	r
+	r
+	r
+	r
+	r %340
+	r
+	r
+	r
+	r
+	r %345
+	r %346 FINIS
 }
 
 % Organo = {
