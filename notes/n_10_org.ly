@@ -2668,7 +2668,7 @@ EtResurrexitOrgano = {
 		} >> \clef bass
 		d, e fis d
 		a'4 a,
-		\once \tieDashed a2~ %295
+		a2 %295
 		a
 		\once \tieDashed b~
 		b
@@ -2747,8 +2747,8 @@ EtResurrexitBassFigures = \figuremode {
 	r
 	r4 <[6]>8 q
 	r4 q
-	<[6 5]>2 %220
-	r4 <[6]>
+	r8 <[7]> r4 %220
+	r <[6]>
 	q q
 	r2
 	q
@@ -2774,21 +2774,21 @@ EtResurrexitBassFigures = \figuremode {
 	r
 	r4 <6> %245
 	r <6>8 q
-	r2
-	r
-	r
-	r %250
-	r
+	q <[_+]> <[6]>4
+	<[6 5]>2
+	r4 <[6]>
+	r2 %250
+	r4. <[2]>8
 	<7>4 <6>
+	<[6]>2
+	r4 q
+	r q %255
+	q2
+	r4 q
 	r2
-	r
-	r %255
-	r
-	r
-	r
-	r
-	r %260
-	r
+	<[6 5!]>
+	r4 <[6]> %260
+	r2
 	<6 [4!]>4 <5 3>
 	r <[7!]>
 	r2
@@ -2796,8 +2796,8 @@ EtResurrexitBassFigures = \figuremode {
 	<[4 2]> <[3 1]> r <[\t]>
 	<[5] _+>4 <6 4>8 <[7] 5>
 	<[4 2]> <[3 1]>4.
-	r2
-	<[_+]> %270
+	r4 <[8 6]>8 <[7 5]>
+	<[_+]>2 %270
 	r4 <[6 5]>
 	<[4]> <[_+]>
 	r <[_+]>
@@ -2811,8 +2811,8 @@ EtResurrexitBassFigures = \figuremode {
 	r2
 	<_+>
 	<6>4 q
-	r2
-	r %285
+	r <[6]>
+	r2 %285
 	r
 	<6>4 <[5]>
 	<[_+]>2
@@ -2858,11 +2858,11 @@ EtResurrexitBassFigures = \figuremode {
 	r2 <6>4
 	<_+>2 <6>4
 	<7> <7 _+>2 %330
+	r2 <[6]>4
+	r <[6 4]> <[7 5]>
 	r2.
-	r4 <[6 4]> <[7 5]>
-	r2.
-	r
-	r %335
+	<[4]>4 <[3]>2
+	r2. %335
 	r
 	r
 	r
@@ -2871,8 +2871,8 @@ EtResurrexitBassFigures = \figuremode {
 	r
 	r
 	r
-	r
-	r %345
+	<[4]>4 <[3]>8 <[2]> <[3]>4
+	r2. %345
 	r %346 FINIS
 }
 

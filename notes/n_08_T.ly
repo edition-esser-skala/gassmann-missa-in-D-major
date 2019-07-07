@@ -3143,13 +3143,13 @@ EtResurrexitTenoreINotes = {
 
 EtResurrexitTenoreILyrics = \lyricmode {
 	Et %204
-	re -- sur -- %205
+	[re -- sur -- %205
 	re --
 	xit
 	ter -- ti -- a
 	di -- e se --
 	cun -- dum Scri -- %210
-	ptu -- ras.
+	ptu -- ras.]
 	
 	Et %214
 	a -- %215
@@ -3264,12 +3264,229 @@ EtResurrexitTenoreIINotes = {
 		\clef "treble_8"
 		\key d \major \time 2/4 \autoBeamOff \tempoEtResurrexit
 			\set Score.currentBarNumber = #204
-		
+		\mvTr d2\fE^\tuttiE
+		cis4 cis %205
+		a2
+		a
+		cis4 d8 e
+		d cis r cis
+		cis4 d8 e %210
+		d cis r4
+		fis,2
+		g
+		a
+		h4 h %215
+		cis2
+		cis
+		h4 a8 g
+		fis g a4
+		h( a) %220
+		a r
+		R2*23 %244
+		r4 \mvTr e'(\pE^\soloE %245
+		d8[ cis)] h([ a)]
+		h a16([ gis)] a4
+		h d
+		cis8. h16 a4
+		r a8 a %250
+		e'4 e
+		e8([ cis)] d4
+		r a~
+		a a
+		h \tuplet 3/2 4 { d8([ cis h)] } %255
+		a4( g8) g
+		fis4. a8
+		\tuplet 3/2 4 { h[ a g] d'[ c h] }
+		a8[ fis d c']
+		\tuplet 3/2 4 { h[ a g] } a4\trill %260
+		g r
+		R2*3
+		\mvTr h8\fE^\tuttiE h c d %265
+		d([ c?)] c c
+		cis cis d e
+		e([ d)] d4
+		h cis8[ h]
+		ais ais ais4 %270
+		h h
+		h( ais)
+		h r
+		R2*8 %281
+		r4 \mvTr e\pE^\soloE
+		d8. cis16 h4
+		cis e8 d
+		cis4 cis %285
+		\mvTr cis8\fE^\tuttiE cis cis cis
+		cis4 cis
+		fis, g
+		fis2
+		e4 e8 e %290
+		fis4 gis
+		a8 h cis a
+		fis([ g a fis)]
+		e2
+		a %295
+		a
+		a(
+		g)
+		\time 3/4 a\fermata \tempoEtVitam r4
+		r r e %300
+		fis fis gis
+		a2 g4
+		fis4. g8 a4
+		g2 a4
+		h2. %305
+		a
+		g2 e4
+		fis2 a4
+		d d h
+		a( h) cis %310
+		h4. a8 g!4
+		fis( a gis)
+		a2.
+		\tieDashed g!~
+		g~ %315
+		g4 fis8[ e] fis4~
+		fis2.~
+		fis4 e8[ d] e4~
+		e2. \tieSolid
+		d2 r4 %320
+		h'2.
+		a4 h cis
+		d cis e
+		d cis e~
+		e d8[ cis] d4~ %325
+		d cis8[ h] \once \tieDashed cis4~
+		cis h8[ a] h4
+		a2 r4
+		fis2 \once \tieDashed h4~
+		h fis2 %330
+		g4 a h
+		cis d e
+		\once \tieDashed d2.~
+		d4 cis8[ h] cis4
+		d2 r4 %335
+		R2.*2
+		r4 r cis
+		d2 r4
+		R2.*2 %341
+		r4 r cis
+		d2.
+		d4( cis8[ h] cis4)
+		d2. %345
+		R\fermataMarkup \bar "|." %346 FINIS
 	}
 }
 
 EtResurrexitTenoreIILyrics = \lyricmode {
+	Et %204
+	[re -- sur -- %205
+	re --
+	xit
+	ter -- ti -- a
+	di -- e se --
+	cun -- dum Scri -- %210
+	ptu -- ras.]
+	Et
+	a --
+	scen --
+	dit in %215
+	coe --
+	lum,
+	se -- det ad
+	dex -- te -- ram
+	Pa -- %220
+	tris.
 	
+	Et __ %245
+	in
+	Spi -- ri -- tum
+	San -- ctum,
+	Do -- mi -- num
+	et vi -- %250
+	vi -- fi --
+	can -- tem,
+	qui __
+	ex
+	Pa -- tre %255
+	Fi -- lio --
+	que pro --
+	ce -- _
+	_
+	_ _ %260
+	dit.
+	
+	Si -- mul ad -- o -- %265
+	ra -- tur et
+	con -- glo -- ri -- fi --
+	ca -- tur:
+	Qui lo --
+	cu -- tus est %270
+	per Pro --
+	phe --
+	tas.
+	
+	Con -- %282
+	fi -- te -- or
+	u -- num ba --
+	pti -- sma %285
+	in re -- mis -- si --
+	o -- nem
+	pec -- ca --
+	to --
+	rum. Et ex -- %290
+	pe -- cto
+	re -- sur -- re -- cti --
+	o --
+	nem
+	mor -- %295
+	tu --
+	o --
+	
+	rum.
+	Et %300
+	vi -- tam ven --
+	tu -- ri
+	sae -- cu -- li,
+	a -- _
+	_ %305
+	_
+	_ _
+	men, et
+	vi -- tam ven --
+	tu -- ri %310
+	sae -- cu -- li,
+	a --
+	men,
+	a --
+	%315
+	_ _
+	
+	_ _
+	
+	men, %320
+	a --
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ %325
+	_ _
+	_ _
+	men,
+	a -- _
+	_ %330
+	_ _ _
+	_ _ _
+	_
+	_ _
+	men, %335
+	
+	a -- %338
+	men,
+	
+	a -- %342
+	men,
+	a --
+	men. %345 FINIS
 }
 
 % TenoreINotes = {
