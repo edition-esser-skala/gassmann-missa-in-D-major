@@ -1311,6 +1311,147 @@ EtResurrexitViolinoII = {
 		\clef treble
 		\key d \major \time 2/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #204
-		
+		d'16\fE a fis d d fis a d
+		cis a e-\critnote cis e a cis e %205
+		d a fis d fis a d fis
+		a a fis a d,8 \once \slurDashed d16( a)
+		cis( a) cis( a) \slurDashed d( a) e'( a,) \slurSolid
+		d a cis a cis a cis e
+		cis a cis a d a e' a, %210
+		d a cis a cis a cis e
+		fis d fis a fis8.( e32 fis)
+		g8 g g8.( fis32 g)
+		fis8 d d a
+		h h h h %215
+		cis16 e, a cis e a e cis
+		a e a cis cis8 cis
+		h h a g
+		fis g a d
+		h16 g' e h a8 e %220
+		fis4 r
+		r r8 g\pE
+		fis4 r8 d
+		d fis4 e8
+		d r r4 %225
+		r8 a cis4
+		r8 a d4
+		r8 a cis4
+		r8 a d fis
+		h,4 r %230
+		R2*2
+		a8 h cis! d
+		e e gis h
+		gis4 r8 h %235
+		cis16 a cis e a4
+		r16 a, d fis a8 fis
+		r16 a, cis e a8 e
+		r16 d cis d h' d, cis d
+		cis a cis e a8 a, %240
+		gis( fis e) fis-!
+		e d cis d
+		cis h a a'
+		h, a' h, gis'
+		a, h cis a %245
+		h' a gis cis,
+		d e cis a'
+		gis fis gis e
+		e8. d16 cis a cis e
+		a4 r %250
+		r8 a cis cis
+		e cis d fis,
+		e d e cis
+		fis g a fis
+		h a g h %255
+		a fis g e
+		fis g a fis
+		g4 h8 g
+		d4 r8 a'
+		g g4 fis8 %260
+		g16 g h d g8 d
+		c4 h8 h
+		h4 a8 c16 a
+		g8 h h h
+		h16\fE g h g c g d' g, %265
+		d'8 c? c4
+		cis8 cis d e
+		e d d a
+		h16 h a h cis8 h
+		ais16 fis ais cis fis8 ais, %270
+		h h' g h
+		cis, h' cis, ais'
+		h \tuplet 3/2 8 { g16 fis e d cis h ais[ h cis] }
+		h8\pE cis d h
+		g4 e %275
+		fis g
+		fis8 ais16 ais ais8 ais
+		h h h h
+		a!8. h16 cis8 h
+		a a4 gis8 %280
+		a cis, e cis
+		h4 gis'
+		a h
+		e, h'
+		cis16 a cis e a e cis e %285
+		a,8\fE cis16 cis cis8 cis
+		cis cis cis cis
+		fis, fis g e
+		fis e' fis, dis'
+		e16 e, g h e8 e %290
+		e4 gis,
+		a8 h cis a
+		fis g a fis
+		e2
+		e %295
+		a
+		a
+		g
+		\time 3/4 a2\fermata \tempoEtVitam r4
+		r r e %300
+		fis fis gis
+		a2 g4
+		fis4. g8 a4
+		g2 a4
+		h2 h4 %305
+		e,2 a4
+		g2 e4
+		fis2 a4
+		d d h
+		a h cis %310
+		h4. a8 g!4
+		fis a gis
+		a2 \tieDashed a4
+		g!2.~
+		g~ %315
+		g4 fis8 e fis4~
+		fis2.~
+		fis4 e8 d e4~
+		e2. \tieSolid
+		d2 h'4 %320
+		h2 h4
+		a h cis
+		d8 a cis a e'4
+		d a8 cis a cis
+		e4 d8 cis d4~ %325
+		d cis8 h \once \tieDashed cis4~
+		cis h8 ais h4
+		a2 cis4
+		fis,2 h4
+		a fis2 %330
+		g4 a h
+		cis d e
+		d8 d d d d d
+		d d cis cis cis cis
+		d a d fis fis4 %335
+		e8 a, d a cis a
+		d4 fis fis,
+		g fis e
+		fis2 fis'4
+		e8 a, d a cis a %340
+		d4 fis fis,
+		g fis e
+		fis2 d'4
+		d cis2
+		d4 d d %345
+		d2 r4\fermata \bar "|." %346 FINIS
 	}
 }

@@ -2726,7 +2726,7 @@ EtResurrexitOrgano = {
 		d fis d
 		a'2 a,4
 		d d d %345
-		d2.\fermata \bar "||" %346 FINIS
+		d2^\critnote r4\fermata \bar "||" %346 FINIS
 	}
 }
 
@@ -2749,9 +2749,9 @@ EtResurrexitBassFigures = \figuremode {
 	r4 q
 	r8 <[7]> r4 %220
 	r <[6]>
-	q q
+	q q8 <[7]>
 	r2
-	q
+	<[6]>
 	r4 q %225
 	q2
 	r
@@ -2787,7 +2787,7 @@ EtResurrexitBassFigures = \figuremode {
 	r4 q
 	r2
 	<[6 5!]>
-	r4 <[6]> %260
+	r4 <[6 5]> %260
 	r2
 	<6 [4!]>4 <5 3>
 	r <[7!]>

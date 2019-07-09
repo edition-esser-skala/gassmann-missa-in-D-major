@@ -3356,10 +3356,10 @@ EtResurrexitTenoreIINotes = {
 		d cis e~
 		e d8[ cis] d4~ %325
 		d cis8[ h] \once \tieDashed cis4~
-		cis h8[ a] h4
+		cis h8[ ais?] h4
 		a2 r4
-		fis2 \once \tieDashed h4~
-		h fis2 %330
+		fis2 h4
+		a^\critnote fis2 %330
 		g4 a h
 		cis d e
 		\once \tieDashed d2.~
@@ -3473,7 +3473,7 @@ EtResurrexitTenoreIILyrics = \lyricmode {
 	_ _
 	men,
 	a -- _
-	_ %330
+	_ _ %330
 	_ _ _
 	_ _ _
 	_
