@@ -495,7 +495,7 @@ EtResurrexitCornoI = {
 		d4 d %220
 		c r
 		R2*45 %266
-		r8 d e f
+		r8 d\fE e f
 		f e16 e e4
 		R2
 		r8 e,16 e e4 %270
@@ -503,14 +503,14 @@ EtResurrexitCornoI = {
 		e e
 		e r
 		R2*12 %285
-		d'8 d16 d d4
-		g, r
-		R2*5 %282
+		d'8\fE d16 d d4
+		\pao g, r
+		R2*5 %292
 		e'2
 		d
-		g,4 g %285
+		g,4 g %295
 		g2
-		d'
+		\once \tieDashed c~
 		c
 		\time 3/4 d2\fermata \tempoEtVitam r4
 		R2.*6 %305
@@ -518,7 +518,7 @@ EtResurrexitCornoI = {
 		f e d
 		e2 r4
 		R2.*3 %311
-		e4 d c
+		e4 d \pao c
 		d2.
 		R2.*8 %321
 		r4 r d

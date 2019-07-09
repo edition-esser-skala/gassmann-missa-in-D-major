@@ -479,6 +479,68 @@ EtResurrexitCornoII = {
 		\clef treble
 		\key c \major \time 2/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #204
-		
+		c'4\fE c
+		g d' %205
+		c c
+		c r
+		r8 g c d
+		c g16 g g4
+		r8 g c d %210
+		c g16 g g4
+		R2*4 %215
+		r8 g g g
+		g4 r
+		R2
+		r4 r8 c
+		c4 g %220
+		e r
+		R2*45 %266
+		r8 g\fE c d
+		d c16 c c4
+		R2
+		r8 e,16 e e4 %270
+		e r
+		e e
+		e r
+		R2*12 %285
+		g8\fE g16 g g4
+		g r
+		R2*5 %292
+		c2
+		g
+		g4 g %295
+		g2
+		\once \tieDashed c~
+		c
+		\time 3/4 g2\fermata \tempoEtVitam r4
+		R2.*6 %305
+		g2 c4
+		d c g
+		c2 r4
+		R2.*3 %311
+		g4 g c
+		g2.
+		R2.*8 %321
+		r4 r g
+		c g d'
+		c g d'
+		c2 r4 %325
+		g2 r4
+		R2.*5 %331
+		g4 c d
+		c2.
+		g2 g4
+		e2 e'4 %335
+		d c g
+		c2 e4
+		d c g
+		c2 e4
+		d c g %340
+		c2 e4
+		d c g
+		e2 c'4
+		g2.
+		e4 e e %345
+		e2 r4\fermata \bar "|." %346 FINIS
 	}
 }
