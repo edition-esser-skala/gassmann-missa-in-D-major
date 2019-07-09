@@ -1431,11 +1431,12 @@ EtResurrexitBassoNotes = {
 		h e,
 		h'2
 		e,4 r %290
-		R2*3
+		R2*2
 		d8 e fis d
 		a'4 a, %295
-		a a
-		b2~
+		a2
+		a
+		b~
 		b
 		\time 3/4 a\fermata \tempoEtVitam r4
 		R2.*3 %302
@@ -1547,9 +1548,10 @@ EtResurrexitBassoLyrics = \lyricmode {
 	to --
 	rum. %290
 
-	Re -- sur -- re -- cti -- %294
-	o -- nem %295
-	mor -- tu --
+	Re -- sur -- re -- cti -- %293
+	o -- nem
+	mor -- %295
+	tu --
 	o --
 	
 	rum.
