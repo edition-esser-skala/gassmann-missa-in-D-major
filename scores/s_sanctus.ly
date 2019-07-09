@@ -7,7 +7,7 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #109
+	first-page-number = #141
 	systems-per-page = #1
 }
 
@@ -16,221 +16,63 @@
 \book {
 	\bookpart {
 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "3" "C R E D O"
+		\partTitle "4" "S A N C T U S"
 	}
 	\bookpart {
 		\header {
-			movement = "3.1 CREDO"
+			movement = "4.1 SANCTUS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex D]" } }
-						\partcombine \CredoCornoI \CredoCornoII
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "[ex D]" } }
+						\partcombine \SanctusTrombaI \SanctusTrombaII
 					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\CredoViolinoI
+							\SanctusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\CredoViolinoII
+							\SanctusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \CredoTenoreINotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
 					}
-					\new Lyrics \lyricsto TenoreI \CredoTenoreILyrics
+					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \CredoTenoreIINotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
 					}
-					\new Lyrics \lyricsto TenoreII \CredoTenoreIILyrics
+					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \CredoBassoLyrics
+					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\CredoOrgano
+						\SanctusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\CredoBassFigures
-				}
-			>>
-			\layout { }
-			\midi { \tempo 4 = 100 }
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "3.2 ET INCARNATUS EST"
-		}
-		\paper { systems-per-page = #2 }
-		\score {
-			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\EtIncarnatusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\EtIncarnatusViolinoII
-						}
-					>>
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \EtIncarnatusTenoreINotes }
-					}
-					\new Lyrics \lyricsto TenoreI \EtIncarnatusTenoreILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \EtIncarnatusTenoreIINotes }
-					}
-					\new Lyrics \lyricsto TenoreII \EtIncarnatusTenoreIILyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\EtIncarnatusOrgano
-					}
-				>>
-				\new FiguredBass {
-					\EtIncarnatusBassFigures
-				}
-			>>
-			\layout { }
-			\midi { \tempo 4 = 100 }
-		}
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "3" "C R E D O"
-	}
-	\bookpart {
-		\header {
-			movement = "3.3 CRUCIFIXUS"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\CrucifixusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\CrucifixusViolinoII
-						}
-					>>
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \CrucifixusTenoreINotes }
-					}
-					\new Lyrics \lyricsto TenoreI \CrucifixusTenoreILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \CrucifixusTenoreIINotes }
-					}
-					\new Lyrics \lyricsto TenoreII \CrucifixusTenoreIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \CrucifixusBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \CrucifixusBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\CrucifixusOrgano
-					}
-				>>
-				\new FiguredBass {
-					\CrucifixusBassFigures
+					\SanctusBassFigures
 				}
 			>>
 			\layout { }
 			\midi { \tempo 4 = 80 }
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "3.4 ET RESURREXIT – ET VITAM"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex D]" } }
-						\partcombine \EtResurrexitCornoI \EtResurrexitCornoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\EtResurrexitViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\EtResurrexitViolinoII
-						}
-					>>
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \EtResurrexitTenoreINotes }
-					}
-					\new Lyrics \lyricsto TenoreI \EtResurrexitTenoreILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \EtResurrexitTenoreIINotes }
-					}
-					\new Lyrics \lyricsto TenoreII \EtResurrexitTenoreIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \EtResurrexitBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\EtResurrexitOrgano
-					}
-				>>
-				\new FiguredBass {
-					\EtResurrexitBassFigures
-				}
-			>>
-			\layout { }
-			\midi { \tempo 4 = 100 }
 		}
 	}
 }

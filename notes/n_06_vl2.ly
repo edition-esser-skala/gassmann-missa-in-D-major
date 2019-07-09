@@ -1455,3 +1455,11 @@ EtResurrexitViolinoII = {
 		d2 r4\fermata \bar "|." %346 FINIS
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoSanctus
+		
+	}
+}

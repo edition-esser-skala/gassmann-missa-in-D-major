@@ -4,9 +4,10 @@
 
 \version "2.18.0"
 
-% TrombaI = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
+SanctusTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		
+	}
+}

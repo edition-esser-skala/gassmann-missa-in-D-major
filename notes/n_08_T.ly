@@ -3489,7 +3489,19 @@ EtResurrexitTenoreIILyrics = \lyricmode {
 	men. %345 FINIS
 }
 
-% TenoreINotes = {
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	
+}
+
+% TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
 % 		
@@ -3497,6 +3509,6 @@ EtResurrexitTenoreIILyrics = \lyricmode {
 % 	}
 % }
 % 
-% TenoreILyrics = \lyricmode {
+% TenoreLyrics = \lyricmode {
 % 	
 % }
