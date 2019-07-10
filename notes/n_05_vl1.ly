@@ -1494,7 +1494,7 @@ SanctusViolinoI = {
 		e8 a, e' a, fis'4
 		e e2\trill %30
 		d4 <fis a, d,> q
-		q2 r4\fermata \bar "||"
+		q2 r4\fermata \bar "||" %32 finis
 	}
 }
 

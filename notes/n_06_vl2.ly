@@ -1460,6 +1460,37 @@ SanctusViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoSanctus
-		
+		<d a'>8\fE a'4 ais8 h16 h32 ais h16 cis d d32 cis d16 fis
+		d8 d4 d8 cis16 a32 gis a16 h cis cis32 h cis16 cis
+		d8 d e^\critnote e e8.( d32 cis) d8 fis
+		h, h e e <dis fis> q e e
+		<a, e'> q d d d d d d %5
+		cis cis e e d d d d \noBreak
+		d d d cis16 h cis4 r\fermata \bar "||"
+		d8. fis16 fis4 e\noBreak
+		d8 cis d4 d
+		\slurDashed d8( h) h( d) \slurSolid d4~ %10
+		d cis8 h cis4
+		d d, fis'~
+		fis e dis
+		e8. e,16 e4 e'~
+		e d! cis %15
+		d8. d,16 d4 fis'
+		e8 d cis a cis e
+		h4( cis) d
+		cis cis8 a cis e
+		\once \slurDashed h4( cis) d %20
+		cis cis8 a cis e
+		d2 d4
+		cis d d
+		d8 d cis cis e e
+		d d d d cis cis %25
+		d2 e4
+		d2 d4
+		e d d
+		cis cis d
+		d cis8 h cis4 %30
+		d <fis, d'> q
+		q2 r4\fermata \bar "||" %32 finis
 	}
 }

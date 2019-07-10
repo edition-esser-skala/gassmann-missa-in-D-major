@@ -3519,8 +3519,8 @@ SanctusTenoreNotes = {
 		d( cis) e
 		d2( cis4) %25
 		d2 e4
-		d d e
-		a, a r
+		d d d^\critnote
+		a a r
 		cis2 d4
 		d( cis8[ h] cis4) %30
 		d2 r4
