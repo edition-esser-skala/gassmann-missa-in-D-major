@@ -2961,11 +2961,155 @@ BenedictusOrgano = {
 		\key h \minor \time 2/4 \tempoBenedictus
 			\set Score.currentBarNumber = #33
 		\mvTr h8\fE-\solo h h h
+		h h h h
+		ais ais ais ais %35
+		h h' e, fis
+		h h, h r
+		h4 cis
+		d8 d, r g'
+		a16 a e cis a8 r %40
+		r cis d g
+		fis e d r
+		r cis d g
+		fis e d fis
+		g e a a, %45
+		d a d, r
+		r e'16. cis32 d8 r
+		r ais16. fis32 h8 h'
+		e, e fis fis,
+		g16 g' fis e d8 e %50
+		fis g e fis
+		h,4 r
+		h8\pE h h h
+		h h h h
+		ais ais ais ais %55
+		h h' e, fis
+		h, d16 cis h8 r
+		h4 cis
+		d r8 g
+		a a, a' fis %60
+		g g g g
+		g g g g
+		fis fis fis fis
+		fis fis fis fis
+		e e e e %65
+		cis cis cis cis
+		d e fis g
+		a16 a e cis a8 r
+		r cis d g
+		fis e d r %70
+		r cis d g
+		fis e d fis
+		g e a a,
+		d d, d r
+		r g'16.\fE e32 fis8 r %75
+		r cis16. a32 d8 fis
+		g g g gis
+		a8. a,16 a' g fis e
+		d8\pE d d d
+		d d cis cis %80
+		d4 r8 d
+		a' a a, a
+		d d d c
+		h h cis cis
+		d d d16 cis d e %85
+		fis8 fis fis fis
+		g g g g
+		g g e eis
+		fis e d d
+		e e e e %90
+		fis fis fis, fis
+		h h' h, r
+		r dis e a
+		g fis e r
+		r dis e a %95
+		g fis e e
+		e e d! d
+		e e fis fis,
+		h h cis dis
+		e dis e eis %100
+		fis2\fermata
+		h,8\fE h' a g
+		fis16 g fis e d8 e
+		fis g e fis
+		h,4 r\fermata \bar "||" %105 finis
 	}
 }
 
 BenedictusBassFigures = \figuremode {
-	
+	r4. <6>8 %33
+	<4 2>2
+	<6 5> %35
+	r4 <6 4>8 <5 _+>
+	r2
+	<6>4 <6 5>
+	<4>8 <3> r4
+	r2 %40
+	r8 <6 5> r <4 2>
+	<[6]>2
+	r8 <6 5> r <4 2>
+	<6>2
+	r4 <6 4>8 <5 3> %45
+	r2
+	r8 <4+ 2> <6>4
+	r8 <6> r4
+	r4 <[6 4]>8 <[5 _+]>
+	r4 <[6]>8 <6 5> %50
+	<6 4> r <6 5> <5 _+>
+	r2
+	r4. <6>8
+	<4 2>2
+	<6 5> %55
+	r4 <6>8 <6 4>16 <5 _+>
+	r2
+	<6>4 <6 5>
+	r2
+	<6 4>8 <5 3> r <[6]> %60
+	r2
+	r
+	<6>
+	r
+	<7>8 <6>4. %65
+	<6 5>2
+	r8 <[7]> <[6]>4
+	r2
+	r8 <[6 5]> r <4 2>
+	<6> q r4 %70
+	r8 <6 5> r <4 2>
+	<6> q r <[6]>
+	r4 <6 4>8 <5 3>
+	r2
+	r8 <4 2> <[6]>4 %75
+	r8 <6 5> r <[6]>
+	r4. <[6 5]>8
+	<4> <3> r4
+	r4. <6>8
+	<4 2>4 <[\t \t]> %80
+	r2
+	<5 3>8 <6 4> <7 5> <6 4>16 <5 3>
+	r4. <4 2>8
+	<6>4 <6 5>
+	r2 %85
+	<[6]>
+	r
+	r4. <6>16 <5>
+	<_+>8 <[4+] 2> <6>4
+	r4. <6>8 %90
+	<6 4>4 <5 4>8 <\l _+>
+	r2
+	r8 <6 5> r <[4+] 2>
+	<6> <6\\> r4
+	r8 <6 5> r <4+ 2> %95
+	<6> <6\\> r4
+	<4+ 2> <6>
+	r <6 4>8 <5 _+>
+	r4 <[7]>8 <[6]>
+	r <[6]> r <[5 _+]> %100
+	<[6 4]>4 <[5 _+]>
+	<[8 3]>2 \bassFigureExtendersOn
+	<8 3>4 q8 \bassFigureExtendersOff <6 5>8
+	<6 4> r <6 5> <5 _+>
+	r2 %105 finis
 }
 
 % Organo = {
