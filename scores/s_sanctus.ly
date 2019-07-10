@@ -79,6 +79,11 @@
 		\header {
 			movement = "4.2 BENEDICTUS"
 		}
+		\paper {
+			systems-per-page = #2
+			page-count = #5
+			system-system-spacing.basic-distance = #27
+		}
 		\score {
 			<<
 				\new StaffGroup <<
