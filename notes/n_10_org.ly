@@ -3112,6 +3112,19 @@ BenedictusBassFigures = \figuremode {
 	r2 %105 finis
 }
 
+OsannaOrgano = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoOsanna
+			\set Score.currentBarNumber = #106
+		r2 \mvTr a'\fE-\tuttiE
+	}
+}
+
+OsannaBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

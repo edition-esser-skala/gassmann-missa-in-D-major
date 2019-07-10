@@ -190,6 +190,19 @@ BenedictusAltoLyrics = \lyricmode {
 	ni. %102 finis
 }
 
+OsannaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \autoBeamOff \tempoOsanna
+			\set Score.currentBarNumber = #106
+		
+	}
+}
+
+OsannaAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

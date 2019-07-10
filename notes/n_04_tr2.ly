@@ -42,3 +42,12 @@ SanctusTrombaII = {
 		c2 r4\fermata \bar "||" %32 finis
 	}
 }
+
+OsannaTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoOsanna
+			\set Score.currentBarNumber = #106
+		
+	}
+}

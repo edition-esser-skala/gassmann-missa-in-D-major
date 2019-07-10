@@ -3562,6 +3562,19 @@ SanctusTenoreLyrics = \lyricmode {
 	sis. %31 finis
 }
 
+OsannaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 2/2 \autoBeamOff \tempoOsanna
+			\set Score.currentBarNumber = #106
+		
+	}
+}
+
+OsannaTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

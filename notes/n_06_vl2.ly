@@ -1580,3 +1580,12 @@ BenedictusViolinoII = {
 		h fis h,4\fermata \bar "||" %105 finis
 	}
 }
+
+OsannaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoOsanna
+			\set Score.currentBarNumber = #106
+		
+	}
+}

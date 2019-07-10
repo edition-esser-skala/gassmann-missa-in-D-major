@@ -75,44 +75,101 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "4.2 BENEDICTUS"
+% 		}
+% 		\paper {
+% 			systems-per-page = #2
+% 			page-count = #5
+% 			system-system-spacing.basic-distance = #27
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\BenedictusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\BenedictusViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \BenedictusAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\BenedictusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\BenedictusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "4.2 BENEDICTUS"
-		}
-		\paper {
-			systems-per-page = #2
-			page-count = #5
-			system-system-spacing.basic-distance = #27
+			movement = "4.3 OSANNA"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "[ex D]" } }
+						\partcombine \OsannaTrombaI \OsannaTrombaII
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\BenedictusViolinoI
+							\OsannaViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\BenedictusViolinoII
+							\OsannaViolinoII
 						}
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \OsannaAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \BenedictusAltoLyrics
+					\new Lyrics \lyricsto Alto \OsannaAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \OsannaTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \OsannaTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \OsannaBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \OsannaBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\BenedictusOrgano
+						\OsannaOrgano
 					}
 				>>
 				\new FiguredBass {
-					\BenedictusBassFigures
+					\OsannaBassFigures
 				}
 			>>
 			\layout { }

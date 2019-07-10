@@ -1670,6 +1670,19 @@ SanctusBassoLyrics = \lyricmode {
 	sis. %31 finis
 }
 
+OsannaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 2/2 \autoBeamOff \tempoOsanna
+			\set Score.currentBarNumber = #106
+		
+	}
+}
+
+OsannaBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

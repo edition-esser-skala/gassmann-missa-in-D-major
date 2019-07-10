@@ -1584,6 +1584,15 @@ BenedictusViolinoI = {
 	}
 }
 
+OsannaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoOsanna
+			\set Score.currentBarNumber = #106
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
