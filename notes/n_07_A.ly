@@ -77,6 +77,24 @@ SanctusAltoLyrics = \lyricmode {
 	sis. %31 finis
 }
 
+BenedictusAltoNotes = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key h \minor \time 2/4 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #33
+		
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
