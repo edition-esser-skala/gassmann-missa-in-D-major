@@ -14,10 +14,10 @@
 #(set-global-staff-size 15.87)
 
 \book {
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "4" "S A N C T U S"
-	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\partTitle "4" "S A N C T U S"
+% 	}
 	\bookpart {
 		\header {
 			movement = "4.1 SANCTUS"

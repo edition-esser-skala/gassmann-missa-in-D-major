@@ -2881,11 +2881,73 @@ SanctusOrgano = {
 		\clef bass
 		\key d \major \time 4/4 \tempoSanctus
 		\mvTr d8\fE-\tuttiE d d cis h h' h, r
+		h h h h a a' a, a
+		h h cis cis d d d d
+		d d c c h h h h 
+		cis cis d d g g gis gis %5
+		a a a a a a gis gis \noBreak
+		a a, a a a4 r\fermata \bar "||"
+		\time 3/4 \tempoPleni d4 d a' \noBreak
+		h h fis
+		g g d %10
+		e a a,
+		d d c
+		h h h
+		e e8 d cis! h
+		a4 a a %15
+		d d d'
+		cis8 h a4 a,
+		e' e e
+		a a, a
+		e' e e %20
+		a a, a'
+		h h e,
+		a d, fis
+		g a a,
+		d a' a, %25
+		d d cis
+		h h e8 d
+		cis4 d8 e fis g
+		a4 a gis
+		a2 a,4 %30
+		d d d
+		d2 r4\fermata \bar "||" %32 finis
 	}
 }
 
 SanctusBassFigures = \figuremode {
-	
+	r4. <6\\>8 r2
+	<5>4. <6+>8 r2
+	<7>4 <6 5!> <4 2> <3>
+	<4+> <6> <7 _+> <6! 4>
+	<6 5>2 q %5
+	<5 3>4 <7 5> <6 4> <7 5>
+	<6 4> <5 3>8 <4 2> <5 3>2
+	r2.
+	<5>
+	r %10
+	<7>4 q2
+	r <6 4 2>4
+	<7 5 [_+]> <6 4> <5 _+>
+	r2.
+	<7 5>4 <6 4> <5 3> %15
+	r2.
+	<6>
+	<5 _+>4 <6 4> <7 5 [_+]>
+	r2.
+	<5 _+>4 <6 4> <7 5 [_+]> %20
+	r2.
+	<7>2 q4
+	q2 <6>4
+	<6 5>2.
+	r4 <5 4> <\l 3> %25
+	r2 <6>4
+	<7> <6>2
+	<6 5>2.
+	r2 <7 5>4
+	<5 4>2 <\l 3>4 %30
+	r2.
+	r %32 finis
 }
 
 % Organo = {
