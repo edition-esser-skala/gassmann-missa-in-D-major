@@ -1508,7 +1508,79 @@ BenedictusViolinoI = {
 		\clef treble
 		\key h \minor \time 2/4 \tempoBenedictus
 			\set Score.currentBarNumber = #33
-		
+		h''8\fE fis4 g8
+		fis16 e e8 r e
+		e8.( fis32 g) fis8 e %35
+		\appoggiatura e16 d8 cis16 d e8 d16 cis
+		d cis h8 r16 h d fis
+		g8 g4 g8~
+		g fis16 g a h g fis
+		\appoggiatura fis8 e4 r8 a,16. a,32 %40
+		a2~
+		a8 cis d a'16. a,32
+		\once \tieDashed a2~
+		a8 cis d16 a' d16. a32
+		h8 g'16 e d8 cis %45
+		\appoggiatura cis d4 r8 fis16. h,32
+		ais4 h8 fis'16. d32
+		cis4 d8 h'16. fis32
+		g16 e e e d cis h ais
+		h8 h'~ h16 h, cis e %50
+		d8.( cis32 h) cis4\trill
+		h8 fis h,4
+		h''8\p fis4 g8
+		fis16 e e8 e e
+		e4. e8 %55
+		\appoggiatura e16 d8 cis16 d e8 d16 cis
+		d cis h8 r16 h d fis
+		g4. g8~
+		g fis16( g) a( h) g( fis)
+		fis( e) e( a) a,8 a' %60
+		h g, r16 h' \tuplet 3/2 8 { h[ a h] }
+		h,8 h' r h
+		a a, r16 a' \tuplet 3/2 8 { a[ g a] }
+		a,8 a' r a
+		g g, r16 g' \tuplet 3/2 8 { g[ fis g] } %65
+		g,8 g' r g
+		fis16. g32 g16.([ fis64 g)] a16 fis e d
+		cis16. h32 a8 r a16. a,32
+		a2~
+		a8 cis d a'16. a,32 %70
+		\once \tieDashed a2~
+		a8 cis d16 fis a d
+		h8 g'16 e d8 cis
+		d16.\f d,32 fis16. a32 d8 a'16. d,32
+		cis4( d8) a'16. fis32 %75
+		e4( fis8) d'16. a32
+		h4~ \tuplet 3/2 8 { h16 a g fis[ e d] }
+		\appoggiatura d8 cis4 r
+		d'8\p a4 h8
+		a16( g) g4 g8 %80
+		fis8. g16 a fis a fis
+		e8 fis g fis16 e
+		fis e d fis fis8.(\trill e32 fis)
+		g4. g8
+		fis4 r8 d' %85
+		d, a' a a
+		g h r16 h \tuplet 3/2 8 { h[ a h] }
+		h8 r r16 d cis h
+		ais8 gis16 fis h8 fis
+		g g g e %90
+		d d cis cis
+		h fis16. d32 h8 h'16. h,32
+		h2~
+		h8 dis e h'16. h,32
+		h2~ %95
+		h8 dis e g16 h
+		ais8.( gis32 fis) h16 d fis h
+		g8 \tuplet 3/2 8 { g16 fis e } d8 cis
+		h h'4 \once \tieDashed h8~
+		h h,4 h8 %100
+		fis4 r
+		h8\fE h'4 h8~
+		h h~ h16 h, cis e
+		d8.( cis32 h) cis4\trill
+		h8 fis h,4\fermata \bar "||" %105 finis
 	}
 }
 

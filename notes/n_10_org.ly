@@ -3001,8 +3001,8 @@ BenedictusOrgano = {
 		r cis d g
 		fis e d fis
 		g e a a,
-		d d, d r
-		r g'16.\fE e32 fis8 r %75
+		d\fE d, d r
+		r g'16. e32 fis8 r %75
 		r cis16. a32 d8 fis
 		g g g gis
 		a8. a,16 a' g fis e
@@ -3046,10 +3046,10 @@ BenedictusBassFigures = \figuremode {
 	<4>8 <3> r4
 	r2 %40
 	r8 <6 5> r <4 2>
-	<[6]>2
+	<[6]> q r4
 	r8 <6 5> r <4 2>
-	<6>2
-	r4 <6 4>8 <5 3> %45
+	<6> <[6]> r4
+	r <6 4>8 <5 3> %45
 	r2
 	r8 <4+ 2> <6>4
 	r8 <6> r4

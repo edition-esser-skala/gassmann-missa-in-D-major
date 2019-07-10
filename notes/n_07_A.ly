@@ -102,7 +102,7 @@ BenedictusAltoNotes = {
 		r16 d8[ fis a16 d a]
 		g8[ \appoggiatura fis16 \tuplet 3/2 8 { e d e] } cis8 r %65
 		a16[ e'8 g16]~ g[ fis32 g] a16[ g]
-		fis16.[ g32] g16[\trill fis32 g] a16[ fis] e d
+		fis16.[ g32] g16.[\trill fis64 g] a16[ fis] e d
 		cis16. h32 a8 r a'
 		a2~
 		a8([ g)] fis r16 a %70
