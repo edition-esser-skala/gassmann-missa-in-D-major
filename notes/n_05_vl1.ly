@@ -1463,7 +1463,38 @@ SanctusViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoSanctus
-		
+		<d a' fis'>8\fE fis'4 e8 d16 d32 cis d16 e fis fis32 e fis16 h
+		fis8 fis4 gis8 a16 cis,32 h cis16 d e e32 d e16 a
+		a8.( g32 fis) g8 g g8.( fis32 e) fis8 h16 a
+		gis8 fis16 e a8 a a16 h, a' h, g' h, g' h,
+		g' a, g' a, fis' a, fis' a, e'8 e e e %5
+		e e g g fis fis fis fis \noBreak
+		fis fis fis e16 d e4 r\fermata \bar "||"
+		\time 3/4 \tempoPleni fis8. a16 a4 g \noBreak
+		fis8 e fis4 a
+		h8( d) d( h) a4 %10
+		g2.
+		<fis a, d,>4 d, a''8( h,)
+		a'( h,) g'( h,) fis'( h,)
+		g'8. e,16 e4 g'~
+		g8 a, fis' a, e' a, %15
+		fis'8. d,16 d4 a''
+		a a,8 cis e a
+		gis e a e h' e,
+		a4 a,8 cis e a
+		gis e a e h' e, %20
+		a4 a,8 cis e a
+		a8.( g!32 fis) g4 g
+		g8.( fis32 e) fis4 a8 fis
+		e e e e g g
+		fis fis e e e e %25
+		d2 a'4
+		a( g) g
+		g( fis) fis
+		e8 a, e' a, fis'4
+		e e2\trill %30
+		d4 <fis a, d,> q
+		q2 r4\fermata \bar "||"
 	}
 }
 
