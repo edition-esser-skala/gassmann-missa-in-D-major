@@ -2880,7 +2880,7 @@ SanctusOrgano = {
 	\relative c {
 		\clef bass
 		\key d \major \time 4/4 \tempoSanctus
-		\mvTr d8\fE-\tuttiE d d cis h h' h, r
+		\mvTr d8\fE-\tutti d d cis h h' h, r
 		h h h h a a' a, a
 		h h cis cis d d d d
 		d d c c h h h h 
@@ -2924,8 +2924,8 @@ SanctusBassFigures = \figuremode {
 	<5 3>4 <7 5> <6 4> <7 5>
 	<6 4>4. <5 3>16 <4 2> <5 3>2
 	r2.
-	<5>
-	r %10
+	<5>2 <[6]>4
+	r2. %10
 	<7>4 q2
 	r <6 4 2>4
 	<7 5 [_+]> <6 4> <5 _+>
