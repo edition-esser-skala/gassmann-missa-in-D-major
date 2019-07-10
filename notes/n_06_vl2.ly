@@ -1505,6 +1505,78 @@ BenedictusViolinoII = {
 		\clef treble
 		\key h \minor \time 2/4 \tempoBenedictus
 			\set Score.currentBarNumber = #33
-		
+		d'8\fE d d d
+		d cis cis cis
+		<cis fis,> q q q %35
+		\appoggiatura cis16 h8 ais16 h cis8 h16 ais
+		h8 fis d r
+		d'4 e~
+		e8 d16 e fis g e d
+		\appoggiatura d8 cis4 r %40
+		r8 g16.( e32) fis8 e16.( cis32)
+		d fis a fis g8 fis r
+		r g16. e32 fis8 e16. cis32
+		d fis a fis g8 fis d
+		d h'16 g fis8 e %45
+		\appoggiatura e fis4 r
+		fis2~
+		fis4. d'16. h32
+		h16 g g g fis e d cis
+		h8 h'' h h, %50
+		h h4 ais8
+		h fis h,4
+		d'8\p d d d
+		d16 cis cis8 cis cis
+		cis4. cis8 %55
+		\appoggiatura cis16 h8 ais16 h cis8 h16 ais
+		h8 fis16 e d fis h d
+		d4( e)
+		e8 \slurDashed d16( e) fis( g) e( d)
+		d( cis) cis( a') \slurDashed a,8 d %60
+		d d d d
+		d d d d
+		d d d d
+		d d d d
+		d cis cis cis %65
+		e e e e
+		d d4 h8
+		e, e cis r
+		r g'16. e32 fis8 e16. cis32
+		d fis a fis g8 fis r %70
+		r g16. e32 fis8 e16. cis32
+		d fis a fis g8 fis d
+		d h'16 g fis8 e
+		fis16.\f d32 fis16. a32 fis8 fis
+		e a4 a8~ %75
+		a a4 a16. d32
+		d8 d d h
+		e,4 r
+		fis'8\p fis fis fis
+		\once \slurDashed fis16( e) e4 e8 %80
+		d8. e16 fis d fis d
+		cis8 d e d16 cis
+		d cis d a a8 a
+		d d e a,
+		a a fis16 e fis g %85
+		a8 d d d
+		h d d d
+		d r r gis,
+		cis,4 fis8 h
+		h h h cis %90
+		h h h ais
+		h fis16. d32 h8 r
+		r a'16. fis32 g8 fis16. dis32
+		\tuplet 3/2 8 { e16 g h } a8 g r
+		r a16. fis32 g8 fis16. dis32 %95
+		\tuplet 3/2 8 { e16 g h } a8 g h16 g
+		cis,8 cis fis16 h d h
+		h8 h h ais
+		h d,( e fis)
+		g fis g gis %100
+		fis4 r
+		h8\fE h'4 h8~
+		h h,4 h8
+		h h h ais
+		h fis h,4\fermata \bar "||" %105 finis
 	}
 }
