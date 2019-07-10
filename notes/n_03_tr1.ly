@@ -8,7 +8,7 @@ SanctusTrombaI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoSanctus
-		e'4\fE e8 d c4 r
+		e'4\fE \pa e8 d c4 \pd r
 		c r d d
 		r r8 f f4 e
 		d d8 r r2
@@ -16,7 +16,7 @@ SanctusTrombaI = {
 		d4. f8 e e e e \noBreak
 		e4. d16 e d4 r\fermata \bar "||"
 		\time 3/4 \tempoPleni e4 g f \noBreak
-		e e c
+		e e \pao c
 		c c e8 g %10
 		f2.
 		e2 r4
