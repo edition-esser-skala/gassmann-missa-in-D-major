@@ -87,12 +87,107 @@ BenedictusAltoNotes = {
 		\clef treble
 		\key h \minor \time 2/4 \autoBeamOff \tempoBenedictus
 			\set Score.currentBarNumber = #33
-		
+		R2*20 %52
+		\mvTr h'8(\pE^\soloE fis4) g8
+		fis16([ e)] e8 r e
+		e8.([ fis32 g)] fis8 e %55
+		d([ cis16 d)] e8 d16([ cis)]
+		d cis h8 r fis'
+		g4 g8 g
+		g([ fis16 g)] a([ h)] g([ fis)]
+		fis e e8 r a %60
+		h[ \tuplet 3/2 8 { g16 fis g] } d8 r
+		r16 d8[ g h16 d h]
+		a8[ \appoggiatura g16 \tuplet 3/2 8 { fis e fis] } d8 r
+		r16 d8[ fis a16 d a]
+		g8[ \appoggiatura fis16 \tuplet 3/2 8 { e d e] } cis8 r %65
+		a16[ e'8 g16]~ g[ fis32 g] a16[ g]
+		fis16.[ g32] g16[\trill fis32 g] a16[ fis] e d
+		cis16. h32 a8 r a'
+		a2~
+		a8([ g)] fis r16 a %70
+		a2~
+		a8 g fis a
+		h h16 g fis8 e
+		d4 r
+		R2*4 %78
+		d'8( a4) h8
+		a16([ g)] g8 r g %80
+		fis8.([ g16)] a8 fis
+		e([ fis]) g fis16([ e)]
+		fis e d8 r fis
+		g4 g8 g
+		fis[ \appoggiatura h16 \tuplet 3/2 8 { a g a] } d8 r %85
+		r16 d,8[ a' c a16]
+		\tuplet 3/2 8 { h[ a h] g[ fis g] } d8 r
+		r16 h'8[ cis! d16 cis h]
+		ais8 gis?16([ fis]) h8 fis
+		g4 fis16([ e)] d([ cis)] %90
+		h8.([ cis16)] cis4\trill
+		h r8 fis'
+		h2~
+		h8([ a)] g r16 h
+		h2~ %95
+		h8 a g r16 h
+		ais8. gis32([ fis)] h8 fis
+		g g16 e d8 cis
+		h4 r8 h'
+		h4 h,8 h %100
+		h8.( cis16) cis4
+		h4 r
+		R2*2
+		R2\fermataMarkup \bar "||" %105 finis
 	}
 }
 
 BenedictusAltoLyrics = \lyricmode {
+	Be -- ne -- %53
+	di -- ctus, qui
+	ve -- nit in %55
+	no -- mi -- ne
+	Do -- mi -- ni, qui
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi -- ni, in %60
+	no -- _
+	_
+	_ _
+	_
+	_ _ %65
+	_ _
+	_ _ _ mi -- ne
+	Do -- mi -- ni, qui
+	ve --
+	nit in %70
+	no --
+	mi -- ne, in
+	no -- mi -- ne Do -- mi --
+	ni.
 	
+	Be -- ne -- %79
+	di -- ctus, qui %80
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi -- ni, qui
+	ve -- nit in
+	no -- _ %85
+	_
+	_ _ _
+	_
+	_ mi -- ne, in
+	no -- mi -- ne %90
+	Do -- mi --
+	ni, qui
+	ve --
+	nit in
+	no -- %95
+	mi -- ne, in
+	no -- mi -- ne, in
+	no -- mi -- ne Do -- mi --
+	ni, in
+	no -- mi -- ne %100
+	Do -- mi --
+	ni. %102 finis
 }
 
 % AltoNotes = {
