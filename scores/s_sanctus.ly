@@ -72,7 +72,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

@@ -1474,8 +1474,8 @@ SanctusViolinoI = {
 		fis8 e fis4 a
 		h8( d) d( h) a4 %10
 		g2.
-		<fis a, d,>4 d, a''8( h,)
-		a'( h,) g'( h,) fis'( h,)
+		<fis a, d,>4 d, \once \tieDashed a''~^\critnote
+		a8( h,) g'( h,) fis'( h,)
 		g'8. e,16 e4 g'~
 		g8 a, fis' a, e' a, %15
 		fis'8. d,16 d4 a''
