@@ -48,6 +48,30 @@ OsannaTrombaI = {
 		\clef treble
 		\key c \major \time 2/2 \tempoOsanna
 			\set Score.currentBarNumber = #106
-		
+		R1*8 %113
+		r2 d'\fE
+		e r %115
+		R1*2
+		r2 d
+		d r
+		r f %120
+		d e
+		d r
+		R1*16 %138
+		r2 f~
+		f e %140
+		d e
+		d1
+		c2 e
+		f e
+		e r %145
+		r d
+		d e
+		f1
+		e
+		d2 e %150
+		d1
+		c2 c
+		c r\fermata \bar "|." %153 FINIS
 	}
 }
