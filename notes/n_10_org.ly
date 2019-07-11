@@ -3118,11 +3118,113 @@ OsannaOrgano = {
 		\key d \major \time 2/2 \tempoOsanna
 			\set Score.currentBarNumber = #106
 		r2 \mvTr a'\fE-\tuttiE
+		d, e
+		fis d
+		e2. fis8[ g]
+		<< {
+			fis2 gis %110
+			a2. gis4
+			a2 a
+			gis4 fis e2
+			e
+		} \\ {
+			r2 e %110
+			a, h
+			cis a
+			h2. cis8[ d]
+			cis2
+		} >> \clef bass a
+		d, e %115
+		fis d
+		e2. fis8[ g]
+		fis2 gis
+		a a
+		a g! %120
+		g fis
+		e2. d4
+		cis2 d
+		e fis
+		gis e %125
+		a a
+		h2. a4
+		g!2 h
+		e, e,
+		r h'' %130
+		e, fis
+		g e
+		fis2. e4
+		d cis h2
+		cis1 %135
+		dis2 \once \tieDashed e~
+		e \once \tieDashed d~
+		d cis
+		h1
+		cis2 d %140
+		a d
+		a' a,
+		d d'
+		cis d
+		h h %145
+		a a
+		a a
+		a a, 
+		a a'
+		a a %150
+		a a,
+		d d
+		d r\fermata \bar "|." %153 FINIS
 	}
 }
 
 OsannaBassFigures = \figuremode {
-	
+	r1 %106
+	r
+	r
+	r
+	r %110
+	r
+	r
+	r
+	r
+	r2 <7>4 <6> %115
+	<[6]>1
+	<7>2 <6>
+	<[6]> <6 5>
+	r <6 _!>4 <5>
+	<4+ 2>2 <6> %120
+	<4 2> <6>
+	<_+>2. <[4\+]>4
+	<6>2 q
+	q r
+	q <[_+]> %125
+	r <6>4 <5>
+	<_+>2. <[4\+]>4
+	<6>2 <4>4 <_+>
+	r1
+	r2 <_+> %130
+	r <7>4 <6+>
+	<6>2 q4 <5>
+	<_+>2. <\t>4
+	<6>1
+	<7>2 <6!> %135
+	<6 5>1
+	<4+ 2>2 <6>
+	<4+ 2> <6>
+	<7> <6!>
+	<6 5>1 %140
+	r
+	<4>2 <3>
+	r1
+	<6 5>
+	<5>2 <6+> %145
+	r1
+	r2 <6 4>
+	<7 5>1
+	<6 4>
+	<5 3>2 <6 4> %150
+	<5 4> <\l 3>
+	r1
+	r %153 FINIS
 }
 
 % Organo = {
