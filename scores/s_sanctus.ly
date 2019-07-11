@@ -128,7 +128,7 @@
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "[ex D]" } }
-						\partcombine \OsannaTrombaI \OsannaTrombaII
+						\transpose c d { \partcombine \OsannaTrombaI \OsannaTrombaII }
 					>>
 				>>
 				\new StaffGroup <<
@@ -172,8 +172,8 @@
 					\OsannaBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 60 }
+% 			\layout { }
+			\midi { \tempo 1 = 80 }
 		}
 	}
 }
