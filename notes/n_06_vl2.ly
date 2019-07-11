@@ -1586,6 +1586,50 @@ OsannaViolinoII = {
 		\clef treble
 		\key d \major \time 2/2 \tempoOsanna
 			\set Score.currentBarNumber = #106
-		
+		R1*4 %109
+		r2 e'\fE %110
+		a, h
+		cis a
+		h2. cis8 d
+		cis2 cis
+		d2. cis4 %115
+		d2 d~
+		d cis
+		d d
+		cis c
+		h e4 d %120
+		cis!2 d
+		h e
+		a, h
+		cis a
+		h2. cis8 d %125
+		cis2 fis4 e
+		dis2. cis8 dis
+		e4 e2 dis4
+		e h g e'
+		e2 dis %130
+		e r
+		e g
+		fis4 cis2 g'4
+		fis e d2
+		e1 %135
+		fis2 h,
+		ais h~
+		h e
+		d!1
+		e2 d %140
+		cis d~
+		d cis
+		d d
+		e d
+		d4 d d d %145
+		cis e, a cis
+		cis cis d8 a fis d'
+		e cis g e cis e g cis
+		d a fis d a d fis a
+		cis cis cis cis d d d d %150
+		d d d d cis cis cis cis
+		d2 <d fis,>
+		q r\fermata \bar "|." %153 finis
 	}
 }
