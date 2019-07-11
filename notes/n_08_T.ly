@@ -3742,14 +3742,179 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	bis. %35 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+DonaNobisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 2/2 \autoBeamOff \tempoDonaNobis
+			\set Score.currentBarNumber = #37
+		R1*8 %44
+		\mvTr a1\fE^\tuttiE %45
+		h
+		cis
+		d
+		e2( d)
+		cis d %50
+		d( cis)
+		d d
+		d4 cis8[ h] cis2
+		d2. c4
+		h g h cis %55
+		d a d2~
+		d4 cis8[ h] cis2~
+		cis4 fis, \once \tieDashed h2~
+		h4 a8[ g] a2~
+		a4 d, \once \tieDashed g2~ %60
+		g fis
+		g fis
+		e1
+		dis2 fis
+		h g %65
+		fis1
+		e
+		R1*5 %72
+		a1
+		h
+		c( %75
+		d2.) c?4
+		h2 h
+		\once \tieDashed c1~
+		c4 h8[( a]) h4 g
+		\once \tieDashed a1~ %80
+		a2 g
+		fis g~
+		g fis
+		g1
+		R1*12 %96
+		r2 \once \tieDashed g~
+		g4 fis8([ e)] fis4 d
+		g2. fis4
+		e fis8[ g] a4 g %100
+		fis1
+		g
+		a
+		h
+		\once \tieDashed a~ %105
+		a2 gis
+		a1
+		R1*2
+		a1 %110
+		h
+		cis
+		d
+		e
+		d2 fis %115
+		e1
+		d2 d
+		d1
+		\once \tieDashed cis~
+		cis2 d4 cis %120
+		\once \tieDashed h1~
+		h2 cis4 h
+		\once \tieDashed a1~
+		a2 h4 a
+		\once \tieDashed g1~ %125
+		g2. a8[ g]
+		fis1
+		e
+		d2 a'^\critnote
+		a1 %130
+		d2 d
+		cis \once \tieDashed d~
+		d cis
+		d1
+		d %135
+		\once \tieDashed d~
+		d
+		d
+		d
+		d2 cis4 h %140
+		cis1
+		d
+		R\fermataMarkup \bar "|." %143 FINIS
+	}
+}
+
+DonaNobisTenoreLyrics = \lyricmode {
+	Do -- %45
+	na
+	no --
+	bis
+	pa --
+	cem, da %50
+	pa --
+	cem, da
+	pa -- _ _
+	_ _
+	_ _ _ _ %55
+	_ _ _
+	_ _
+	_ _
+	_ _
+	_ _ %60
+	_
+	cem, da
+	pa --
+	_ _
+	cem, da %65
+	pa --
+	cem,
+	
+	do -- %73
+	na
+	no -- %75
+	bis
+	pa -- cem,
+	do --
+	na no -- bis
+	pa -- %80
+	_
+	_ _
+	_
+	cem,
+	
+	do -- %97
+	na no -- bis
+	pa -- _
+	_ _ _ cem, %100
+	do --
+	na
+	no --
+	bis
+	pa -- %105
+	_
+	cem,
+	
+	do -- %110
+	na
+	no --
+	bis
+	pa --
+	cem, da %115
+	pa --
+	cem, da
+	pa --
+	_
+	_ _ %120
+	_
+	_ _
+	_
+	_ _
+	_ %125
+	_
+	_
+	_
+	cem, da
+	pa -- %130
+	cem, da
+	pa -- _
+	_
+	cem,
+	da %135
+	pa --
+	
+	cem,
+	da
+	pa -- _ _ %140
+	_
+	cem. %142 FINIS
+}

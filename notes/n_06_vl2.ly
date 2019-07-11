@@ -1676,3 +1676,118 @@ AgnusDeiViolinoII = {
 		d2 r4\fermata \bar "||" %36 finis
 	}
 }
+
+DonaNobisViolinoII = {
+	\relative c' {
+		\clef treble
+		 \key d \major \time 2/2 \tempoDonaNobis
+			\set Score.currentBarNumber = #37
+		fis1\fE
+		g
+		a
+		h %40
+		e,2 e
+		a2. fis4
+		gis2 a4 e
+		d1
+		cis4 e a2 %45
+		h1
+		cis
+		d
+		e2 d
+		cis d~ %50
+		d4 cis8 h cis2
+		d d~
+		d4 cis8 h cis2
+		d2. c4
+		h g h cis %55
+		d a d2~
+		d4 cis8 h cis2~
+		cis4 fis, h2~
+		h4 a8 g a2~
+		a4 d, \once \tieDashed g2~ %60
+		g fis
+		g fis
+		e1
+		dis2 fis
+		h g %65
+		fis1
+		e2 g
+		a1
+		h
+		c? %70
+		fis,2 r4 fis
+		h2 gis
+		e a
+		h1
+		c %75
+		d2. c?4
+		h2 h
+		\once \tieDashed c1~
+		c4 h8 a h4 g
+		\once \tieDashed a1~ %80
+		a2 g
+		fis g~
+		g4 fis8 e fis2
+		g1
+		a %85
+		h
+		c
+		d~
+		d4 c?8 h c?2
+		c?2. c4 %90
+		fis,2 r4 fis
+		h1
+		e,2 r4 e
+		a2 a
+		d, \once \tieDashed g~ %95
+		g fis
+		g \once \tieDashed g~
+		g4 fis8 e fis4 d
+		g2. fis4
+		e fis8 g a4 g %100
+		fis1
+		g
+		a
+		h
+		e,2 \once \tieDashed a~ %105
+		a gis
+		a a
+		gis a~
+		a gis
+		a1 %110
+		h
+		cis
+		d
+		e
+		d2 fis %115
+		e1
+		d2 d
+		d1
+		\once \tieDashed cis~
+		cis2 d4 cis %120
+		\once \tieDashed h1~
+		h2 cis4 h
+		\once \tieDashed a1~
+		a2 h4 a
+		\once \tieDashed g1~ %125
+		g2. a8 g
+		fis1
+		e
+		d2 a'
+		a1 %130
+		d2 d
+		cis \once \tieDashed d~
+		d cis
+		d4 fis, a d
+		d d d d %135
+		d d d d
+		d d d d
+		d d d d
+		d d d d
+		d d d d %140
+		cis cis cis cis
+		d <fis a, d,> q q
+		q1\fermata \bar "|." %143 FINIS
+	}
+}

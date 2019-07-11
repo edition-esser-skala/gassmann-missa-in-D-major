@@ -3309,14 +3309,234 @@ AgnusDeiBassFigures = \figuremode {
 	r %36 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+DonaNobisOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 2/2 \tempoDonaNobis
+			\set Score.currentBarNumber = #37
+		\mvTr d1\fE-\tuttiE
+		e
+		fis
+		g %40
+		a2 g
+		fis d
+		e \once \tieDashed a~
+		a gis
+		a a~ %45
+		a gis
+		a g
+		fis h4 a
+		gis2. fis8 gis
+		a4 g fis2 %50
+		e1
+		d2 d
+		a1
+		d
+		R %55
+		r2 d
+		a'1
+		h2 h,
+		fis'1
+		g2 g, %60
+		d' dis
+		e d
+		c1
+		h4 h' h a
+		g fis e g %65
+		a fis h h,
+		e1
+		fis
+		g
+		a %70
+		h2. a4
+		gis2 e
+		a r
+		e1
+		a,2 a'4 g! %75
+		fis d e fis
+		g2 g
+		c,4 d e fis
+		g2 g~
+		g fis %80
+		g e
+		\once \tieDashed d1~
+		d
+		g,
+		R %85
+		g'
+		a
+		h
+		c2. h4
+		a1 %90
+		h4 c h a
+		gis2. fis8 gis
+		a4 h a g
+		fis2. e8 fis
+		g2 h, %95
+		c d
+		<< {
+			g1
+			a
+			h
+			cis! %100
+		} \\ { 
+			g,2 \once \tieDashed g'~
+			g4 fis8 e fis4 d
+			g2. fis4
+			e fis8 g a4 g %100
+		} >>
+		d1
+		e
+		fis
+		g
+		a %105
+		h
+		a2 fis
+		e \once \tieDashed a~
+		a gis
+		a a %110
+		e1
+		a,2 a
+		h1
+		cis
+		d2 d %115
+		a' a,
+		d d
+		e2. fis8 g
+		a4 g fis e
+		d2. e8 fis %120
+		g4 fis e d
+		cis2. d8 e
+		fis4 e d cis
+		h2. cis8 d
+		e4 d cis h %125
+		\once \tieDashed a1~
+		\once \tieDashed a~
+		a
+		d2 d
+		d c %130
+		h h
+		a d
+		a'1
+		d,
+		d'4 d d d %135
+		h h h h
+		a a a a
+		gis gis gis gis
+		gis? gis gis gis
+		a a a a %140
+		a, a a a
+		d d d d
+		d1\fermata \bar "|." %143 FINIS
+	}
+}
+
+DonaNobisBassFigures = \figuremode {
+	r1 %37
+	<7>2 <6>
+	<6>2. <5!>4
+	<5>2 <6> %40
+	r <4 2>
+	<6>1
+	<7 _+>
+	<2>2 <[6]>
+	r1 %45
+	<4 2>2 <[6]>
+	r <4 2>
+	<6>1
+	q
+	r4 <[2]> <6>2 %50
+	<7> <6>
+	r1
+	<5 4>2 <\l 3>
+	r1
+	r %55
+	r
+	<5 4>2 <\l 3>
+	<9> <8>
+	<5 4> <\l 3>
+	<9> <8> %60
+	<5 4> <6 5>
+	r <6>
+	<7> <6>
+	<[_+]>1
+	<6> %65
+	<6 5 [_!]>2 <_+>
+	r1
+	<7>2 <[6\\]>
+	<6>1
+	<6 5 [_!]> %70
+	<_+>2. <[4\+]>4
+	<6>2 <7! [_+]>
+	<_!>1
+	<5 4>2 <\l _+>
+	<_!>1 %75
+	<6>2 <7>4 <6 [5!]>
+	r1
+	r
+	<[4!]>2 <3>
+	<[4!] 2> <6> %80
+	<[9]> <[6!]>
+	<[7!] 5> <6 4>
+	<5 4> <\l 3>
+	r1
+	r %85
+	r
+	<7 [_!]>2 <6!>
+	<6 [5!]>1
+	<[9]>2 <[8]>
+	<6+ 5 [_!]>1 %90
+	<_+>
+	<6>
+	<[_+]>
+	<[6]>
+	r2 <[6]> %95
+	<[6 5]>1
+	r
+	r
+	r
+	r %100
+	r
+	<7>2 <6>
+	<6>1
+	<5>2 <6>
+	r1 %105
+	<7>2 <[6\\]>
+	r <6>
+	<7 _+>1
+	<2>2 <[6]>
+	r1 %110
+	<5 4>2 <\l _+>
+	r1
+	<7>2 <[6\\]>
+	<6 5!>1
+	r %115
+	<4>2 <[3]>
+	r1
+	<7>
+	q
+	q %120
+	<[7]>
+	<7>
+	q
+	q
+	q %125
+	q
+	<6 5>2 <\l 4>
+	<5 4> <\l 3>
+	r1
+	r2 <4 2> %130
+	<6>1
+	<7>
+	<[4]>2 <[3]>
+	r1
+	r %135
+	<5 3>
+	<6 4>
+	<7>
+	<[\t]>
+	<5 4> %140
+	<\l 3>
+	r1
+	r %143 FINIS
+}

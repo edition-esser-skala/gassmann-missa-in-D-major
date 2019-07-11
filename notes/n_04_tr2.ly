@@ -105,3 +105,47 @@ AgnusDeiTrombaII = {
 		c2 r4\fermata \bar "||" %36 finis
 	}
 }
+
+DonaNobisTrombaII = {
+	\relative c' {
+		\clef treble
+		 \key c \major \time 2/2 \tempoDonaNobis
+			\set Score.currentBarNumber = #37
+		R1*64 %100
+		c'1\fE
+		g
+		c,
+		r2 d'
+		g,1 %105
+		c
+		g
+		R1*2
+		r2 g %110
+		d'1
+		g,
+		R
+		r2 d'
+		c c %115
+		g1
+		c2 r
+		R1*8 %125
+		r2 d
+		d c
+		g1
+		c2 c
+		c c %130
+		c1
+		d2 c
+		g1
+		e2 c'
+		c1 %135
+		c
+		c
+		c
+		c
+		c %140
+		g
+		e4 c'8 c c4 c
+		c1\fermata \bar "|." %143 FINIS
+	}
+}

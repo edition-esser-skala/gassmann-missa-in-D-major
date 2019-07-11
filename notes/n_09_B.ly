@@ -1815,14 +1815,193 @@ AgnusDeiBassoLyrics = \lyricmode {
 	bis. %35 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+DonaNobisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 2/2 \autoBeamOff \tempoDonaNobis
+			\set Score.currentBarNumber = #37
+		\mvTr d1\fE^\tuttiE
+		e
+		fis
+		g %40
+		a2( g)
+		fis d
+		e \once \tieDashed a~
+		a gis
+		a r4 a %45
+		a2 gis
+		a g
+		fis h4 a
+		gis2. fis8[ gis]
+		a4 g fis2 %50
+		e1
+		d2 d
+		a1
+		d
+		R %55
+		r2 d
+		a'1
+		h2 h,
+		fis'1
+		g %60
+		d2 dis
+		e d
+		c1
+		h
+		R1*2 %66
+		e1
+		fis
+		g
+		a %70
+		h2. a4
+		gis2 e
+		a r
+		e2. e4
+		a,2 a'4( g!) %75
+		fis( d e fis)
+		g2 g
+		c,4 d e fis
+		g1~
+		g2 fis %80
+		g e
+		\once \tieDashed d1~
+		d
+		g,
+		R1*16 %100
+		d'1
+		e
+		fis
+		g
+		a %105
+		h
+		a2 fis
+		e \once \tieDashed a~
+		a gis
+		a a %110
+		e1
+		a,2 a
+		h1
+		cis
+		d2 d %115
+		a'1
+		d,2 d
+		e2. fis8[ g]
+		a4 g fis e
+		d2. e8[ fis] %120
+		g4 fis e d
+		cis2. d8[ e]
+		fis4 e d cis
+		h2. cis8[ d]
+		e4 d cis h %125
+		\once \tieDashed a1~
+		\once \tieDashed a~
+		a
+		d2 d'
+		d( c) %130
+		h h
+		a d,
+		a'1
+		d,
+		d' %135
+		h
+		a
+		gis
+		gis
+		a1~ %140
+		a
+		d,
+		R\fermataMarkup \bar "|." %143 FINIS
+	}
+}
+
+DonaNobisBassoLyrics = \lyricmode {
+	Do -- %37
+	na
+	no --
+	bis %40
+	pa --
+	cem, da
+	pa -- _
+	_
+	cem, da %45
+	pa -- _
+	_ _
+	_ _ _
+	_ _
+	_ _ _ %50
+	_
+	cem, da
+	pa --
+	cem,
+	%55
+	da
+	pa --
+	cem, da
+	pa --
+	_ %60
+	_ _
+	_ _
+	_
+	cem,
+	
+	do -- %67
+	na
+	no --
+	bis %70
+	pa -- _
+	_ _
+	cem,
+	do -- na
+	no -- bis %75
+	pa --
+	cem, da
+	pa -- _ _ _
+	_
+	_ %80
+	cem, da
+	pa --
+	
+	cem,
+	
+	do -- %101
+	na
+	no --
+	bis
+	pa -- %105
+	_
+	cem, da
+	pa -- _
+	_
+	cem, da %110
+	pa --
+	cem, da
+	pa --
+	_
+	cem, da %115
+	pa --
+	cem, da
+	pa -- _
+	_ _ _ _
+	_ _ %120
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ _ %125
+	_
+	
+	cem, da %129
+	pa -- %130
+	cem, da
+	pa -- _
+	_
+	cem,
+	da %135
+	pa --
+	_
+	cem,
+	da
+	pa -- %140
+	
+	cem. %142 FINIS
+}
