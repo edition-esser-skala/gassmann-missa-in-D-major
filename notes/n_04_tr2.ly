@@ -75,3 +75,11 @@ OsannaTrombaII = {
 		e r\fermata \bar "|." %153 FINIS
 	}
 }
+
+AgnusDeiTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAgnusDei
+		
+	}
+}

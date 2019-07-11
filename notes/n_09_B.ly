@@ -1759,6 +1759,18 @@ OsannaBassoLyrics = \lyricmode {
 	sis. %152 FINIS
 }
 
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

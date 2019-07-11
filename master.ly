@@ -9,8 +9,8 @@
 % \include "scores/s_kyrie.ly"
 % \include "scores/s_gloria.ly"
 % \include "scores/s_credo.ly"
-\include "scores/s_sanctus.ly"
-% \include "scores/s_agnusdei.ly"
+% \include "scores/s_sanctus.ly"
+\include "scores/s_agnus_dei.ly"
 
 % \include "parts/p_ottoni.ly"
 % \include "parts/p_vl1.ly"

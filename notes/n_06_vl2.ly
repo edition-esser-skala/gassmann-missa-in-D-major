@@ -1633,3 +1633,11 @@ OsannaViolinoII = {
 		q r\fermata \bar "|." %153 finis
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoAgnusDei
+		
+	}
+}
