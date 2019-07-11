@@ -544,10 +544,3 @@ EtResurrexitCornoI = {
 		c2^\critnote r4\fermata \bar "|." %346 FINIS
 	}
 }
-
-% CornoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }

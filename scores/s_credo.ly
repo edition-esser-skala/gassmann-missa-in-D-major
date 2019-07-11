@@ -122,10 +122,6 @@
 		}
 	}
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "3" "C R E D O"
-	}
-	\bookpart {
 		\header {
 			movement = "3.3 CRUCIFIXUS"
 		}

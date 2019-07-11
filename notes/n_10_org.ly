@@ -1678,7 +1678,7 @@ QuiTollisOrgano = {
 		g8 r es r r cis cis cis \noBreak
 		d1\fermata \bar "||"
 		\time 3/4 \tempoQuiSedes
-			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak
 		r r \mvTr g\fE-\bassiE \noBreak %515
 		g fis e
 		d4. e8 fis?4

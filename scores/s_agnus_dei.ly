@@ -83,7 +83,7 @@
 			<<
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "[Corno I, II]" "[ex D]" } }
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[Tromba I, II]" "[ex D]" } }
 						\partcombine \DonaNobisTrombaI \DonaNobisTrombaII
 					>>
 				>>
