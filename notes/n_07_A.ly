@@ -195,12 +195,101 @@ OsannaAltoNotes = {
 		\clef treble
 		\key d \major \time 2/2 \autoBeamOff \tempoOsanna
 			\set Score.currentBarNumber = #106
-		
+		r2 \mvTr a'\fE^\tuttiE
+		d, e
+		fis d
+		e2.( fis8[ g])
+		fis2 gis %110
+		a2. gis4
+		a2 a
+		gis4( fis) e2
+		e1
+		fis2 g %115
+		a2. g8[ fis]
+		g2 e
+		d e~
+		e fis4 e
+		dis fis h2 %120
+		e, a
+		gis1
+		a2 r
+		R1*3 %126
+		r2 h
+		e, fis
+		g e
+		fis2.( g8[ a)] %130
+		g2 a
+		h cis!4( h)
+		ais2 ais
+		h h
+		h a! %135
+		a g
+		fis1
+		gis2 a~
+		a g!~
+		g fis %140
+		e fis
+		e1
+		d2 fis
+		g fis
+		fis gis %145
+		a e
+		e fis
+		g1
+		fis
+		e2 fis %150
+		e1
+		d2 r
+		R1\fermataMarkup \bar "|." %153 FINIS
 	}
 }
 
 OsannaAltoLyrics = \lyricmode {
+	O -- %106
+	san -- na
+	in ex --
+	cel --
+	sis, o -- %110
+	san -- na
+	in ex --
+	cel -- sis,
+	o --
+	san -- _ %115
+	_ _
+	_ _
+	_ _
+	_ _
+	_ _ na %120
+	in ex --
+	cel --
+	sis.
 	
+	[O -- %127
+	san -- na
+	in ex --
+	cel -- %130
+	sis, o --
+	san -- na]
+	in ex --
+	cel -- sis,
+	in ex -- %135
+	cel -- _
+	_
+	_ _
+	_
+	_ %140
+	_ _
+	_
+	sis. O --
+	san -- na
+	in ex -- %145
+	cel -- sis,
+	in ex --
+	cel --
+	_
+	_ _ %150
+	_
+	sis. %152 finis
 }
 
 % AltoNotes = {
