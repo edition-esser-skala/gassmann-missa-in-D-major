@@ -3236,7 +3236,7 @@ AgnusDeiOrgano = {
 		fis8. e16 d4 d
 		e d cis
 		h e e, %5
-		a a' a8 g
+		a a' a8 g!
 		fis4 d g
 		d d d
 		g,2 r4
