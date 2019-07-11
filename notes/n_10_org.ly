@@ -3232,11 +3232,81 @@ AgnusDeiOrgano = {
 		\clef bass
 		\key d \major \time 3/4 \tempoAgnusDei
 		\mvTr d4\fE-\tuttiE fis a
+		d a a8 g
+		fis8. e16 d4 d
+		e d cis
+		h e e, %5
+		a a' a8 g
+		fis4 d g
+		d d d
+		g,2 r4
+		\mvTr g'\pE^\soloE g, g %10
+		d' d, d'
+		g g, g'
+		d2 cis!4
+		d d c
+		h h a %15
+		gis2 a4
+		a a'2
+		h r4
+		h, cis dis
+		e fis g %20
+		a h h,
+		e e, r
+		\mvTr e'\fE-\tuttiE g h
+		e, e cis
+		d d d8 cis %25
+		h4 a gis
+		a a r
+		d8 d d d d d
+		c c c c c c
+		h h h h h h %30
+		b b b b b b
+		a a a a a a
+		a a a a a a
+		a a a a a a
+		d4 d d %35
+		d2 r4\fermata \bar "||" %36 finis
 	}
 }
 
 AgnusDeiBassFigures = \figuremode {
-	
+	r2.
+	r
+	r
+	<_+>4 <[4+] 2> <6>
+	<7> <7 _+>2 %5
+	r4 <_!>2
+	<6 5>2.
+	<5 4>4 <\l 3>2
+	r2.
+	r %10
+	<6 4>4 <5 3> <7! 5>
+	<4 [2]> <3 [1]>2
+	<7! 5>4 <5 3> <7 5>
+	<6 4> <5 3> <[\t \t]>
+	<5!>2 <[6!] 4>4 %15
+	<6 5>2 <[_!]>4
+	r <6\\> <5>
+	<_+>2.
+	<7 [_+]>2 \bassFigureExtendersOn <7 _+>4 \bassFigureExtendersOff
+	<9>4 <7>8 <6\\> <6>4 %20
+	<6 5 _!> <5 _+>2
+	r2.
+	r4 <[6]> <_+>
+	r2 <6 5>4
+	<4 [2]> <3 [1]>2 %25
+	<5 3>4 <6 4> <7 5>
+	<6 4> <5 3>2
+	<_!>2.
+	<4+ 2>
+	<6> %30
+	<6+ [5!]>
+	r2 <7>4
+	<6! [5]>4 <\l 4>2
+	<5 4>4 <\l 3>2
+	<_!>2. %35
+	r %36 finis
 }
 
 % Organo = {
