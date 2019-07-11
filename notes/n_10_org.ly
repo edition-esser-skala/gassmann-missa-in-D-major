@@ -3120,7 +3120,7 @@ OsannaOrgano = {
 		r2 \mvTr a'\fE-\tuttiE
 		d, e
 		fis d
-		e2. fis8[ g]
+		e2. fis8 g
 		<< {
 			fis2 gis %110
 			a2. gis4
@@ -3131,12 +3131,12 @@ OsannaOrgano = {
 			r2 e %110
 			a, h
 			cis a
-			h2. cis8[ d]
+			h2. cis8 d
 			cis2
 		} >> \clef bass a
 		d, e %115
 		fis d
-		e2. fis8[ g]
+		e2. fis8 g
 		fis2 gis
 		a a
 		a g! %120

@@ -262,9 +262,9 @@ OsannaAltoLyrics = \lyricmode {
 	_ _ na %120
 	in ex --
 	cel --
-	sis.
+	sis,
 	
-	[O -- %127
+	[o -- %127
 	san -- na
 	in ex --
 	cel -- %130

@@ -1675,12 +1675,88 @@ OsannaBassoNotes = {
 		\clef bass
 		\key d \major \time 2/2 \autoBeamOff \tempoOsanna
 			\set Score.currentBarNumber = #106
-		
+		R1*8 %113
+		r2 \mvTr a'\fE^\tuttiE
+		d, e %115
+		fis d
+		e2.( fis8[ g])
+		fis2 gis
+		a a
+		a g! %120
+		g fis
+		e2. d4
+		cis2 d
+		e fis
+		gis e %125
+		a a
+		h2. a4
+		g!2 h
+		e, e
+		r h' %130
+		e, fis
+		g e
+		fis2. e4
+		d cis h2
+		cis1 %135
+		dis2 \once \tieDashed e~
+		e \once \tieDashed d~
+		d cis
+		h1
+		cis2 d %140
+		a d
+		a'1
+		d,2 d'
+		cis d
+		h h %145
+		a a
+		a a
+		\tieDashed a1~
+		a~
+		a~ %150
+		a \tieSolid
+		d,2 r
+		R1\fermataMarkup \bar "|." %153 FINIS
 	}
 }
 
 OsannaBassoLyrics = \lyricmode {
+	O -- %114
+	san -- na %115
+	in ex --
+	cel --
+	sis, o --
+	san -- na
+	in ex -- %120
+	cel -- _
+	_ _
+	_ _
+	_ _
+	_ _ %125
+	sis, o --
+	san -- na
+	in ex --
+	cel -- sis,
+	o -- %130
+	san -- na
+	in ex --
+	cel -- _
+	_ _ _
+	_ %135
+	_ _
+	_
+	_
+	_
+	_ _ %140
+	_ _
+	_
+	sis. O --
+	san -- na
+	in ex -- %145
+	cel -- sis,
+	in ex --
+	cel --
 	
+	sis. %152 FINIS
 }
 
 % BassoNotes = {
