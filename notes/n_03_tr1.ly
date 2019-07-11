@@ -83,8 +83,8 @@ AgnusDeiTrombaI = {
 		r4 r f'\fE
 		e d d
 		e r r
-		d2 d4
-		r d d %5
+		\pao d2 d4
+		r \pa d d \pd %5
 		d r r
 		r r c
 		c2 c4
