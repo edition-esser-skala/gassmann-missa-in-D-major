@@ -3287,7 +3287,7 @@ AgnusDeiBassFigures = \figuremode {
 	<6 4> <5 3> <[\t \t]>
 	<5!>2 <[6!] 4>4 %15
 	<6 5>2 <[_!]>4
-	r <6\\> <5>
+	q <6\\> <5>
 	<_+>2.
 	<7 [_+]>2 \bassFigureExtendersOn <7 _+>4 \bassFigureExtendersOff
 	<9>4 <7>8 <6\\> <6>4 %20
