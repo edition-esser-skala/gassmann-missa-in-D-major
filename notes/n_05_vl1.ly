@@ -1589,7 +1589,52 @@ OsannaViolinoI = {
 		\clef treble
 		\key d \major \time 2/2 \tempoOsanna
 			\set Score.currentBarNumber = #106
-		
+		r2 a''\fE
+		d, e
+		fis d
+		e2. fis8 g
+		fis2 gis %110
+		a4 a2 gis4
+		a e cis a'
+		gis fis e gis,
+		a2 e'
+		fis2 g %115
+		a2. g8 fis
+		g2 e
+		d e~
+		e fis4 e
+		dis fis h2 %120
+		e, a
+		gis2. fis8 gis
+		a2 r
+		R1*3 %126
+		r2 h
+		e, fis
+		g e
+		fis2. g8 a %130
+		g2 a
+		h4. ais16 h cis!4 h
+		ais1
+		h2 h~
+		h a! %135
+		a g
+		fis1
+		gis4 e a2~
+		a g!~
+		g fis %140
+		e4 a, fis'2
+		e2 e4. d16 e
+		d2 fis4. e16 fis
+		<g a,>2 <fis a,>
+		fis4. gis8 gis4. fis16 gis %145
+		a4 a, cis e
+		a8 a, e' a, fis' d a fis'
+		g e cis g e g cis e
+		fis d a fis d fis a fis'
+		e e e e fis fis fis fis %150
+		e e e e e e e e
+		d2 <fis a, d,>
+		q r\fermata \bar "|." %153 FINIS
 	}
 }
 
