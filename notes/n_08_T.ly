@@ -3567,12 +3567,98 @@ OsannaTenoreNotes = {
 		\clef "treble_8"
 		\key d \major \time 2/2 \autoBeamOff \tempoOsanna
 			\set Score.currentBarNumber = #106
-		
+		R1*4 %109
+		r2 \mvTr e\fE^\tuttiE %110
+		a, h
+		cis a
+		h2.( cis8[ d])
+		cis2 cis
+		d2. cis4 %115
+		d2 d
+		d( cis)
+		d d
+		cis c
+		h e %120
+		cis! d
+		r e
+		a, h
+		cis a
+		h2.( cis8[ d]) %125
+		cis2 fis4 e
+		dis1
+		e2. dis4
+		\once \tieDashed e1~
+		e2 dis %130
+		e r
+		e g
+		fis2. g4
+		fis e d2
+		e1 %135
+		fis2 h,
+		ais h
+		h e
+		d!1
+		e2 d %140
+		cis \once \tieDashed d~
+		d cis
+		d d
+		e d
+		d d %145
+		cis cis
+		cis d
+		e1
+		d
+		cis2 d~ %150
+		d cis
+		d r
+		R1\fermataMarkup \bar "|." %153 finis
 	}
 }
 
 OsannaTenoreLyrics = \lyricmode {
-	
+	O -- %110
+	san -- na
+	in ex --
+	cel --
+	sis, o --
+	san -- na %115
+	in ex --
+	cel --
+	sis, o --
+	san -- na
+	in ex -- %120
+	cel -- sis,
+	o --
+	san -- na
+	in ex --
+	cel -- %125
+	sis, in ex --
+	cel --
+	sis, o --
+	san --
+	_ %130
+	[na]
+	in ex --
+	cel -- _
+	_ _ _
+	_ %135
+	sis, o --
+	san -- na
+	in ex --
+	cel --
+	_ _ %140
+	_ _
+	_
+	sis. O --
+	san -- na
+	in ex -- %145
+	cel -- sis,
+	in ex --
+	cel --
+	_
+	_ _ %150
+	_
+	sis. %152 FINIS
 }
 
 % TenoreNotes = {
