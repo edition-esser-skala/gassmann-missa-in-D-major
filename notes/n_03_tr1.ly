@@ -80,6 +80,28 @@ AgnusDeiTrombaI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoAgnusDei
-		
+		r4 r f'\fE
+		e d d
+		e r r
+		d2 d4
+		r d d %5
+		d r r
+		r r c
+		c2 c4
+		c r r
+		R2.*14 %23
+		r4 r f\fE
+		f e e %25
+		e2 e4
+		e d r
+		c2.
+		c
+		c %30
+		c
+		g
+		g
+		g
+		c4 c c %35
+		c2 r4\fermata \bar "||" %36 finis
 	}
 }
