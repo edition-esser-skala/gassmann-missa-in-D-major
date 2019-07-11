@@ -296,9 +296,9 @@ AgnusDeiAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		\mvTr fis2\fE^\tuttiE e4
-		d cis cis
-		d8.([ e16)] fis4 fis
+		\mvTr a'2\fE^\tuttiE g4
+		fis e e
+		fis8.([ g16)] a4 a
 		gis2 a4
 		a( gis8[ fis] gis4) %5
 		a a a
@@ -331,7 +331,7 @@ AgnusDeiAltoNotes = {
 		f2.
 		e
 		d4 r r %35
-		R2.\fermata \bar "||" %36 finis
+		R2.\fermataMarkup \bar "||" %36 finis
 	}
 }
 

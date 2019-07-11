@@ -3665,12 +3665,81 @@ AgnusDeiTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr fis2\fE^\tuttiE e4
+		d cis cis
+		d8.([ e16)] fis4 fis
+		h,2 e4
+		d2. %5
+		cis4 c c
+		c?2 h4
+		a2.
+		h2 r4
+		\mvTr h2\pE^\solo h4 %10
+		h^\critnote a c
+		c? h d
+		c( a) h
+		h a r
+		d2 d4 %15
+		d2 c4
+		c?2 c4
+		h( dis) e
+		\once \tieDashed fis2.~
+		fis4 e8[ dis] e4~ %20
+		e dis8[ cis] dis4
+		e2 r4
+		\mvTr e2\fE^\tuttiE dis4
+		e e e
+		e d! d %25
+		d2 d4
+		d cis r
+		a2.
+		a
+		d %30
+		d
+		cis2 \once \tieDashed e4~
+		e d8[ cis] d4~
+		d cis8[ h] cis4
+		d r r %35
+		R2.\fermataMarkup \bar "||" %36 finis
 	}
 }
 
 AgnusDeiTenoreLyrics = \lyricmode {
-	
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta
+	mun -- %5
+	di: Mi -- se --
+	re -- re
+	no --
+	bis.
+	A -- gnus %10
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta
+	mun -- di:
+	Mi -- se -- %15
+	re -- re,
+	mi -- se --
+	re -- re
+	no --
+	_ _ %20
+	_ _
+	bis.
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- %25
+	ca -- ta
+	mun -- di:
+	Mi --
+	se --
+	re -- %30
+	re
+	no -- _
+	_ _
+	_ _
+	bis. %35 finis
 }
 
 % TenoreNotes = {

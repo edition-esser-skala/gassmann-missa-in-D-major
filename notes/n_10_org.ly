@@ -3240,7 +3240,7 @@ AgnusDeiOrgano = {
 		fis4 d g
 		d d d
 		g,2 r4
-		\mvTr g'\pE^\soloE g, g %10
+		\mvTr g'\pE-\soloE g, g %10
 		d' d, d'
 		g g, g'
 		d2 cis!4
