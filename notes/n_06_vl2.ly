@@ -1669,8 +1669,8 @@ AgnusDeiViolinoII = {
 		a a a a a a
 		d d d d d d %30
 		d d d d d d
-		cis cis cis cis cis cis
-		d d d d d d
+		cis cis cis cis e^\critnote e
+		e^\critnote e d cis d d
 		d d cis h cis cis
 		d4 d, d %35
 		d2 r4\fermata \bar "||" %36 finis
