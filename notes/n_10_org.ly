@@ -3271,9 +3271,9 @@ AgnusDeiOrgano = {
 }
 
 AgnusDeiBassFigures = \figuremode {
+	r4 <[6]>2
 	r2.
-	r
-	r
+	<[6]>
 	<_+>4 <[4+] 2> <6>
 	<7> <7 _+>2 %5
 	r4 <_!>2

@@ -296,12 +296,81 @@ AgnusDeiAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr fis2\fE^\tuttiE e4
+		d cis cis
+		d8.([ e16)] fis4 fis
+		gis2 a4
+		a( gis8[ fis] gis4) %5
+		a a a
+		a2 g!4
+		g( fis8[ e] fis4)
+		g2 r4
+		\mvTr d2\pE^\solo g4 %10
+		g fis a
+		a8([ fis)] g4 h
+		a( fis) g
+		g fis r
+		f2 f4 %15
+		e2 e4
+		e( fis!) e
+		dis( fis) g
+		a2.
+		g %20
+		fis
+		e2 r4
+		\mvTr g2\fE^\tutti fis4
+		g g g
+		g fis fis %25
+		fis2 fis4
+		fis e r
+		f2.
+		fis
+		g %30
+		gis
+		a2 g4
+		f2.
+		e
+		d4 r r %35
+		R2.\fermata \bar "||" %36 finis
 	}
 }
 
 AgnusDeiAltoLyrics = \lyricmode {
-	
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta
+	mun -- %5
+	di: Mi -- se --
+	re -- re
+	no --
+	bis.
+	A -- gnus %10
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta
+	mun -- di:
+	Mi -- se -- %15
+	re -- re,
+	mi -- se --
+	re -- re
+	no --
+	_ %20
+	_
+	bis.
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- %25
+	ca -- ta
+	mun -- di:
+	Mi --
+	se --
+	re -- %30
+	re
+	no -- _
+	_
+	_
+	bis. %35 finis
 }
 
 % AltoNotes = {
