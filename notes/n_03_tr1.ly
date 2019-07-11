@@ -52,11 +52,11 @@ OsannaTrombaI = {
 		r2 d'\fE
 		e r %115
 		R1*2
-		r2 d
+		r2 \pao d
 		d r
 		r f %120
 		d e
-		d r
+		\pao d r
 		R1*16 %138
 		r2 f~
 		f e %140
@@ -64,8 +64,8 @@ OsannaTrombaI = {
 		d1
 		c2 e
 		f e
-		e r %145
-		r d
+		e \pa r %145
+		r \pd d
 		d e
 		f1
 		e
