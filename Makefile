@@ -8,7 +8,7 @@ project = Gassmann_Missa_in_D
 zipname = Gassmann_Missa_in_D_Engraving_Files
 notes = A B cor1 cor2 org T tr1 tr2 vl1 vl2
 parts = b coro org ottoni vl1 vl2
-movements = kyrie gloria credo sanctus agnusdei
+movements = kyrie gloria credo sanctus agnus_dei
 
 
 .DEFAULT_GOAL := info

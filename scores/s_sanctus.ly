@@ -7,7 +7,7 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #141
+	first-page-number = #139
 	systems-per-page = #1
 }
 

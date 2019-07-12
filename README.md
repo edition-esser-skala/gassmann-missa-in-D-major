@@ -2,7 +2,7 @@
 
 Engraving files for LilyPond 2.18.0
 
-First version, in progress
+First version, July 2019
 
 
 ## Build instructions
@@ -31,7 +31,7 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
     * n_01_cor1.ly
     * n_02_cor2.ly
     * n_03_tr1.ly
-    * n_04_tr1.ly
+    * n_04_tr2.ly
     * n_05_vl1.ly
     * n_06_vl2.ly
     * n_07_A.ly
@@ -43,7 +43,7 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
     * s_gloria.ly
     * s_credo.ly
     * s_sanctus.ly
-    * s_benedictus.ly
+    * s_agnus_dei.ly
 * Parts definitions in folder *parts*:
     * p_b.ly
     * p_coro.ly
