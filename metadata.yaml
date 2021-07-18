@@ -1,0 +1,17 @@
+composer: Gassmann, Florian Leopold
+title: Missa in D
+id: (D-Dl Mus.2973-D-10)
+genre: mass
+scoring: A, 2 T, B (solo), A, 2 T, B (coro), 2 cor, 2 clno, 2 vl, b, org
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2973-D-10
+    type: manuscript copy
+    date: 1740–1760
+    rism: 212006143
+    url: http://digital.slub-dresden.de/id42603824X
+github: gassmann-missa-in-D
+imslp: Mass_in_D_major_(Gassmann,_Florian_Leopold)
+notes:
+
