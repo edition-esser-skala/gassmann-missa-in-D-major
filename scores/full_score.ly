@@ -952,7 +952,7 @@ paperFourStaves = \paper {
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
-            \partCombine \DonaNobisClarinoI \DonaNobisClarinoII
+            \partCombine \DonaNobisCornoI \DonaNobisCornoII
           >>
         >>
         \new StaffGroup <<
